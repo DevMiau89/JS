@@ -5,6 +5,7 @@
     <title>First Script</title>
 </head>
 <body>
+    <h1>Shopping Cart</h1>
     <script language = "Javascript">
         var cart = [];
 
@@ -13,7 +14,25 @@
             this.price = price
             this.count = count
         };
-        // addItemToCart(name, price, cart)
+        function addItemToCart(name, price, count){
+            for (var i in cart) {
+                if (cart[i].name == name) {
+                    cart[i].count += count;
+                    return;
+                }
+            }
+            var item = new Item(name, price, count);
+            cart.push(item);
+        }
+
+         addItemToCart("Apple", 1.22, 1);
+         addItemToCart("Pear", 1.72, 3);
+         addItemToCart("Apple", 1.22, 1);
+         addItemToCart("Apple", 1.22, 3);
+
+         console.log(cart);
+         console.log(cart.name);
+         console.log(cart[0].name);
 
         // removeItemFromCart(name) // removes one item
 
