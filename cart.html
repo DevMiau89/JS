@@ -14,41 +14,97 @@
             this.price = price
             this.count = count
         };
+
         function addItemToCart(name, price, count){
             for (var i in cart) {
-                if (cart[i].name == name) {
+                if (cart[i].name === name) {
                     cart[i].count += count;
                     return;
                 }
             }
             var item = new Item(name, price, count);
             cart.push(item);
+            saveCart();
         }
 
-         addItemToCart("Apple", 1.22, 1);
-         addItemToCart("Pear", 1.72, 3);
-         addItemToCart("Apple", 1.22, 1);
-         addItemToCart("Apple", 1.22, 3);
+        function removeItemFromCart(name) { // removes one item
+            for (var i in cart) {
+                if (cart[i].name === name) {
+                    cart[i].count --;
+                    if (cart[i].count === 0) {
+                        cart.spice( i, 1);
+                    }
+                    return;
+                }
+            }
+            saveCart();
+        }
 
-         console.log(cart);
-         console.log(cart.name);
-         console.log(cart[0].name);
+        function removeItemFromCartAll(name) {  // removes all item name
+            for( var i in cart ) {
+                if(cart[i].name === name) {
+                    cart.splice(i, 1);
+                    return;
+                }
+            }
+            saveCart();
+        }
 
-        // removeItemFromCart(name) // removes one item
+        function clearCart() {
+            cart = [];
+            saveCart();
+        }
 
-        // removeItemFromCartAll(name) // removes all item name
+        function countCart() {   //-> return total count
+            var totalCount = 0;
+            for (var i in cart) {
+                totalCount += cart[i].count;
+            }
 
-        // clearCart()
+            return totalCount;
+        }
 
-        // countCart() -> return total count
+        console.log( countCart() );
 
-        // totalCart() -> return total cost
+        function totalCost(){ //-> return total cost
+            var totalCost = 0;
+            for (var i in cart) {
+                totalCost += cart[i].price
+            }
+            return totalCost;
+        }
 
-        //  listCart() -> array of Items
+        console.log( totalCost() );
 
-        // saveCart()
+        function  listCart() {  //-> array of Items
+            var cartCopy = [];
+            for (var i in cart) {
+                var item = cart[i];
+                var itemCopy = {};
+                for (var p in item) {
+                    itemCopy[p] = item[p];
+                }
+                cartCopy.push(itemCopy);
+            }
+            return cartCopy;
+        }
 
-        // loadCart()
+        console.log( listCart() );
+
+
+        function saveCart() {
+            localStorage.setItem("shoppingCart", JSON.stringify(cart));
+        }
+
+        function loadCart() {
+            cart = JSON.parse(localStorage.getItem("s  hoppingCart"));
+        }
+
+        loadCart();
+
+        var array = listCart();
+        console.log(array);
+
     </script>
 </body>
 </html>
