@@ -3,10 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>First Script</title>
+    // Odniesienie do skryptu w internecie
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
     <h1>Shopping Cart</h1>
+
+    <div>
+        <ul>
+            <li><a class="add-to-cart" href="#" data-name="Apple" data-price="1.22">"Apple $1.22"</a></li>
+            <li><a class="add-to-cart" href="#" data-name="Banana" data-price="1.22">"Banana $1.33"</a></li>
+            <li><a class="add-to-cart" href="#" data-name="Banana" data-price="1.22">"Shoe $22.33"</a></li>
+            <li><a class="add-to-cart" href="#" data-name="Frisbee" data-price="5.22">"Frisbee $5.22"</a></li>
+        </ul>
+        <button id="clear-cart">Clear Cart</button>
+    </div>
+
+    <div>
+        <ul id="show-cart">
+            <!-- -->
+        </ul>
+    </div>
+
     <script language = "Javascript">
+
+        $(".add-to-cart").click(function(event){
+            event.preventDefault();
+            var name = $(this).attr("data-name");
+            var price = Number($(this).attr("data-price"));
+            addItemToCart(name, price, 1);
+            displayCart();
+        });
+
+        function displayCart() {
+            console.log("*** Display Cart ***");
+
+            var cartArray = listCart();
+            console.log("*** Count Cart:" + cartArray.length);
+
+            var output = "";
+            for (var i in cartArray) {
+                output += "<li>" + cartArray[i].name + " " + cartArray[i].count + "</li>";
+            }
+            $("#show-cart").html(output);
+        }
+
+
+        //***************************************
+        // Shopping Cart functions
+
         var cart = [];
 
         var Item = function(name, price, count){
@@ -26,6 +71,7 @@
             cart.push(item);
             saveCart();
         }
+
 
         function removeItemFromCart(name) { // removes one item
             for (var i in cart) {
@@ -97,7 +143,7 @@
         }
 
         function loadCart() {
-            cart = JSON.parse(localStorage.getItem("s  hoppingCart"));
+            cart = JSON.parse(localStorage.getItem("shoppingCart"));
         }
 
         loadCart();
