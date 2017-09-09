@@ -11,7 +11,7 @@
 
     <div>
         <ul>
-            <li><a class="add-to-cart" href="#"  " data-price="1.22">"Apple $1.22"</a></li>
+            <li><a class="add-to-cart" href="#" data-name="Apple" data-price="1.22">"Apple $1.22"</a></li>
             <li><a class="add-to-cart" href="#" data-name="Banana" data-price="1.33">"Banana $1.33"</a></li>
             <li><a class="add-to-cart" href="#" data-name="Shoe" data-price="22.33">"Shoe $22.33"</a></li>
             <li><a class="add-to-cart" href="#" data-name="Frisbee" data-price="5.22">"Frisbee $5.22"</a></li>
@@ -32,22 +32,58 @@
             event.preventDefault();
             var name = $(this).attr("data-name");
             var price = Number($(this).attr("data-price"));
-            addItemToCart(name, price, 1);
-            displayCart();
+            shoppingCart.addItemToCart(name, price, 1);
+            shoppingCart.displayCart();
         });
 
         
         $("#clear-cart").click(function(event){
-            clearCart();                       
-            displayCart();                   
+            shoppingCart.clearCart();                       
+            shoppingCart.displayCart();                   
         });
         
-        function displayCart() {
-            var cartArray = listCart();
+        
+        $("#show-cart").on("click", ".delete-item", function(event) {
+            var name = $(this).attr("data-name");
+            shoppingCart.removeItemFromCartAll(name);
+            shoppingCart.displayCart();
+        });
+        
+        $("#show-cart").on("click", ".subtract-item", function(event){
+            var name = $(this).attr("data-name");
+            shoppingCart.removeItemFromCart(name);
+            shoppingCart.displayCart();
+        });
+        
+        $("#show-cart").on("click", ".plus-item", function(event){
+           var name = $(this).attr("data-name");
+           shoppingCart.addItemToCart(name, 0, 1);    
+           shoppingCart.displayCart();    
+        });
+        
+            
+            
+        //***************************************
+        // Shopping Cart functions
+            
+            
+        
+        var shoppingCart = {};
+            
+        shoppingCart.cart = [];
+
+        shoppingCart.Item = function(name, price, count){
+            this.name = name;
+            this.price = price;
+            this.count = count;
+        }
+        
+        shoppingCart.displayCart = function() {
+            var cartArray = shoppingCart.listCart();
             var output = "";
             
             for (var i in cartArray) {
-                output += "<li>" 
+                output += "<li>"
                           + cartArray[i].name 
                           + " " 
                           + cartArray[i].count 
@@ -63,104 +99,75 @@
             }
             
             $("#show-cart").html(output);
-            $('#total-cart').html( totalCart() );
+            $('#total-cart').html( shoppingCart.totalCart() );
         }
 
-        $("#show-cart").on("click", ".delete-item", function(event) {
-            var name = $(this).attr("data-name");
-            removeItemFromCartAll(name);
-            displayCart();
-        });
-        
-        $("#show-cart").on("click", ".subtract-item", function(event){
-            var name = $(this).attr("data-name");
-            removeItemFromCart(name);
-            displayCart();
-        });
-        
-        $("#show-cart").on("click", ".plus-item", function(event){
-           var name = $(this).attr("data-name");
-           addItemToCart(name, 0, 1);    
-           displayCart();    
-        });
-        
-        //***************************************
-        // Shopping Cart functions
 
-        var cart = [];
-
-        var Item = function(name, price, count){
-            this.name = name
-            this.price = price
-            this.count = count
-        };
-
-        function addItemToCart(name, price, count){
-            for (var i in cart) {
-                if (cart[i].name === name) {
-                    cart[i].count += count;
-                    saveCart();
+        shoppingCart.addItemToCart = function(name, price, count){
+            for (var i in shoppingCart.cart) {
+                if (shoppingCart.cart[i].name === name) {
+                    shoppingCart.cart[i].count += count;
+                    shoppingCart.saveCart();
                     return;
                 }
             }
-            var item = new Item(name, price, count);
-            cart.push(item);
-            saveCart();
+            var item = new shoppingCart.Item(name, price, count);
+            shoppingCart.cart.push(item);
+            shoppingCart.saveCart();
         }
         
          
 
-        function removeItemFromCart(name) { // removes one item
-            for (var i in cart) {
-                if (cart[i].name === name) {
-                    cart[i].count --;
-                    if (cart[i].count === 0) {
-                        cart.splice( i, 1);
+        shoppingCart.removeItemFromCart = function(name) { // removes one item
+            for (var i in shoppingCart.cart) {
+                if (shoppingCart.cart[i].name === name) {
+                    shoppingCart.cart[i].count --;
+                    if (shoppingCart.cart[i].count === 0) {
+                        shoppingCart.cart.splice( i, 1);
                     }
                     return;
                 }
             }
-            saveCart();
+            shoppingCart.saveCart();
         }
 
-        function removeItemFromCartAll(name) {  // removes all item name
-            for( var i in cart ) {
-                if(cart[i].name === name) {
-                    cart.splice(i, 1);
+        shoppingCart.removeItemFromCartAll = function(name) {  // removes all item name
+            for( var i in shoppingCart.cart ) {
+                if(shoppingCart.cart[i].name === name) {
+                    shoppingCart.cart.splice(i, 1);
                     return;
                 }
             }
-            saveCart();
+            shoppingCart.saveCart();
         } 
 
-        function clearCart() {
-            cart = [];
-            saveCart();
+        shoppingCart.clearCart = function() {
+            shoppingCart.cart = [];
+            shoppingCart.saveCart();
         }
 
-        function countCart() {   //-> return total count
+        shoppingCart.countCart = function() {   //-> return total count
             var totalCount = 0;
-            for (var i in cart) {
-                totalCount += cart[i].count;
+            for (var i in shoppingCart.cart) {
+                totalCount += shoppingCart.cart[i].count;
             }
 
             return totalCount;
         }
 
-        console.log( countCart() );
 
-        function totalCart(){ //-> return total cost
+        shoppingCart.totalCart = function() { //-> return total cost
             var totalCost = 0;
-            for (var i in cart) {
-                totalCost += cart[i].price  * cart[i].count;
+            for (var i in shoppingCart.cart) {
+                totalCost += shoppingCart.cart[i].price  * shoppingCart.cart[i].count;
             }
             return totalCost.toFixed(2);
         }
 
-        function  listCart() {  //-> array of Items
+        shoppingCart.listCart = function(){  //-> array of Items
             var cartCopy = [];
-            for (var i in cart) {
-                var item = cart[i];
+            for (var i in shoppingCart.cart) {
+                var item = shoppingCart.cart[i];
                 var itemCopy = {};
                 for (var p in item) {
                     itemCopy[p] = item[p];
@@ -171,19 +178,17 @@
             return cartCopy;
         }
 
-        console.log( listCart() );
-
-
-        function saveCart() {
+        
+        shoppingCart.saveCart = function() {
             localStorage.setItem("shoppingCart", JSON.stringify(cart));
         }
 
-        function loadCart() {
+        shoppingCart.loadCart = function() {
             cart = JSON.parse(localStorage.getItem("shoppingCart"));
         }
 
-        loadCart();
-        displayCart();
+        shoppingCart.loadCart();
+        shoppingCart.displayCart();
 
 
     </script>
