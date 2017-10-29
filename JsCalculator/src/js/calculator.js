@@ -54,7 +54,6 @@ $(document).ready(function(){
     $("[id^='num_']").click(function(){
         output += this.value;
 
-
         console.log(output);
         document.getElementById("output").value = output;
     });
@@ -73,6 +72,30 @@ $(document).ready(function(){
             return arg1 * arg2;
     }
 }
+    $('#backspace').click(function () {
+        if (output.length == 1) {
+            document.getElementById("output").value = "0";
+            output = "";
+            num1 = null;
+            num2 = null;
+            operation = null;
+            result = null;
+        }
+        else if (output.length > 1) {
+            console.log("This is my output" + output);
+            remove_last = output.substring(0, output.length-1);
+            output = remove_last;
+            num1 = Number(output);
+            console.log("This is my output " + output);
+            console.log("This is my output " + num1);
+            document.getElementById("output").value = output;
+        }
+
+        // console.log("This is my output" + output);
+
+    });
+
+
 });
 
 console.log("output");
