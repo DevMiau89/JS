@@ -1,29 +1,20 @@
 /**
  * Created by Jacob on 2017-10-24.
  */
-// Operations:
-// var add =
-// var subtract =
-// var divide =
-// var multiply =
-// var modulus =
-// clear output =
-// var output
-
-//buttons with numbers display in output
 
 var output = "";
 var num1 = null;
 var num2 = null;
 var operation = null;
 var result = null;
+var dot = null;
 
 $(document).ready(function(){
     $("[id^='oper']").click(function(){
          if (num2 == null && operation != null){
              get_num2 = output.split(operation);
              num2 = Number(get_num2[1]);
-
+             
              result = operation_selector(num1, num2, operation);
              console.log("num1 = " + num1 + "; num2 = " + num2 + "; result= " + result);
              if (this.id == 'oper_equal') {
@@ -39,20 +30,44 @@ $(document).ready(function(){
                 num2 = null;
              }
          }
-         else{
-             num1 = Number(output);
-             operation = this.value;
-             console.log("operation is:" + typeof (operation));
-             output += operation;
+         else if (output == ""){
+            output = "0";
+            console.log("output is Hello "+ output);
+            document.getElementById("output").value = output;
          }
-
-
+         else{
+             if(this.value == "=") {
+                console.log(output);
+                document.getElementById("output").value = output;
+                num1 = null;
+                num2 = null;
+                operation = null;
+                result = null;
+             }
+             else {
+                num1 = Number(output);
+                operation = this.value;
+                console.log("operation is:" + typeof (operation));
+                output += operation;
+             }
+         }
         console.log(this.value);
         console.log(output);
         document.getElementById("output").value = output;
     });
+
     $("[id^='num_']").click(function(){
-        output += this.value;
+
+        if (output == "" || output == '0') {
+            output = this.value;
+        }
+        else if (output.split(operation)[1] == "0") {
+            stripped_output = output.split(operation)[1].replace("0", this.value)
+            output = output.split(operation)[0] + operation + stripped_output;
+        }
+        else  {
+            output += this.value;
+        }
 
         console.log(output);
         document.getElementById("output").value = output;
@@ -91,8 +106,12 @@ $(document).ready(function(){
             document.getElementById("output").value = output;
         }
 
-        // console.log("This is my output" + output);
+        console.log("This is my output" + output);
 
+    });
+    $('#dot').click(function() {
+         output += this.value;
+         document.getElementById("output").value = output;
     });
 
 

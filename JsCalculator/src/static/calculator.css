@@ -1,9 +1,15 @@
+body {
+    background: #d1ccc7;
+}
+h1 {
+    color: #660000;
+}
 .my_container{
-    background-color: #F5DEB3;
+    background-color: #e8ccb0;
     border: solid;
     width: 350px;
     height: 450px;
-    margin-left: 1080px;
+    margin-left: 1095px;
     margin-top: 40px;
 
 }
