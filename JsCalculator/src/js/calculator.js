@@ -14,7 +14,7 @@ $(document).ready(function(){
          if (num2 == null && operation != null){
              get_num2 = output.split(operation);
              num2 = Number(get_num2[1]);
-             
+
              result = operation_selector(num1, num2, operation);
              console.log("num1 = " + num1 + "; num2 = " + num2 + "; result= " + result);
              if (this.id == 'oper_equal') {
