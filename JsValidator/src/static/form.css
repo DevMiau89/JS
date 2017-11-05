@@ -31,6 +31,14 @@ input[type=text] {
     margin-bottom: 15px;
     border: 2px #99ccff;
 }
+input[type=email] {
+    margin-top: 15px;
+    width: 40%;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 2px #99ccff;
+}
 textarea {
     margin-top: 20px;
     width: 40%;
@@ -51,4 +59,10 @@ input[type=submit] {
     margin-bottom: 15px;
     border: 2px #99ccff;
     color: #993366;
+}
+#feedback {
+    text-align: center;
+    margin-top: 50px;
+    color: #993366;
+    font-family: Georgia;
 }

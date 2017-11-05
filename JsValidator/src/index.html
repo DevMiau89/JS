@@ -9,16 +9,17 @@
 </head>
 <body>
 <h1><center>Form Validator</center></h1>
+    <h1 id="feedback"></h1>
     <div class="center"><center>
-        <form name="myForm" action="" method="post"><br>
+        <form name="myForm" action="#" onsubmit="validate()"><br>
         <label>Name</label><br>
-        <input type="text" name=""><br>
+        <input type="text" id="name"><br>
         <label>Email</label><br>
-        <input type="text"><br>
+        <input type="email" id="email"><br>
         <label>Subject</label><br>
-        <input type="text"><br>
+        <input type="text" id="subject"><br>
         <label>Your Message</label><br>
-        <textarea></textarea><br>
+        <textarea id="message"></textarea><br>
         <input type="submit" value="Submit">
         </form>
         </center>
