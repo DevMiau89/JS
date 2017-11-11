@@ -14,3 +14,4 @@ function validate() {
         document.getElementById('feedback').innerHTML = 'Thank you for filling in the form';
     }
 }
+
