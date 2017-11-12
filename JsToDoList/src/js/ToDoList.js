@@ -2,19 +2,25 @@
  * Created by Jacob on 2017-11-06.
  */
 
-
+var counter = 0;
 function myFunction(e) {
-    var counter = 0;
     if(e.keyCode == 13){
         var add_element = $("#AddToList").val();
         var node = document.createElement("LI");
 
-        node.TextContent = add_element;
+        node.textContent = add_element;
         node.className = "toDo";
         document.getElementById("myList").append(node);
         counter++;
-        add_element.value = "";
+        $("#AddToList").val("");
+        console.log(counter);
     }
-    $("#items").innerText = counter;
+    $("#items span").text("To Do Items: "+ counter);
 }
 
+
+function clearAll() {
+    $("#myList").empty();
+    counter = 0;
+    $("#items span").text("To Do Items: "+ counter);
+}
