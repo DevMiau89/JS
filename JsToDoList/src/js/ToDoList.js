@@ -2,6 +2,13 @@
  * Created by Jacob on 2017-11-06.
  */
 
+$(document).ready(function() {
+    $("li").on("click", function () {
+        $(this).css("text-decoration", "line-through");
+    });
+
+});
+
 var counter = 0;
 function myFunction(e) {
     if(e.keyCode == 13){
@@ -22,5 +29,11 @@ function myFunction(e) {
 function clearAll() {
     $("#myList").empty();
     counter = 0;
-    $("#items span").text("To Do Items: "+ counter);
+    $("#items span").text("To Do Items: " + counter);
 }
+
+// function strike() {
+//     var to_do_list = document.getElementById("myList").getElementsByTagName("li");
+//
+// }
+
