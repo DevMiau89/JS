@@ -2,13 +2,6 @@
  * Created by Jacob on 2017-11-06.
  */
 
-$(document).ready(function() {
-    $("li").on("click", function () {
-        $(this).css("text-decoration", "line-through");
-    });
-
-});
-
 var counter = 0;
 function myFunction(e) {
     if(e.keyCode == 13){
@@ -19,8 +12,12 @@ function myFunction(e) {
         node.className = "toDo";
         document.getElementById("myList").append(node);
         counter++;
+
         $("#AddToList").val("");
         console.log(counter);
+        $("li").on("click", function () {
+            $(this).addClass("strike");
+        });
     }
     $("#items span").text("To Do Items: "+ counter);
 }
@@ -32,8 +29,11 @@ function clearAll() {
     $("#items span").text("To Do Items: " + counter);
 }
 
-// function strike() {
-//     var to_do_list = document.getElementById("myList").getElementsByTagName("li");
-//
-// }
+
+function clearDoneItems() {
+    var changed_counter = $(".strike").length;
+    counter -= changed_counter;
+    $("#items span").text("To Do Items: " + counter);
+    $(".strike").remove();
+}
 

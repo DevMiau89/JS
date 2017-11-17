@@ -21,8 +21,10 @@ h1 {
 }
 .toDo {
     margin-top: 5px;
+    padding-top: 10px;
+
     width: 335px;
-    height: 35px;
+    height: 30px;
     border-radius: 5px;
     border: 2px #99ccff;
     background-color: white;
@@ -64,4 +66,6 @@ ul {
     padding-left: 0px;
     list-style-type: none;
 }
-
+.strike{
+    text-decoration: line-through;
+}
