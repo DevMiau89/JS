@@ -104,6 +104,10 @@ body {
   flex-basis:50%;
 }
 
+.restart{
+  font-family: Lucida Sans Unicode
+}
+
 /* unholy css to style input type="range" */
 
 input[type=range] {
