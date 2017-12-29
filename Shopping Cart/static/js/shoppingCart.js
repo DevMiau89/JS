@@ -5,7 +5,7 @@
 
 var shoppingCart = (function(){
     // Private methods and properties
-    var cart  = [];
+    var cart  = [{name:'kielbasa', price: 20, count: 3} , {name:"Podgardle", price: 5, count: 1}];
     
     function Item (name, price, count){
         this.name = name;
@@ -98,9 +98,11 @@ var shoppingCart = (function(){
     obj.listCart = function(){  //-> array of Items
         var cartCopy = [];
         for (var i in cart) {
+            console.log(cart[i]);
             var item = cart[i];
             var itemCopy = {};
             for (var p in item) {
+                console.log(item[p]);
                 itemCopy[p] = item[p];
             }
             itemCopy.total = (item.price * item.count).toFixed(2);
