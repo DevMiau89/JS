@@ -49,7 +49,10 @@ function takePhoto() {
     link.href = data;
     link.setAttribute('download', 'handsome');
     link.innerHTML = `<img src="${data}" alt="Handsome Man">`;
+    const br = document.createElement('br');
+    strip.insertBefore(br, strip.firstChild);
     strip.insertBefore(link, strip.firstChild);
+
 
 }
 
@@ -94,3 +97,31 @@ getVideo();
 
 
 video.addEventListener('canplay', paintCanvas);
+
+
+function LongestWord(sen) {
+
+  // code goes here
+
+  const strip = sen.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"");
+  const arr = strip.split(' ');
+  console.log(arr);
+  // const longestWord = arr.reduce((longest, word) => {
+  //     longest.length > word.lenght ? longest: word;
+  // });
+
+  for (let i=0; i < arr.length; i++) {
+      // console.log(arr[i]);
+      if (i == 0) {
+          longest = arr[0] ;
+      }
+      if (longest.length < arr[i].length) {
+         longest = arr[i];
+      }
+  }
+  return longest;
+
+}
+
+// keep this function call here
+console.log(LongestWord("fun&!! time"));
