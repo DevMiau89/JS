@@ -9,7 +9,7 @@ function populate() {
         let element = document.querySelector('#question');
         element.innerHTML = quiz.getQuestionIndex().text;
 
-        const choices = quiz.getQuestionIndex().choices;
+        var choices = quiz.getQuestionIndex().choices;
         for(let i= 0; i < choices.length; i++) {
             let element = document.getElementById("choice" + i);
             element.innerHTML = choices[i];
@@ -21,17 +21,18 @@ function populate() {
 
 var questions = [
     new Question("Which one is not an object oriented programming language?", ["Java", "C#", "C++", "C"], "C"),
-    new Question ("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
+    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
     new Question("Which language is used for web apps", ["PHP", "Python", "Javascript", "All"], "All"),
     new Question("MVC is a ______.", ["Language", "Library", "Framework", "All"], "Framework")
 ];
 
 function guess (id, guess) {
     const button = document.getElementById(id);
-    button.addEventListener('click', function() {
-        quiz.quess(guess);
-        populate();
-    });
+
+    button.onclick = function () {
+       quiz.guess(guess);
+       populate();
+    };
 }
 
 function showProgress() {

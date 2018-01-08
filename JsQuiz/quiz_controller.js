@@ -9,16 +9,20 @@ function Quiz(question) {
 
 Quiz.prototype.getQuestionIndex = function () {
   return this.question[this.questionIndex];
+
 };
 
 Quiz.prototype.isEnded = function() {
   return this.question.length === this.questionIndex;
 };
 
-Quiz.prototype.quess = function (answer) {
+Quiz.prototype.guess = function (answer) {
+    // console.log(this);
 
     if(this.getQuestionIndex().correctAnswer(answer)) {
         this.score++;
+        // console.log(this.score);
     }
     this.questionIndex++;
+    console.log(this.questionIndex);
 };
