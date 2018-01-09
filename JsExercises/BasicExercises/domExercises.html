@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>Kurs Javascript - zadanie</title>
+<style>
+    .preety {
+        width:70%;
+        margin:100px auto;
+        text-align: center;
+        border-radius: 10px;
+        list-style:none;
+        padding:0;
+    }
+    .preety li {
+        background: #4285F4;
+        color:#fff;
+        font-size:20px;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-weight: bold;
+        padding:20px;
+        margin-bottom:1px;
+    }
+    .preety li.first {
+        border-radius: 30px 30px 0 0;
+        background: #2C5FB4;
+    }
+    .preety li.last {
+        border-radius: 0 0 30px 30px;
+        background: #2C5FB4;
+    }
+</style></head>
+
+<body>
+
+    <ul class="list preety">
+        <li class="first">Element listy numer 01</li>
+        <li>Element listy numer 02</li>
+        <li>Element listy numer 03</li>
+        <li>Element listy numer 04</li>
+        <li>Element listy numer 05</li>
+        <li>Element listy numer 06</li>
+        <li>Element listy numer 07</li>
+        <li>Element listy numer 08</li>
+        <li>Element listy numer 09</li>
+        <li class="last">Element listy numer 10</li>
+    </ul>
+
+    <script>
+        //----------------------------------
+        //tutaj pisz skrypty
+        //----------------------------------
+
+        /*Za pomocą odpowiednich metod pobierz pierwszy i ostatnie LI w liście. W konsoli wyświetl wynik. */
+        var elements = document.querySelectorAll('li');
+        const first = document.querySelector('.first');
+        const last = document.querySelector('.last');
+
+
+       console.log(elements[0]);
+       console.log(elements[elements.length - 1]);
+
+       /*Za pomocą querySelector pobierz 3 LI z listy. Skorzystaj tutaj z odpowiedniego selektora css.*/
+
+       const list = document.querySelector('.list');
+       const li3 = list.querySelector('li:nth-last-child(-n+8)');
+
+       console.log(li3);
+       console.log(document.querySelector(".list > li:nth-of-type(3)"));
+
+
+       /* Background-color change */
+       const li = document.querySelectorAll('li');
+       li[2].style.backgroundColor = 'red';
+       li[1].style.setProperty("background-color", 'green')
+    </script>
+
+</body>
+</html>
