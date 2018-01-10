@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .myStyle{
+            visibility:hidden;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="module-list">
+    <div class="module" data-show="1">
+        <div class="module-bar">
+            Przykładowy tytuł modułu
+            <span class="module-bar-text">(Widoczne)</span>
+            <button class="btn module-btn" type="button">Toggle</button>
+        </div>
+        <div class="module-cnt">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Debitis enim nam dicta vitae excepturi, dolore sapiente ipsa
+            repudiandae voluptatem officia impedit unde ullam, animi.
+            Iusto tenetur impedit provident ea sapiente?
+        </div>
+    </div>
+
+    <div class="module">...</div>
+    <div class="module">...</div>
+    <div class="module">...</div>
+    </div>
+
+    <script>
+
+    const button =  document.querySelector('.module-btn');
+
+    function hideText() {
+        const text = document.querySelector('.module-cnt');
+
+        text.classList.toggle("myStyle");
+
+        if(text.classList.contains("myStyle")){
+           button.previousElementSibling.innerText = '(Niewidoczne)';
+        }else{
+           button.previousElementSibling.innerText = '(Widoczne)';
+        }
+    }
+
+    button.addEventListener('click', hideText);
+    </script>
+</body>
+</html>
