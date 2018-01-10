@@ -3,14 +3,6 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <title>Kurs Javascript - zadanie</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <style>
     .preety {
         width:70%;
@@ -44,7 +36,7 @@
 
     <ul class="list preety">
         <li class="first">Element listy numer 01</li>
-        <li title="Tooltip on top">Element listy numer 02</li>
+        <li>Element listy numer 02</li>
         <li>Element listy numer 03</li>
         <li>Element listy numer 04</li>
         <li>Element listy numer 05</li>
@@ -76,7 +68,23 @@
 
         myList.forEach(element => element.setAttribute('data-toggle', 'tooltip' ));
 
-        myList.forEach(element => element.tooltip());
+        myList.forEach(element => element.setAttribute('title', element.innerText));
+
+
+        /*Trzeciemu elementowi w liście ustaw czerwone tło. Wykorzystaj do tego właściwość style. Jeżeli nie wiesz jak tego użyć, poszukaj w internecie, lub zbada dany element w debugerze.*/
+
+//        const myUl = document.querySelector(".preety");
+//        const arrConvert = Array.from(myUl.childNodes);
+//        var arrConvert = [].slice.call(myUl.childNodes);
+
+        li[2].style.backgroundColor = "red";
+        li[1].style.setProperty("background-color", 'red');
+
+        /*Trzeciemu elementowi ustaw text na "Jestem czerwonym elementem"*/
+
+        li[2].innerText = "Jestem czerwonym elementem";
+
+
     </script>
 
 </body></html>
