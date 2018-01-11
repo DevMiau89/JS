@@ -12,21 +12,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="JsElementsCreate.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JsElementsCreate.htm">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projekt-todo/project/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1585">
-              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="165">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projekt-todo/project/index.html">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projekt-todo/project/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            <state relative-caret-position="759">
+              <caret line="56" column="27" lean-forward="false" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -58,7 +60,9 @@
         <option value="$PROJECT_DIR$/EventDelegation.html" />
         <option value="$PROJECT_DIR$/elementsRelationship.html" />
         <option value="$PROJECT_DIR$/JsElementsCreate.htm" />
+        <option value="$PROJECT_DIR$/projekt-todo/project/css/style.css" />
         <option value="$PROJECT_DIR$/projekt-todo/project/index.html" />
+        <option value="$PROJECT_DIR$/projekt-todo/project/js/script.js" />
       </list>
     </option>
   </component>
@@ -133,6 +137,50 @@
               <option name="myItemId" value="projekt-todo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicExercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicExercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projekt-todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicExercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicExercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projekt-todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -156,11 +204,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.JsElementsCreate.htm">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="domExercises.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/domExercises.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="basicExercises.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/basicExercises.html">
       <method />
     </configuration>
     <configuration default="false" name="elementsRelationship.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/elementsRelationship.html">
@@ -170,6 +215,9 @@
       <method />
     </configuration>
     <configuration default="false" name="JsElementsCreate.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/JsElementsCreate.htm">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/projekt-todo/project/index.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -322,18 +370,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.domExercises.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.basicExercises.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.elementsRelationship.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.EventDelegation.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsElementsCreate.htm" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.elementsRelationship.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.EventDelegation.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsElementsCreate.htm" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsElementsCreate.htm" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.domExercises.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.elementsRelationship.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.EventDelegation.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.basicExercises.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsElementsCreate.htm" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.domExercises.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.elementsRelationship.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.EventDelegation.html" />
       </list>
     </recent_temporary>
   </component>
@@ -494,11 +542,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/projekt-todo/project/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="56" column="27" lean-forward="false" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/projekt-todo/project/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="726">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projekt-todo/project/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
