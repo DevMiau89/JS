@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const toDOSearch = document.querySelector('.todo-list-search-form');
     let liArray = JSON.parse(localStorage.getItem('toDoList')) || [];
 
-
     populateList();
     function validateForm(e) {
         e.preventDefault();
@@ -69,6 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
             button.setAttribute('title', 'Usuń task');
             text.innerText = element.text;
 
+            button.addEventListener('click', removeItem);
 
             bar.appendChild(h3);
             bar.appendChild(button);
@@ -79,6 +79,25 @@ document.addEventListener('DOMContentLoaded', function() {
             toDoList.appendChild(elem);}
     )};
 
+    function removeItem() {
+        var elem = document.querySelector(".todo-element");
+        elem.remove();
+
+        const h3Date = this.parentElement.firstChild;
+        const divText = document.querySelector('.todo-element-text');
+
+        let obj = {
+            date: `${h3Date.innerText}`,
+            text: `${divText.innerText}`
+        };
+
+        for (let i = 0; i < liArray.length; i++) {
+            if (liArray[i].date == obj.date && liArray[i].text == obj.text) {
+                liArray.splice(i, 1);
+            }
+        }
+        localStorage.setItem('toDoList', JSON.stringify(liArray));
+    }
 
     toDoForm.addEventListener('submit', validateForm);
 });
