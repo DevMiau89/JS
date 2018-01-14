@@ -79,6 +79,25 @@ document.addEventListener('DOMContentLoaded', function() {
             toDoList.appendChild(elem);}
     )};
 
+    function search() {
+        console.log(this);
+        console.log(this[0].value);
+        const val = this[0].value;
+
+        const toDoElement = todoList.querySelectorAll('.todo-element');
+
+        [].forEach.call(toDoElement, function (el) {
+            // console.log(el)
+            const text = el.querySelector('.todo-element-text').innerText;
+            // console.log(text);
+            if (text.indexOf(val) !== -1) {
+                el.style.setProperty('display', '');
+            } else {
+                el.style.setProperty('display', 'none');
+            }
+        });
+    }
+
     function removeItem() {
         var elem = document.querySelector(".todo-element");
         elem.remove();
@@ -98,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         localStorage.setItem('toDoList', JSON.stringify(liArray));
     }
-
+    toDOSearch.addEventListener('input', search);
     toDoForm.addEventListener('submit', validateForm);
 });
 
