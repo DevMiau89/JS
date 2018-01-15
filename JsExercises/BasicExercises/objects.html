@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    function Animal(name, age) {
+    this.name = name;
+    this.age = age;
+    this.type = 'animal';
+}
+
+    Animal.prototype.eat = function() {
+        return this.name + " właśnie je";
+    };
+
+
+    function Dog(name) {
+    this.name = name;
+    this.type = "dog";
+}
+
+    Dog.prototype = Object.create(Animal.prototype);
+
+    Dog.prototype.bark = function() {
+    return "Wof! Wof!";
+};
+
+const szamson = new Dog("Szamson");
+console.log(szamson.bark()); //Wof! Wof!
+console.log(szamson.eat()); //"dog właśnie je";
+
+const anim = new Animal();
+
+/*Exercises */
+/*1. Stwórz za pomocą literału obiekt currentUser. Obiekt niech ma:
+- właściwości name, surname, age, email, www, userType,
+- metodę printDetails, która wypisze wszystkie te rzeczy w konsoli.
+
+Wypisywany tekst powinien być ładnie sformatowany np.:
+console.log("Nazwa użytkownika: ", ....);
+
+Wywołaj metodę tego obiektu. */
+
+
+const currentUser = {
+    name : 'Puc',
+    surname : 'Kocinczyk',
+    email : 'kocinczyk.puc@gamil.com',
+    www : "kocinczyk.pl",
+    userType: 'Admin',
+
+    userDetails : function () {
+        console.log("Nazwa użytkownika: " + this.name);
+        console.log("Surname użytkownika: " + this.surname );
+        console.log("Email użytkownika: " + this.email);
+        console.log("www: " + this.www);
+        console.log("User Type: " + this.userType);
+    }
+};
+
+currentUser.userDetails();
+console.log('**************');
+console.log('**************');
+/*2. Chcesz stworzyć 5 obiektów typu Car. Każdy samochód powinien mieć ustawione:
+- właściwości name, brand, engine, mile, age
+- metodę printDetails, która wypisze powyższe właściwości.
+Wykorzystaj w tym zadaniu prototyp.*/
+
+function Car(name, brand, engine, mile, age) {
+    this.name = name;
+    this.brand = brand;
+    this.engine = engine;
+    this.mile = mile;
+    this.age = age;
+}
+
+Car.prototype.printDetails = function(){
+    console.log("Nazwa: " + this.name);
+    console.log("brand: " + this.brand );
+    console.log("engine: " + this.engine);
+    console.log("Distance in miles: " + this.mile);
+    console.log("age: " + this.age);
+}
+
+const car1 = new Car('maluch', 'fiat', 'xxx', 400, 4);
+const car2 = new Car('gulia', 'alfa romeo', 'xxx', 500, 2);
+const car3 = new Car('tuscon', 'nissan', 'xxx', 300, 1);
+const car4 = new Car('almera', 'nissan', 'xxx', 355, 1);
+const car5 = new Car('octavia', 'skoda', 'xxx', 450, 3);
+
+car1.printDetails();
+car2.printDetails();
+car3.printDetails();
+car4.printDetails();
+car5.printDetails();
+
+console.log('**************');
+console.log('**************');
+
+/*Stwórz 2 obiekty.
+
+Pierwszy powinien mieć:
+- właściwości name, age, email
+- właściwość print, która wypisze tekst np. "Marcin ma 14 lat, a jego email to lorem@gmail.com"
+
+Drugi obiekt powinien mieć:
+- właściwości name, age, email
+- metodę print, która porzyczy sobie kod metody print z 1 obiektu*/
+
+const obj = {
+    name: 'Marcin',
+    age: 14,
+    email: 'lorem@gmail.com',
+
+    print: function () {
+        console.log(this.name);
+        console.log(this.age);
+        console.log(this.email);
+    }
+};
+
+const obj2 = {
+    name : "Piotr",
+    age : 18,
+    email : "piotr@gmail.com"
+};
+
+obj.print.call(obj2);
+console.log('--------------');
+obj.print();
+
+/*Rozbuduj obiekty typu String, dodając do ich prototypu metodę String.sortText(char).
+Powinno się dać ją użyć na dowolnym tekście.
+Po użyciu powinna ona sortować słowa w danym tekście, a następnie zwracać podobny tekst, tylko posortowany:
+
+"Marcin|Ania|Piotrek|Beata".sortText(',');
+
+output: "Ania|Beata|Marcin|Piotrek"
+
+Wykorzystaj odpowiednie metody dzielące tekst na tablicę, sortujące tablicę i łączące ją w tekst.*/
+
+console.log('**************');
+
+Object.prototype.sortText = function(char){
+        console.log("to jest :" + this);
+        return this.split(char).sort().join(char);
+
+    };
+
+console.log("Marcin|Ania|Piotrek|Beata".sortText('|'));
+
+</script>
+</body>
+</html>
