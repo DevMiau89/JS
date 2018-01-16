@@ -7,8 +7,65 @@
 <body>
 
 <script>
+/*Utwórz jeden obiekt typu Image. Ustaw mu src do jakiejś grafiki.
+Następnie stwórz za pomocą JS div o rozmiarach np. 400x300, któremu jako tło ustawisz tą grafikę.
+Grafika tła powinna być dopasowana do wielkości diva. */
 
-    
+//const img = new Image(400, 300);
+//img.src = "https://www.planwallpaper.com/static/images/recycled_texture_background_by_sandeep_m-d6aeau9_PZ9chud.jpg";
+
+//console.log(img);
+
+const myDiv = document.createElement('div');
+myDiv.style.setProperty('width', 400 + 'px');
+myDiv.style.setProperty('height', 300 + 'px');
+//myDiv.style.setProperty('background-image', img.src);
+//myDiv.style.setProperty('background-size', 'contain');
+
+const bodyTg = document.querySelector('body');
+
+bodyTg.appendChild(myDiv);
+//myDiv.appendChild(img);
+
+
+/*Po kliknięciu na div, zmień mu grafikę na inną (którą pobierzesz z kolejnego Image)*/
+
+//function rollOver() {
+//    const img2 = new Image(400,300);
+//    img2.src = 'helga.jpg';
+//    img.src = img2.src;
+//}
+//
+//myDiv.addEventListener('click', rollOver);
+
+/*Dla chętnych. Na środku powyżej stworzonego postępu ładowania (w artykule) dodaj tekst, który będzie pokazywał liczbę wczytywanych obrazków w formacie "Wczytano 5 / 10" */
+
+const imagesNames = [
+    'https://www.planwallpaper.com/static/images/recycled_texture_background_by_sandeep_m-d6aeau9_PZ9chud.jpg',
+    'helga.jpg'
+];
+const span = document.createElement('span');
+myDiv.appendChild(span);
+var loadedImages = 0;
+const images = [];
+for (let i = 0; i < imagesNames.length; i++) {
+    images[i] = new Image(100, 100);
+    images[i].src = imagesNames[i];
+    myDiv.appendChild(images[i]);
+    images[i].addEventListener('onload', () => loadedImages++);
+    span.innerText = `Wczytano ${loadedImages}/${images.length}`;
+
+    if (images[i].complete) {
+        images[i].onload();
+
+        console.log('troll');
+
+    }
+}
+console.log(loadedImages);
+console.log(images);
+
+
 </script>
 </body>
 </html>
