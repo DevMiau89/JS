@@ -52,18 +52,13 @@ for (let i = 0; i < imagesNames.length; i++) {
     images[i] = new Image(100, 100);
     images[i].src = imagesNames[i];
     myDiv.appendChild(images[i]);
-    images[i].addEventListener('onload', () => loadedImages++);
-    span.innerText = `Wczytano ${loadedImages}/${images.length}`;
-
-    if (images[i].complete) {
-        images[i].onload();
-
-        console.log('troll');
-
-    }
+    images[i].addEventListener('load', function () {
+        console.log("Trigger Load event");
+        loadedImages++;
+        span.innerText = `Wczytano ${loadedImages}/${images.length}`;
+    });
+    console.log("Iteracja petli - " + i);
 }
-console.log(loadedImages);
-console.log(images);
 
 
 </script>

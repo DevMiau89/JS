@@ -15,8 +15,8 @@
       <file leaf-file-name="JsImg.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JsImg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1519">
-              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state relative-caret-position="1354">
+              <caret line="55" column="42" lean-forward="false" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -120,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.background-berries-berry-blackberries-87818.htm">
+  <component name="RunManager" selected="JavaScript Debug.JsImg.html">
     <configuration default="false" name="JsElementsCreate.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/JsElementsCreate.htm">
       <method />
     </configuration>
@@ -293,8 +293,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.background-berries-berry-blackberries-87818.htm" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsImg.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsImg.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.background-berries-berry-blackberries-87818.htm" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.objects.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsElementsCreate.htm" />
@@ -631,8 +631,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JsImg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1519">
-          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="1354">
+          <caret line="55" column="42" lean-forward="false" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
           <folding />
         </state>
       </provider>
