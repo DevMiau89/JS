@@ -1,16 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+    <title>Kurs Javascript - Zadanie z grafikami</title>
+    <link href="Kurs%20Javascript%20-%20Zadanie%20z%20grafikami_pliki/css.css" rel="stylesheet">
+<style>
+body {
+    max-width:900px;
+    margin:0 auto;
+    font-size:2rem;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    color:#444;
+}
+h1 {
+    color:#F15C5C;
+}
+img {
+    max-width:100%;
+    height:auto;
+    border:1 px solid #ddc565;
+}
+img.loading {
+    background: url(https://www.planwallpaper.com/static/images/maxresdefault.jpg) center center no-repeat;
+    min-height:400px;
+}
+</style></head>
+
 <body>
-    <img src="helga.jpg">
-    <img src="https://devblogs.nvidia.com/parallelforall/wp-content/uploads/2016/07/cute.jpg">
-    <img src="https://www.planwallpaper.com/static/images/violet-vector-leaves-circles-backgrounds-for-powerpoint_PdfkI4q.jpg">
+    <h1>Zadanie z grafikami</h1>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Tenetur quae autem, quod quibusdam consectetur accusantium in vero
+molestiae impedit quia pariatur saepe neque placeat ipsa, non rem quam
+blanditiis rerum!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Tenetur quae autem, quod quibusdam consectetur accusantium in vero
+molestiae impedit quia pariatur saepe neque placeat ipsa, non rem quam
+blanditiis rerum!
+    </p>
+
+
+    <p>
+        <img src='helga.jpg' alt="">
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Tenetur quae autem, quod quibusdam consectetur accusantium in vero
+molestiae impedit quia pariatur saepe neque placeat ipsa, non rem quam
+blanditiis rerum!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Tenetur quae autem, quod quibusdam consectetur accusantium in vero
+molestiae impedit quia pariatur saepe neque placeat ipsa, non rem quam
+blanditiis rerum!
+    </p>
+    <p>
+        <img class='loading' src="https://devblogs.nvidia.com/parallelforall/wp-content/uploads/2016/07/cute.jpg" alt="">
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Tenetur quae autem, quod quibusdam consectetur accusantium in vero
+molestiae impedit quia pariatur saepe neque placeat ipsa, non rem quam
+blanditiis rerum!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Tenetur quae autem, quod quibusdam consectetur accusantium in vero
+molestiae impedit quia pariatur saepe neque placeat ipsa, non rem quam
+blanditiis rerum!
+    </p>
+    <p>
+        <img src='https://www.planwallpaper.com/static/images/recycled_texture_background_by_sandeep_m-d6aeau9_PZ9chud.jpg' alt="">
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Tenetur quae autem, quod quibusdam consectetur accusantium in vero
+molestiae impedit quia pariatur saepe neque placeat ipsa, non rem quam
+blanditiis rerum!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Tenetur quae autem, quod quibusdam consectetur accusantium in vero
+molestiae impedit quia pariatur saepe neque placeat ipsa, non rem quam
+blanditiis rerum!
+    </p>
+    <p>
+        <img src='helga.jpg' alt="">
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Tenetur quae autem, quod quibusdam consectetur accusantium in vero
+molestiae impedit quia pariatur saepe neque placeat ipsa, non rem quam
+blanditiis rerum!
+    </p>
+    <p>
+        <img src="https://www.planwallpaper.com/static/images/violet-vector-leaves-circles-backgrounds-for-powerpoint_PdfkI4q.jpg" alt="">
+    </p>
 
     <script>
-        
+
+        const images = document.querySelectorAll('p > img');
+        [].forEach.call(images, function (element) {
+            const src = element.src;
+            element.removeAttribute('src');
+            element.setAttribute('data-src', src);
+            element.classList.add('loading');
+            let event = new Event('load');
+
+            element.addEventListener('load', function () {
+                console.log("Trigger Load event");
+            });
+            if (element.complete) {
+                element.dispatchEvent(event);
+                element.classList.remove('loading');
+                const dataSrc = element.getAttribute('data-src');
+                console.log('src to'+ dataSrc);
+                element.setAttribute('src', dataSrc);
+                element.removeAttribute('data-src');
+            }
+
+        });
+
+
     </script>
-</body>
-</html>
+</body></html>
