@@ -12,11 +12,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="JsImg2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JsImg2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JsImg2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1783">
               <caret line="130" column="14" lean-forward="false" selection-start-line="130" selection-start-column="14" selection-end-line="130" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="30CssSelectors.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/30CssSelectors.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="858">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -35,6 +45,7 @@
     <findStrings>
       <find>\/\/        var arrConvert \= \[\]\.slice\.call\(myUl\.childNodes\)\;\n</find>
       <find>var</find>
+      <find>nth-child(2)</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -57,6 +68,7 @@
         <option value="$PROJECT_DIR$/JsImg.html" />
         <option value="$PROJECT_DIR$/Kurs Javascript - Zadanie z grafikami.htm" />
         <option value="$PROJECT_DIR$/JsImg2.html" />
+        <option value="$PROJECT_DIR$/30CssSelectors.html" />
       </list>
     </option>
   </component>
@@ -122,10 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Kurs Javascript - Zadanie z grafikami.htm">
-    <configuration default="false" name="objects.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/objects.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.30CssSelectors.html">
     <configuration default="false" name="JsImg.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/JsImg.html">
       <method />
     </configuration>
@@ -136,6 +145,9 @@
       <method />
     </configuration>
     <configuration default="false" name="Kurs Javascript - Zadanie z grafikami.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/Kurs Javascript - Zadanie z grafikami.htm">
+      <method />
+    </configuration>
+    <configuration default="false" name="30CssSelectors.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/30CssSelectors.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -287,19 +299,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.objects.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsImg.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.background-berries-berry-blackberries-87818.htm" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsImg2.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Kurs Javascript - Zadanie z grafikami.htm" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsImg.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.background-berries-berry-blackberries-87818.htm" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsImg2.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Kurs Javascript - Zadanie z grafikami.htm" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.30CssSelectors.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Kurs Javascript - Zadanie z grafikami.htm" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsImg.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsImg2.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.background-berries-berry-blackberries-87818.htm" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.objects.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.30CssSelectors.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Kurs Javascript - Zadanie z grafikami.htm" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsImg.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsImg2.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.background-berries-berry-blackberries-87818.htm" />
       </list>
     </recent_temporary>
   </component>
@@ -318,16 +330,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3830" y="-10" width="3860" height="2124" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27745357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.24986738" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27745357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.24986738" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -336,7 +350,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -546,6 +559,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="89" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -574,6 +588,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="40" column="39" lean-forward="false" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -618,6 +633,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1783">
           <caret line="130" column="14" lean-forward="false" selection-start-line="130" selection-start-column="14" selection-end-line="130" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/30CssSelectors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
