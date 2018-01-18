@@ -21,6 +21,43 @@
       <li> 3  Element Listy </li>
       <li> 4  Element Listy </li>
    </ul>
+    <form>
+    <select id="firstSelect" multiple="multiple">
+        <option value="1"> opcja 1 </option>
+        <option value="2"> opcja 2 </option>
+        <option value="3"> opcja 3 </option>
+    </select>
+
+    <select id="secondSelect" multiple="multiple">
+    </select>
+
+    <button type="button" id="copySelect">Kopiuj zaznaczone elementy option</button>
+</form>
 </div>
+
+    <script>
+    function moveOptions() {
+    const select1 = document.querySelector('#firstSelect');
+    const select2 = document.querySelector('#secondSelect');
+
+    if (select1.length > 0) {
+        for (let i=0; i<select1.length; i++){
+            if (select1.options[i].selected) {
+                var newOption = new Option(
+                    console.log(select1.options[i].firstChild.nodeValue),
+                    console.log(select1.options[i].value));
+                    select2[select2.length] = newOption;
+                    console.log(select2[select2.length - 1]);
+            }
+        }
+    }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector('#copySelect').addEventListener('click', function(){
+        moveOptions();
+    });
+});
+    </script>
 </body>
 </html>
