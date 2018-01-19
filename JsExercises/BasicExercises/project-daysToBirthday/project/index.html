@@ -5,21 +5,25 @@
     <title>How many days until your birthday</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
-<form>
-    <div>Countdown Birthday Timer</div>
-    <div>
-        <label for="formName">Your Name</label>
-        <input type="text" id="formName" placeholder="Your Name"/>
-    </div>
-    <div>
-        <label for="formDate">Your Birthday</label>
-        <input type="text" id="formDate"  placeholder="dd.mm.rrrr" required/>
-    </div>
-    <div>
-        <input type="submit" value="Submit"/>
-    </div>
-</form>
+<div>
+    <form>
+        <div class="divH1">Countdown Birthday Timer</div>
+        <p></p>
+
+        <div class="divInput">
+            <label for="formName">Your Name</label>
+            <input type="text" id="formName" placeholder="Your Name"/>
+        </div>
+        <div class="divInput">
+            <label for="formDate">Your Birthday</label>
+            <input type="text" id="formDate"  placeholder="dd.mm.rrrr" required/>
+        </div>
+        <div class="divInput">
+            <input type="submit" value="Submit"/>
+        </div>
+    </form>
+<div class="divResult">Result:</div>
+</div>
 
 <script src="js/script.js"></script>
 </body>
