@@ -38,8 +38,6 @@ input[type=text] {
 }
 label {
     color: #FCA205;
-    /*padding: 35px;*/
-    /*margin-top: 20px;*/
 }
 .divH1 {
     margin-top: 25px;
@@ -62,5 +60,4 @@ label {
     font-family:  'Lobster', cursive;
     padding-top: 10px;
     padding-left: 8px;
-    padding-bottom: -5px;
 }
