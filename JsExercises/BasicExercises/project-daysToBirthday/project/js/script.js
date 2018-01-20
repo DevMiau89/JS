@@ -11,11 +11,15 @@ function leadingZero(i) {
 
 (function convertMS(){
     const today = new Date();
-    const date = `${today.getFullYear()} 
-                  ${leadingZero((today.getMonth()+1))} 
-                  ${leadingZero(today.getDate())} 
-                  ${leadingZero(today.getHours())} 
-                  ${leadingZero(today.getMinutes())}`;
+    const oneDay = 24*60*60*1000;
+    const date = today.getTime();
     return date
+
+})();
+
+(function nextBirthday() {
+    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    const nextBirhday = Date.parse(inputBirthday[1] + inputBirthday[0]).toString() + (new Date().getFullYear()).toString();
+    return inputBirthday
 
 })();
