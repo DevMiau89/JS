@@ -11,7 +11,7 @@ body {
     margin: 0;
 }
 form {
-    width: 400px;
+    width: 408px;
     height: 425px;
     background: rgba(0,0,0,0.3);
     transform: translate(-20%, -30%);
@@ -51,13 +51,13 @@ label {
     padding-top: 15px;
 }
 .divResult {
-    height: 50px;
+    height: 65px;
     width: 400px;
-    transform: translate(-20%, -180%);
+    transform: translate(-20%, -160%);
     border-radius: 10px;
     background: rgba(0,0,0,0.3);
     color: #FCA205;
     font-family:  'Lobster', cursive;
     padding-top: 10px;
-    padding-left: 8px;
+    padding-left: 10px;
 }

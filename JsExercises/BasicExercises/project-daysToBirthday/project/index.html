@@ -6,23 +6,23 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <div>
-    <form>
+    <form id="Form">
         <div class="divH1">Countdown Birthday Timer</div>
         <p></p>
 
         <div class="divInput">
             <label for="formName">Your Name</label>
-            <input type="text" id="formName" placeholder="Your Name"/>
+            <input type="text" name="formName" id="formName" placeholder="Your Name"/>
         </div>
         <div class="divInput">
             <label for="formDate">Your Birthday</label>
-            <input type="text" id="formDate"  pattern="^\d{2}\.\d{2}\.\d{4}$" placeholder="dd.mm.rrrr" required/>
+            <input type="text" name="formDate" id="formDate"  pattern="^\d{2}\.\d{2}\.\d{4}$" placeholder="dd.mm.rrrr" required/>
         </div>
         <div class="divInput">
-            <input type="submit" value="Submit"/>
+            <input id="formSubmit" type="submit" value="Submit"/>
         </div>
     </form>
-<div class="divResult">Result:</div>
+<div class="divResult" id="result">Result:</div>
 </div>
 
 <script src="js/script.js"></script>
