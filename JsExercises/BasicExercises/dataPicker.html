@@ -12,11 +12,12 @@
 
     /* input kalendarza */
     .input-calendar {
-        background-image: url(./icon-calendar.png);
+        background-image: url(icon-calendar.png);
         background-position: 99% center;
         background-repeat: no-repeat;
         border:1px solid #ddd;
         cursor:pointer;
+        background-size: contain;
     }
 
     /* kalendarz */
@@ -139,83 +140,240 @@
     </style>
 </head>
 <body>
+    <div>
+        <input class="input-demo2" type="text"/>
+    </div>
+
     <script>
-        function Calendar() {
-            this.now = new Date();
-            this.date = this.now.getDate();
-            this.month = this.now.getMonth();
-            this.year = this.now.getFullYear();
 
-            this.input = input;
-            this.divCnt = null;
-            this.divHeader = null;
-            this.divTable = null;
-            this.divDateText = null;
-            this.divButtons = null;
+function Calendar(input, options) {
+    this.now = new Date();
+    this.day = this.now.getDate();
+    this.month = this.now.getMonth();
+    this.year = this.now.getFullYear();
+    this.input = input;
+    this.divCnt = null;
+    this.divTable = null;
+    this.divDateText = null;
+    this.divButtons = null;
 
+    const defaultOptions = {
+        closeOnSelect : false,
+        onDateSelect : function(day, month, year) {
+            const monthText = ((month + 1) < 10) ? "0" + (month + 1) : month + 1;
+            const dayText =  (day < 10) ? "0" + day : day;
+            this.input.value = dayText + '-' + monthText + '-' + this.year;
+        }.bind(this)
+    };
+    this.options = Object.assign({}, defaultOptions, options);
 
-            this.init = function () {
-                this.divCnt = document.createElement('div');
-                this.divCnt.classList.add('calendar');
+    //metoda tworząca przyciski prev-next
+    this.createButtons = function () {
+        const buttonPrev = document.createElement('button');
+        buttonPrev.innerText = '<';
+        buttonPrev.type = "button";
+        buttonPrev.classList.add('input-prev');
+        buttonPrev.addEventListener('click', function () {
+            this.month--;
+            if (this.month < 0) {
+                this.month = 11;
+                this.year--;
+            }
+            this.createCalendarTable();
+            this.createDateText();
+        }.bind(this));
+        this.divButtons.appendChild(buttonPrev);
 
-                this.divButtons = document.createElement('div');
-                this.divButtons.classList.add('calendar-prev-next');
+        const buttonNext = document.createElement('button');
+        buttonNext.classList.add('input-next');
+        buttonNext.innerText = '>';
+        buttonNext.type = "button";
+        buttonNext.addEventListener('click', function () {
+            this.month++;
+            if (this.month > 11) {
+                this.month = 0;
+                this.year++;
+            }
+            this.createCalendarTable();
+            this.createDateText();
+        }.bind(this));
+        this.divButtons.appendChild(buttonNext);
+    };
 
-                this.divDateText = document.createElement('div');
-                this.divDateText.className = 'date-name';
+    //metoda wypisująca nazwę miesiąca i roku
+    this.createDateText = function () {
+        const monthNames = ['styczeń', 'luty', 'marzec', 'kwiecień', 'maj', 'czerwiec', 'lipiec', 'sierpień', 'wrzesień', 'październik', 'listopad', 'grudzień'];
+        this.divDateText.innerHTML = monthNames[this.month] + ' ' + this.year;
+    };
 
-                this.divHeader = document.createElement('div');
-                this.divHeader.classList.add('calendar-header');
+    //metoda tworząca tabele z kalendarzem
+    this.createCalendarTable = function () {
+        this.divTable.innerHTML = '';
 
-                this.divHeader.appendChild(this.divButtons);
-                this.divHeader.appendChild(this.divDateText);
-                this.divCnt.appendChild(this.divHeader);
+        //tworzymy nazwy dni
+        const tab = document.createElement('table');
+        tab.classList.add('calendar-table');
 
-                //tworzymy div do którego trafi tabela kalendarza
-                this.divTable = document.createElement('div');
-                this.divTable.className = 'calendar-table-cnt';
-                this.divCnt.appendChild(this.divTable);
+        //tworzymy nagłówki dni
+        let tr = document.createElement('tr');
+        tr.classList.add('calendar-table-days-names')
+        const days = ['Pon', 'Wto', 'Śro', 'Czw', 'Pią', 'Sob', 'Nie'];
+        for (let i=0; i<days.length; i++) {
+            const th = document.createElement('th');
+            th.innerHTML = days[i];
+            tr.appendChild(th);
+        }
+        tab.appendChild(tr);
 
-                this.calendarWrapper = document.createElement('div');
-                this.calendarWrapper.classList.add('input-calendar-cnt');
-                this.input.parentElement.insertBefore(this.calendarWrapper, this.input);
-                this.calendarWrapper.appendChild(this.input);
+        //pobieramy wszystkie dni danego miesiąca
+        const daysInMonth = new Date(this.year, this.month+1, 0).getDate();
 
-                this.toggleShow = function() {
-                this.divCnt.classList.toggle('calendar-show');
-                };
+        //pobieramy pierwszy dzień miesiąca
+        const tempDate = new Date(this.year, this.month, 1);
+        let firstMonthDay = tempDate.getDay();
+        if (firstMonthDay === 0) {
+            firstMonthDay = 7;
+        }
 
-                this.show = function() {
-                this.divCnt.classList.add('calendar-show');
-                };
+        //wszystkie komórki w tabeli
+        const j = daysInMonth + firstMonthDay - 1;
 
-                this.hide = function() {
-                this.divCnt.classList.remove('calendar-show');
-                };
+        if (firstMonthDay - 1 !== 0) {
+            tr = document.createElement('tr');
+            tab.appendChild(tr);
+        }
 
+        //tworzymy puste komórki przed dniami miesiąca
+        for (let i=0; i < firstMonthDay - 1; i++) {
+            const td = document.createElement('td');
+            td.innerHTML = '';
+            tr.appendChild(td);
+        }
 
-                this.input.addEventListener('click', function () {
-                    this.toggleShow();
-                }).bind(this);
+        //tworzymy komórki dni
+        for (let i = firstMonthDay-1; i<j; i++) {
+            if((i % 7) == 0){
+                tr = document.createElement('tr');
+                tab.appendChild(tr);
+            }
 
-                this.divCnt.addEventListener('click', function(e){
-                    e.stopPropagation();
-                });
+            const td = document.createElement('td');
+            td.innerText = i - firstMonthDay + 2;
+            td.dayNr = i - firstMonthDay + 2;
+            td.classList.add('day');
 
-                this.input.addEventListener('click', function(e){
-                    e.stopPropagation();
-                });
+            if (this.year === this.now.getFullYear() && this.month === this.now.getMonth() && this.day === i - firstMonthDay + 2) {
+                td.classList.add('current-day')
+            }
 
-                document.addEventListener('click', function(){
+            tr.appendChild(td);
+        }
+
+        tab.appendChild(tr);
+
+        this.divTable.appendChild(tab);
+    };
+
+    //podpinamy klik pod dni w tabeli kalendarza
+    this.bindTableDaysEvent = function() {
+        this.divTable.addEventListener('click', function(e) {
+            if (e.target.tagName.toLowerCase() === 'td' && e.target.classList.contains('day')) {
+                const month2 = ((this.month + 1) < 10) ? "0" + (this.month + 1) : this.month + 1;
+
+                if (this.options.closeOnSelect) {
                     this.hide();
-                }).bind(this);
-            };
+                }
+                this.options.onDateSelect(e.target.dayNr, this.month + 1, this.year);
+            }
+        }.bind(this));
+    };
 
+    //metoda ukrywa/pokazuje kalendarz
+    this.toggleShow = function() {
+        this.divCnt.classList.toggle('calendar-show');
+    };
 
-        };
-        const input = document.querySelector('.input-demo2');
-        const cal = new Calendar(input);
-        cal.init();
+    //metoda pokazuje kalendarz
+    this.show = function() {
+        this.divCnt.classList.add('calendar-show');
+    };
+
+    //metoda ukrywa kalendarz
+    this.hide = function() {
+        this.divCnt.classList.remove('calendar-show');
+    };
+
+    //metoda inicjująca obiekt
+    this.init = function () {
+        //tworzymy div z całą zawartością
+        this.divCnt = document.createElement('div');
+        this.divCnt.classList.add('calendar');
+
+        //tworzymy div z guzikami
+        this.divButtons = document.createElement('div');
+        this.divButtons.className = "calendar-prev-next";
+        this.createButtons();
+
+        //tworzymy div z nazwą miesiąca
+        this.divDateText = document.createElement('div');
+        this.divDateText.className = 'date-name';
+        this.createDateText();
+
+        //tworzymy nagłówek kalendarza
+        this.divHeader = document.createElement('div');
+        this.divHeader.classList.add('calendar-header');
+
+        this.divHeader.appendChild(this.divButtons);
+        this.divHeader.appendChild(this.divDateText);
+        this.divCnt.appendChild(this.divHeader);
+
+        //tworzymy div z tabelą.calendara
+        this.divTable = document.createElement('div');
+        this.divTable.className = 'calendar-table-cnt';
+        this.divCnt.appendChild(this.divTable);
+        this.createCalendarTable();
+        this.bindTableDaysEvent();
+
+        //tworzymy wrapper dla input
+        this.calendarWrapper = document.createElement('div');
+        this.calendarWrapper.classList.add('input-calendar-cnt');
+        this.input.parentElement.insertBefore(this.calendarWrapper, this.input);
+        this.calendarWrapper.appendChild(this.input);
+        this.calendarWrapper.appendChild(this.divCnt);
+
+        this.input.classList.add('input-calendar');
+
+        //podpinamy zdarzenia do pokazywania/ukrywania kalendarza
+        this.input.addEventListener('click', function() {
+            this.toggleShow();
+        }.bind(this));
+
+        this.divCnt.addEventListener('click', function(e) {
+            e.stopImmediatePropagation();
+        });
+        this.input.addEventListener('click', function(e) {
+            e.stopImmediatePropagation();
+        });
+        document.addEventListener('click', function() {
+            this.hide();
+        }.bind(this));
+    };
+};
+const input = document.querySelector('.input-demo2');
+const cal = new Calendar( {
+    closeOnSelect : true,
+    onDateSelect : function(day, month, year) {
+        console.log(day);
+        console.log(month);
+        console.log(year);
+
+        const dayText = ((day + 1) < 10) ? "0" + (day + 1) : day + 1;
+        const monthsNames = ['styczeń', 'luty', 'marzec', 'kwiecień', 'maj', 'czerwiec', 'lipiec', 'sierpień', 'wrzesień', 'październik', 'listopad', 'grudzień'];
+
+        input.value = dayText + ' ' + monthsNames[month] + ' ' + year;
+    }
+});
+cal.init();
     </script>
 </body>
 </html>
