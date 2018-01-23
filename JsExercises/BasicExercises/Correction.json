@@ -1,0 +1,15 @@
+{
+    "data" : {
+            "id" : 1000,
+            "name" : "Marcin",
+            "surname" : "Domanski",
+            "user_type" : "admin",
+            "privilages" : [
+                "edit_post",
+                "add_post",
+                "delete_post",
+                "delete_user",
+                "edit_user"
+            ]
+        }
+}
