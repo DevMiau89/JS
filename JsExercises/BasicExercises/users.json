@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Marcin",
+      "surname": "Domanski",
+      "user_type": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Karolina",
+      "surname": "Lizinczyk",
+      "user_type": "developer"
+    },
+    {
+      "id": 3,
+      "name": "Jacek",
+      "surname": "Wieczorek",
+      "user_type": "Q/A analyst"
+    },
+    {
+      "id": 4,
+      "name": "Jakub",
+      "surname": "Pietrzak",
+      "user_type": "HR recruter"
+    },
+    {
+      "id": 5,
+      "name": "Natalia",
+      "surname": "Nowak",
+      "user_type": "Accountant"
+    }
+  ]
+}
