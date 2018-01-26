@@ -20,6 +20,7 @@ h1 {
 <body>
     <h1>Zadanie funkcja strzałkowa</h1>
     <p>Zadanie wykonuj wraz z otwartą konstola debugera</p>
+    <button type="button" id="button">Click me</button>
     <script>
         fetch('http://kursjs.pl/kurs/es6/zadanie-userzy.json')
             .then(response => response.json())
@@ -32,7 +33,7 @@ h1 {
                 //- tekst: "Wszyscy użytkownicy"
                 //- tablicę z wszystkimi użytkownikami
                 console.log('All users:');
-                console.table(response.users);
+                console.log(response.users);
 
                 //- tekst: "Wszyscy użytkownicy pełnoletni:"
                 //- tablicę z wszystkimi użytkownikami pełnoletnimi
@@ -44,7 +45,7 @@ h1 {
                 //- tablicę użytkowników którzy mają tag "dolor"
                  console.log("Użytkownicy z tagiem 'dolor'");
                 const hasDolorTag =response.users.filter(user => user.tags.includes('dolor'));
-                console.table(hasDolorTag);
+                console.log(hasDolorTag);
 
                 //- tekst: "Wszyscy użytkownicy są pełnoletni:"
                 //- prawda/falsz
@@ -64,7 +65,44 @@ h1 {
                 const isUpperCase = response.users.filter(user => user.name[0] === user.name[0].toUpperCase());
                 console.log(isUpperCase);
 
-            })
+            });
+
+        /*stwórz obiekt ob, który będzie miał:
+
+        - właściwość favoriteColors - tablica z kolorami (mogą być pisane słownie, mogą hexdecymalnie)
+        - metodę bind, w której pobierzesz ze strony jakiś element ( np. przycisk - jak go nie masz, dorób).
+
+        Po kliknięciu na pobrany element, stwórz w pętli nowe elementy:
+
+        - div o wymiarach 100x100
+        - border: 1px solid #333
+        - display:inline-block
+        - tło pobrane z tablicy favouriteColors
+
+        Stworzone elementy wstaw na stronę*/
+
+
+        const obj = {
+            colors: ['red', 'blue', 'green', 'orange', 'pink'],
+            bind: function () {
+                const button = document.querySelector('#button');
+                button.addEventListener('click', () => {
+                    console.log(this);
+                    this.colors.forEach(color => {
+                        const newDiv = document.createElement('div');
+                        newDiv.style.setProperty('width', '100px');
+                        newDiv.style.setProperty('height', '100px');
+                        newDiv.style.setProperty('border', 'solid #333');
+                        newDiv.style.setProperty('display', 'inline-block');
+                        newDiv.style.setProperty('background-color', color);
+                        document.querySelector('body').appendChild(newDiv);
+                    });
+                });
+            }
+        };
+
+
+
     </script>
 
 </body></html>
