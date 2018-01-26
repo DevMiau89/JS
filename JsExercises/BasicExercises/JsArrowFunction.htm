@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>Kurs Javascript - Zadanie funkcja strzałkowa</title>
+<style>
+body {
+    max-width:900px;
+    margin:0 auto;
+    font-size:2rem;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    color:#444;
+}
+h1 {
+    color:#F15C5C;
+}
+</style></head>
+
+<body>
+    <h1>Zadanie funkcja strzałkowa</h1>
+    <p>Zadanie wykonuj wraz z otwartą konstola debugera</p>
+    <script>
+        fetch('http://kursjs.pl/kurs/es6/zadanie-userzy.json')
+            .then(response => response.json())
+            .then(response => {
+                console.log(response.users);
+                //tutaj zacznij wykonywać zadania
+
+                // Wypisz w konsoli:
+                console.log('-----------------');
+                //- tekst: "Wszyscy użytkownicy"
+                //- tablicę z wszystkimi użytkownikami
+                console.log('All users:');
+                console.table(response.users);
+
+                //- tekst: "Wszyscy użytkownicy pełnoletni:"
+                //- tablicę z wszystkimi użytkownikami pełnoletnimi
+                console.log('-----------------');
+                console.log('All of age users');
+                const isOfAge = response.users.filter(user => user.age > 18);
+                console.log(isOfAge);
+                //- tekst: "Użytkownicy z tagiem "dolor":
+                //- tablicę użytkowników którzy mają tag "dolor"
+                 console.log("Użytkownicy z tagiem 'dolor'");
+                const hasDolorTag =response.users.filter(user => user.tags.includes('dolor'));
+                console.table(hasDolorTag);
+
+                //- tekst: "Wszyscy użytkownicy są pełnoletni:"
+                //- prawda/falsz
+                console.log("Wszyscy użytkownicy są pełnoletni:");
+                const isOfAgeEvery = response.users.every(user => user.age > 18);
+                console.log(isOfAgeEvery);
+
+                //- tekst: "Niektórzy użytkownicy są pełnoletni:"
+                //- prawda/falsz
+                console.log("Niektórzy użytkownicy są pełnoletni:");
+                const isOfAgeSome = response.users.some(user => user.age > 18);
+                console.log(isOfAgeSome);
+
+                //- tekst: "Użytkownicy pisane dużymi literami:"
+                //- tablicę TYLKO z nazwami użytkowników pisanymi dużymi literami
+                 console.log("Użytkownicy pisane dużymi literami:");
+                const isUpperCase = response.users.filter(user => user.name[0] === user.name[0].toUpperCase());
+                console.log(isUpperCase);
+
+            })
+    </script>
+
+</body></html>

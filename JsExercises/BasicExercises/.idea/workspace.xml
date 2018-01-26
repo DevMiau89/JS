@@ -32,7 +32,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="JsWitcher.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JsWitcher.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JsWitcher.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1419">
@@ -45,36 +45,6 @@
                 <marker date="1516915169993" expanded="true" signature="1501:1611" ph="..." />
                 <marker date="1516915169993" expanded="true" signature="1668:1795" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventDelegation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EventDelegation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsArrowFunctions.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JsArrowFunctions.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="89" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -129,6 +99,7 @@
         <option value="$PROJECT_DIR$/JsContactForm.html" />
         <option value="$PROJECT_DIR$/JsWitcher.html" />
         <option value="$PROJECT_DIR$/JsArrowFunctions.html" />
+        <option value="$PROJECT_DIR$/JsArrowFunction.htm" />
       </list>
     </option>
   </component>
@@ -198,10 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.EventDelegation.html">
-    <configuration default="false" name="dataPicker.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/dataPicker.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.JsArrowFunction.htm">
     <configuration default="false" name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/index.html">
       <method />
     </configuration>
@@ -212,6 +180,9 @@
       <method />
     </configuration>
     <configuration default="false" name="EventDelegation.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/EventDelegation.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="JsArrowFunction.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/JsArrowFunction.htm">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -363,19 +334,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.dataPicker.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsContactForm.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsWitcher.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.EventDelegation.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsContactForm.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsWitcher.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.EventDelegation.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsArrowFunction.htm" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.EventDelegation.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsWitcher.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsContactForm.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.dataPicker.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsArrowFunction.htm" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.EventDelegation.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsWitcher.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsContactForm.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -394,17 +365,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3830" y="-10" width="3860" height="2124" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20371352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.24986738" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20371352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.24986738" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -413,7 +384,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -428,13 +398,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projekt-todo/project/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="56" column="27" lean-forward="false" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JsElementsCreate.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2442">
@@ -708,21 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JsWitcher.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1419">
-          <caret line="43" column="14" lean-forward="false" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-          <folding>
-            <marker date="1516915169993" expanded="true" signature="938:1826" ph="..." />
-            <marker date="1516915169993" expanded="true" signature="994:1117" ph="..." />
-            <marker date="1516915169993" expanded="true" signature="1174:1280" ph="..." />
-            <marker date="1516915169993" expanded="true" signature="1337:1444" ph="..." />
-            <marker date="1516915169993" expanded="true" signature="1501:1611" ph="..." />
-            <marker date="1516915169993" expanded="true" signature="1668:1795" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JsContactForm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1254">
@@ -743,6 +691,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsWitcher.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1419">
+          <caret line="43" column="14" lean-forward="false" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+          <folding>
+            <marker date="1516915169993" expanded="true" signature="938:1826" ph="..." />
+            <marker date="1516915169993" expanded="true" signature="994:1117" ph="..." />
+            <marker date="1516915169993" expanded="true" signature="1174:1280" ph="..." />
+            <marker date="1516915169993" expanded="true" signature="1337:1444" ph="..." />
+            <marker date="1516915169993" expanded="true" signature="1501:1611" ph="..." />
+            <marker date="1516915169993" expanded="true" signature="1668:1795" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsArrowFunction.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
           <folding />
         </state>
       </provider>
