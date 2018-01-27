@@ -18,11 +18,16 @@
         console.log(tab4);
 
         (function printBig(...params) {
-            let result = "";
-            [...params].forEach(param => result += param.toUpperCase() + " + ");
-            let lastRemoved = result.substring(0, result.length - 2);
-            console.log (lastRemoved);
+            let result = [];
+            [...params].forEach(param => result.push(param.toUpperCase()));
+//            let lastRemoved = result.substring(0, result.length - 2);
+//            console.log (lastRemoved);
+//            return lastRemoved
+            console.log(result);
+            let lastRemoved = result.join(' + ');
+            console.log(lastRemoved);
             return lastRemoved
+
         })("pies", "świnka", "kot");
     </script>
 </body>

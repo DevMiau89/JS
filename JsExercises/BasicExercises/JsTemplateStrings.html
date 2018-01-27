@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        const myPerson = {
+            name : 'Karolina',
+            height: 173,
+            calculateAge: function (birthday) {
+                let currentYear = (new Date()).getFullYear();
+                let age = currentYear - birthday;
+                return age
+            }
+            
+        };
+        console.log(myPerson.calculateAge(1989));
+        console.log(`Nazywam się ${myPerson.name}`);
+        console.log(`Mój wzrost to ${myPerson.height}`);
+        console.log(`Mam ${myPerson.calculateAge(1989)} lat`);
+
+        function format(){
+            
+        }
+
+    </script>
+</body>
+</html>
