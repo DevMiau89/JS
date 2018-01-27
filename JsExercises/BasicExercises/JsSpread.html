@@ -5,6 +5,25 @@
     <title>Title</title>
 </head>
 <body>
+    <script>
+        const tab1 = [1, 2, 3, 6, 5];
+        const tab2 = [10, 20, 15, 4];
 
+        const tab3 = [];
+        tab3.unshift(...tab1);
+        tab3.push(...tab2);
+
+        console.log(tab3);
+        const tab4 = [...tab1,...tab2];
+        console.log(tab4);
+
+        (function printBig(...params) {
+            let result = "";
+            [...params].forEach(param => result += param.toUpperCase() + " + ");
+            let lastRemoved = result.substring(0, result.length - 2);
+            console.log (lastRemoved);
+            return lastRemoved
+        })("pies", "świnka", "kot");
+    </script>
 </body>
 </html>
