@@ -21,10 +21,27 @@
         console.log(`Mój wzrost to ${myPerson.height}`);
         console.log(`Mam ${myPerson.calculateAge(1989)} lat`);
 
-        function format(){
-            
+        function format(stringParts, ...vars){
+            let str = '';
+            stringParts.forEach((el, i) => {
+                str += el;
+                if (vars[i] !== undefined) {
+                    str += "[" + vars[i] + "]";
+                }
+            });
+        return str;
         }
 
+        const name = 'Karolina';
+        const height = 173;
+        const age = 23;
+
+        const text = format`
+        Nazywam się ${myPerson.name}
+        Mój wzrost to ${myPerson.height}
+        Mam ${myPerson.calculateAge(1989)} lat
+        `;
+        console.log(text);
     </script>
 </body>
 </html>
