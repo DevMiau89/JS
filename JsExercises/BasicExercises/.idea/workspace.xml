@@ -12,58 +12,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="JsWitcher.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JsWitcher.html">
+      <file leaf-file-name="JsEs6Objects.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JsEs6Objects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1353">
-              <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="69" />
-              <folding>
-                <marker date="1516915169993" expanded="true" signature="938:1826" ph="..." />
-                <marker date="1516915169993" expanded="true" signature="994:1117" ph="..." />
-                <marker date="1516915169993" expanded="true" signature="1174:1280" ph="..." />
-                <marker date="1516915169993" expanded="true" signature="1337:1444" ph="..." />
-                <marker date="1516915169993" expanded="true" signature="1501:1611" ph="..." />
-                <marker date="1516915169993" expanded="true" signature="1668:1795" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsArrowFunction.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JsArrowFunction.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2475">
-              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsSpread.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JsSpread.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsTemplateStrings.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JsTemplateStrings.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1353">
-              <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsDestructuring.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JsDestructuring.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="759">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,6 +76,7 @@
         <option value="$PROJECT_DIR$/JsSpread.html" />
         <option value="$PROJECT_DIR$/JsTemplateStrings.html" />
         <option value="$PROJECT_DIR$/JsDestructuring.html" />
+        <option value="$PROJECT_DIR$/JsEs6Objects.html" />
       </list>
     </option>
   </component>
@@ -136,10 +90,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3830" />
-    <option name="y" value="-10" />
-    <option name="width" value="3860" />
-    <option name="height" value="2124" />
+    <option name="x" value="3841" />
+    <option name="y" value="1" />
+    <option name="width" value="3838" />
+    <option name="height" value="2102" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -156,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -170,7 +125,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -192,10 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.JsDestructuring.html">
-    <configuration default="false" name="EventDelegation.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/EventDelegation.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.JsEs6Objects.html">
     <configuration default="false" name="JsArrowFunction.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/JsArrowFunction.htm">
       <method />
     </configuration>
@@ -206,6 +157,9 @@
       <method />
     </configuration>
     <configuration default="false" name="JsDestructuring.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/JsDestructuring.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="JsEs6Objects.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/JsEs6Objects.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -357,19 +311,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.EventDelegation.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsArrowFunction.htm" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsSpread.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsTemplateStrings.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsDestructuring.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsArrowFunction.htm" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsSpread.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsTemplateStrings.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsDestructuring.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsEs6Objects.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsDestructuring.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsTemplateStrings.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsSpread.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsArrowFunction.htm" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.EventDelegation.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsEs6Objects.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsDestructuring.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsTemplateStrings.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsSpread.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsArrowFunction.htm" />
       </list>
     </recent_temporary>
   </component>
@@ -387,10 +341,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3830" y="-10" width="3860" height="2124" extended-state="6" />
+    <frame x="3841" y="1" width="3838" height="2102" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20928381" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21237993" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -422,13 +376,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/domExercises.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="40" column="39" lean-forward="false" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JsElementsCreate.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2310">
@@ -729,8 +676,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JsDestructuring.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="660">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsEs6Objects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>

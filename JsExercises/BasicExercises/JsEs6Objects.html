@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        const translateToEN = {
+            wordsPL: ["czerwony", "niebieski", "zielony", "czarny", "pomaranczowy"],
+            wordsEN : ["red", "blue", "green", "black", "orange"],
+            translate(word) {
+                for(let i=0; i<this.wordsEN.length; i++){
+                    if(this.wordsEN[i] == word){
+                    console.log(this.wordsPL[i]);
+                    return;
+                    }
+
+                    }
+                    console.log("nieznane słowo");
+                }
+
+            };
+
+        const translateToPL = Object.assign({}, translateToEN);
+        translateToPL.translate = function (word) {
+            for(let i=0; i<this.wordsPL.length; i++) {
+                if (this.wordsPL[i] == word) {
+                    console.log(this.wordsEN[i]);
+                    return;
+                }
+            }
+            console.log("unknown word");
+        };
+
+        translateToPL.translate('czerwony');
+    </script>
+</body>
+</html>
