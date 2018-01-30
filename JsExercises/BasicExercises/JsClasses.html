@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        class Brick {
+            constructor(x, y, width, height, type){
+                this.x = x;
+                this.y = y;
+                this.width = width;
+                this.height = height;
+                this.type = type;
+            }
+
+            print(){
+                return console.log(`
+                ${this.x}
+                ${this.x}
+                ${this.y}
+                ${this.graphic}
+                ${this.width}
+                ${this.height}
+                ${this.type}
+                ${this.live}
+                `);
+
+
+            }
+            init(){
+                console.log("Dodano planszę");
+            }
+        }
+
+        class BrickBlue extends Brick {
+            constructor(...params){
+                super(...params);
+                this.graphic = "blue.png";
+                this.live = 10;
+
+            }
+        }
+
+        class BrickRed extends Brick {
+            constructor(...params){
+                super(...params);
+                this.graphic = "red.png";
+                this.live = 15;
+
+            }
+        }
+
+        class BrickGreen extends Brick {
+            constructor(...params){
+                super(...params);
+                this.graphic = "green.png";
+                this.live = 20;
+
+            }
+        }
+
+        class BrickAnim extends Brick {
+            constructor(...params){
+                super(...params);
+            }
+            moveHorizontal(speed){
+                console.log(`poruszam się poziomo z szybkością ${speed} km/h`);
+            }
+        }
+
+    const brick1 = new BrickBlue(10, 10, 50, 50, "block");
+    const brick2 = new BrickRed(10, 10, 50, 50, "rock");
+    const brick3 = new BrickGreen(10, 10, 50, 50, "round");
+
+    brick1.print();
+    brick1.init();
+
+    brick2.print();
+    brick2.init();
+
+    brick3.print();
+    brick3.init();
+
+    const brick4 = new BrickAnim(10, 10, "green.png", 50, 50, "block", 20);
+    brick4.moveHorizontal(30);
+    brick4.init();
+    brick4.print();
+
+
+
+
+    </script>
+</body>
+</html>
