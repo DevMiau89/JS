@@ -12,11 +12,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="JsClasses.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JsClasses.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JsClasses.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="594">
               <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsModule.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JsModule.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -38,8 +48,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -89,6 +99,7 @@
         <option value="$PROJECT_DIR$/JsEs6Objects.html" />
         <option value="$PROJECT_DIR$/JsClasses.css" />
         <option value="$PROJECT_DIR$/JsClasses.html" />
+        <option value="$PROJECT_DIR$/JsModule.html" />
       </list>
     </option>
   </component>
@@ -142,7 +153,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JsSlideAnimation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -158,10 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.JsClasses.html">
-    <configuration default="false" name="JsSpread.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/JsSpread.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.JsModule.html">
     <configuration default="false" name="JsTemplateStrings.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/JsTemplateStrings.html">
       <method />
     </configuration>
@@ -172,6 +180,9 @@
       <method />
     </configuration>
     <configuration default="false" name="JsClasses.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/JsClasses.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="JsModule.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BasicExercises/JsModule.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -323,19 +334,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsSpread.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsTemplateStrings.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsDestructuring.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsEs6Objects.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsClasses.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsTemplateStrings.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsDestructuring.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsEs6Objects.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsClasses.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsModule.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsClasses.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsEs6Objects.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsDestructuring.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsTemplateStrings.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsSpread.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsModule.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsClasses.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsEs6Objects.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsDestructuring.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsTemplateStrings.html" />
       </list>
     </recent_temporary>
   </component>
@@ -356,17 +367,17 @@
     <frame x="3830" y="-10" width="3860" height="2124" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2198939" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22175066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.24986738" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -388,13 +399,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basicExercises.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/domExercises.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2475">
@@ -690,6 +694,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsModule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding />
         </state>
       </provider>

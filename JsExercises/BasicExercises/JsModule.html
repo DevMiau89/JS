@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    const myModule = (function () {
+        const animals = ['cat', 'dog', 'fish'];
+
+        const addNewAnimal = function (elementToAdd) {
+            if (elementToAdd !== '') {
+                animals.push(elementToAdd);
+                console.log(this);
+            }
+
+        };
+
+        const displayList = function () {
+            console.log(animals);
+
+        };
+
+        const init = function () {
+            displayList();
+            console.log(this);
+        };
+
+        return {
+            init: init,
+            addNewAnimal: addNewAnimal;
+        }
+    })();
+</script>
+</body>
+</html>
