@@ -22,12 +22,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsModule.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JsModule.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JsModule.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-              <folding />
+            <state relative-caret-position="627">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <marker date="1517585457266" expanded="true" signature="611:675" ph="{&quot;init&quot;: init...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Js80basic.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Js80basic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc;n#myFunction#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,9 +61,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -100,6 +114,7 @@
         <option value="$PROJECT_DIR$/JsClasses.css" />
         <option value="$PROJECT_DIR$/JsClasses.html" />
         <option value="$PROJECT_DIR$/JsModule.html" />
+        <option value="$PROJECT_DIR$/Js80basic.js" />
       </list>
     </option>
   </component>
@@ -399,13 +414,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/domExercises.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2475">
-          <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basicExercises.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -700,9 +708,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JsModule.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="627">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1517585457266" expanded="true" signature="611:675" ph="{&quot;init&quot;: init...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Js80basic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#myFunction#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
