@@ -3,7 +3,7 @@ const babel = require('gulp-babel');
 const eslint = require('gulp-eslint');
 const autoprefixer = require('gulp-autoprefixer');
 
-gulp.task('default', function(){
+gulp.task('default', ['styles', 'watch'], function(){
     // Run ESLint
     gulp.src(["es6/**/*.js", "public/es6/**/*.js"])
     .pipe(eslint())
@@ -20,12 +20,16 @@ gulp.task('default', function(){
 });
 
 
+
 gulp.task('styles', function () {
-    gulp.src("es6/**/*.css", "public/es6/**/*.css")
+    gulp.src("es6/css/*.css")
     .pipe(autoprefixer())
-    .pipe(gulp.dest("public/dist"))
+    .pipe(gulp.dest("public/es6/css"))
+    console.log('Hello!');
 });
 
+//gulp.task('default', ['styles']);
+
 gulp.task('watch', function () {
-    gulp.watch("es6/**/*.css", "public/es6/**/*.css", gulp.parallel('css'));
+    gulp.watch(["es6/**/*.css", "public/es6/**/*.css"], ['styles']);
 })
