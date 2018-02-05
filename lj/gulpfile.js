@@ -28,8 +28,6 @@ gulp.task('styles', function () {
     console.log('Hello!');
 });
 
-//gulp.task('default', ['styles']);
-
 gulp.task('watch', function () {
-    gulp.watch(["es6/**/*.css", "public/es6/**/*.css"], ['styles']);
+    gulp.watch("es6/**/*.css", ['styles']);
 })
