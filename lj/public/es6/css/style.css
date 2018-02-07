@@ -32,12 +32,41 @@ header::after {
 nav {
     float: right;
 }
-
+ 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
+
+.hamburger {
+    width: 40px;
+    height: 15px;
+    border-top: 5px solid #222;
+    background: transparent;
+    position: relative;
+    margin-top: 15px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.hamburger::before, .hamburger::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top: 5px solid #222;
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+    padding-top: -30px;
+}
+
+.hamburger::after {
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
 }
 
 nav li {
@@ -54,9 +83,31 @@ li a {
     margin-right: 80px;
     text-decoration: none;
     text-transform: uppercase;
+
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
+}
+
+.elements-ctn {
+    adding: 1rem 1rem 0 1rem;
+    border: 1px solid #ddd;
+    margin: 2rem 0;
+    background: #eee;
+    width:150px;
+}
+
+
+.el-ctn {
+    background: #fff;
+    padding: 1rem;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+            box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    margin-bottom: 1rem;
+    width: 100px;
+    float: left;
+    margin-right:10px;
+    display: block;
 }
