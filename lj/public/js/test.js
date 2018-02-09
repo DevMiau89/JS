@@ -1,16 +1,24 @@
-
-console.log('Hello World');
 const hamburgerElements = ['Pricing', 'Q/A', 'Info', 'Partnership'];
 
-const button = document.querySelector('button');
+const button = document.querySelector('#myButton');
+const container = document.querySelector('.user-list');
 
-button.addEventListener('click', function () {
-    hamburgerElements.forEach(function (element) {
-        const html = `<div class="user-cnt">
-            <span class="user-name">${element}</span>
-        </div>`;
-         const list = document.querySelector('ul');
-         const span = document.createElement('span');
-         list.appendChild(span);
-        });
- });
+function addUsers() {
+    hamburgerElements.forEach(function (element, i) {
+       const div = document.createElement('div');
+       const a = document.createElement('a');
+       div.classList.add('user-cnt');
+       a.classList.add('link-name');
+       a.innerHTML = `${element}`;
+       a.href = '#';
+       div.appendChild(a);
+
+       const $cnt = $(div).hide();
+       container.appendChild(div);
+       $cnt.delay(400*i).slideDown();
+
+    });
+}
+
+button.addEventListener('click', addUsers);
+
