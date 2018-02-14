@@ -48,3 +48,10 @@ console.log(typeof(sayHi));
 console.log(typeof(sayHiToMe));
 console.log(typeof(sayHiToMeUsing));
 
+function add(n, total=0){
+  total += n;
+  sum = m => add(m, total);
+  sum.valueOf = () => total;
+  return sum;
+}
+console.log(add(6)(6));
