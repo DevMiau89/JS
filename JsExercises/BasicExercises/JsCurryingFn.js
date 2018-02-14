@@ -55,3 +55,5 @@ function add(n, total=0){
   return sum;
 }
 console.log(add(6)(6));
+
+
