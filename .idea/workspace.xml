@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534ffbed-c5d2-4d3f-8f72-5cd2fd42b6ac" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JsExercises/JsDecomposition.js" afterPath="$PROJECT_DIR$/JsExercises/BasicExercises/JsDecomposition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsTests/karma.conf.js" afterPath="$PROJECT_DIR$/JsTests/karma.conf.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsCamelCase.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="33">
-              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc;n#camelCase#0" expanded="false" />
               </folding>
@@ -699,7 +699,7 @@
     <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsCamelCase.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc;n#camelCase#0" expanded="false" />
           </folding>
