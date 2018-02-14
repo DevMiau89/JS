@@ -31,13 +31,11 @@ function decompose(n) {
         let sum = 0, result = [];
         for (let j = i; j > 0; j--) {
             if (sum + j * j <= square) {
-                console.log(result.unshift(j));
-                console.log(sum += j * j);
+                result.unshift(j);
+                sum += j * j;
             }
             if (sum === square) return result;
         }
     }
     return null;
 }
-
-
