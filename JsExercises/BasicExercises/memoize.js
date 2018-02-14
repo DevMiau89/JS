@@ -33,4 +33,4 @@ var maxSequence = function(array){
   }
 
   return max_so_far;
-}
+};
