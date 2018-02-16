@@ -21,3 +21,17 @@ function pigIt(str){
   }
   return result.join(' ');
 }
+
+function getCount(str) {
+  var vowelsCount = 0;  
+  // enter your majic here  
+  str.split('').forEach((el) => (el === 'a') || (el === 'e') || (el === 'i') || (el === 'o') || (el === 'u') ? vowelsCount++ : vowelsCount);
+  return vowelsCount;
+}
+
+function removeSmallest(numbers) { 
+  let min = Math.min.apply( null, numbers);
+  numbers.splice(numbers.indexOf(min),1);
+  return numbers;
+  
+}
