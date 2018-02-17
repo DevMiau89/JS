@@ -31,3 +31,12 @@ describe("test4", function(){
         expect(removeSmallest([2, 2, 1, 2, 1])).toEqual([2, 2, 2, 1]);
     })
 })
+
+describe("test3", function(){
+    it("should return absolute", function(){
+        expect(sumDigits(10)).toEqual(1);
+    })
+    it("should return absolute", function(){
+        expect(sumDigits(99)).toEqual(18);
+    })
+})

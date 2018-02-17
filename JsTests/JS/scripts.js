@@ -35,3 +35,7 @@ function removeSmallest(numbers) {
   return numbers;
   
 }
+
+function sumDigits(number) {   
+   return number.toString().split('').filter(el => el != '-').reduce((a,b) => (Number(a) + Number(b)), 0);
+}
