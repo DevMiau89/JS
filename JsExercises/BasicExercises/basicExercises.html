@@ -46,7 +46,7 @@
         <li>Element listy numer 09</li>
         <li class="last">Element listy numer 10</li>
     </ul>
-
+    <button></button>
     <script>
         //----------------------------------
         //tutaj pisz skrypty
@@ -84,6 +84,11 @@
 
         li[2].innerText = "Jestem czerwonym elementem";
 
+
+        const button = document.getElementsByTagName('button')[0];
+        button.classList.add('btn-important');
+        button.setAttribute('type' , 'Click');
+        button.innerHTML = 'Click me';
 
     </script>
     <script src='JsCurryingFn.js'></script>

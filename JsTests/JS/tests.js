@@ -40,3 +40,16 @@ describe("test3", function(){
         expect(sumDigits(99)).toEqual(18);
     })
 })
+
+describe("Move Zeros", function(){
+    it("should move zeros to the end", function(){
+        expect(moveZeros([1,2,0,1,0,1,0,3,0,1])).toEqual([ 1, 2, 1, 1, 3, 1, 0, 0, 0, 0 ]);
+    })
+})
+
+describe("Jaden Case", function(){
+    it("All first letters to upper", function(){
+        var str = "How can mirrors be real if our eyes aren't real"
+        expect(str.toJadenCase()).toEqual("How Can Mirrors Be Real If Our Eyes Aren't Real");
+    })
+})

@@ -39,3 +39,24 @@ function removeSmallest(numbers) {
 function sumDigits(number) {   
    return number.toString().split('').filter(el => el != '-').reduce((a,b) => (Number(a) + Number(b)), 0);
 }
+
+var moveZeros = function (arr) {
+  // TODO: Program me
+  zerosArr = [];
+  restArr = [];
+  for(let i=0; i<arr.length; i++){
+    if(arr[i] === 0){
+      zerosArr.push(arr[i])
+    }else(
+      restArr.push(arr[i])
+    )
+  }
+  console.log(zerosArr);
+  console.log(restArr);
+  return restArr.concat(zerosArr);
+  
+}
+
+String.prototype.toJadenCase = function () {
+   return this.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+};
