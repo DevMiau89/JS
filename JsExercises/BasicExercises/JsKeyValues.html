@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Key and Value Pairs</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" id="txtName"/></td>
+        </tr>
+         <tr>
+            <td>Email</td>
+            <td><input type="text" id="txtEmail"/></td>
+        </tr>
+         <tr>
+            <td>Gender</td>
+            <td><input type="text" id="txtGender"/></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" id="setCookie" value="Set Cookie"/>
+                <input type="button" id="getCookie" value="Get Cookie"/>
+                <input type="button" id="clear" value="Clear"/>
+            </td>
+        </tr>
+    </table>
+    <script>
+        const setCookie = document.querySelector('#setCookie');
+        const getCookie = document.querySelector('#getCookie');
+        const clearTxtBoxes = document.querySelector('#clear');
+
+        setCookie.addEventListener('click', function () {
+            const customObject = {};
+            customObject.name = document.querySelector("#txtName").value;
+            customObject.email = document.querySelector("#txtEmail").value;
+            customObject.gender = document.querySelector("#txtGender").value;
+
+            const jsonString = JSON.stringify(customObject);
+            document.cookie = "cookieObject=" + jsonString;
+        });
+
+        getCookie.addEventListener('click', function () {
+            const nameValueArray = document.cookie.split("=");
+            const customObject = JSON.parse(nameValueArray[1]);
+
+            document.querySelector("#txtName").value = customObject.name;
+            document.querySelector("#txtEmail").value = customObject.email;
+            document.querySelector("#txtGender").value = customObject.gender;
+
+            alert(document.querySelector("#txtName").value + ' ' + document.querySelector("#txtEmail").value + ' ' + document.querySelector("#txtGender").value);
+
+        });
+
+        clearTxtBoxes.addEventListener('click', function () {
+           document.querySelector('#txtName').value = "";
+           document.querySelector('#txtEmail').value = "";
+           document.querySelector('#txtGender').value = "";
+        });
+    </script>
+</body>
+</html>
