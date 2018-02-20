@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get and Set a Cookie</title>
+</head>
+<body>
+    <input type="button" id="setCookie" value="Set Cookie"/>
+    <input type="button" id="getCookie" value="Get Cookie"/>
+
+    <script>
+        const buttonSetCookie = document.querySelector('#setCookie');
+        const buttonGetCookie = document.querySelector('#getCookie');
+
+        buttonSetCookie.addEventListener('click', function () {
+            document.cookie = 'color=red;max-age='+(60+60+24+30)+";+path=/"
+        });
+
+        buttonGetCookie.addEventListener('click', function () {
+            if(document.cookie.length != 0){
+                let nameValueArray = document.cookie.split('=');
+                alert("Name = " + nameValueArray[0] + " Value = " + nameValueArray[1]);
+            }else{
+                alert("Cookie not found");
+            }
+        });
+    </script>
+</body>
+</html>
