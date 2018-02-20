@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Key and Value Pairs</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" id="txtName"/></td>
+        </tr>
+         <tr>
+            <td>Email</td>
+            <td><input type="text" id="txtEmail"/></td>
+        </tr>
+         <tr>
+            <td>Gender</td>
+            <td><input type="text" id="txtGender"/></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" id="setCookie" value="Set Cookie"/>
+                <input type="button" id="getCookie" value="Get Cookie"/>
+                <input type="button" id="clear" value="Clear"/>
+            </td>
+        </tr>
+    </table>
+    <script>
+        const setCookie = document.querySelector('#setCookie');
+        const getCookie = document.querySelector('#getCookie');
+        const clearTxtBoxes = document.querySelector('#clear');
+
+        setCookie.addEventListener('click', function () {
+
+            document.cookie = "name=" + document.querySelector("#txtName").value;
+            document.cookie = "email=" + document.querySelector("#txtEmail").value;
+            document.cookie = "gender=" + document.querySelector("#txtGender").value;
+
+
+            
+        });
+
+        getCookie.addEventListener('click', function () {
+            const cookiesArray = document.cookie.split("; ");
+            if(document.cookie != 0) {
+                for (let i = 0; i < cookiesArray.length; i++) {
+                    const nameValueArray = cookiesArray[i].split("=");
+
+                    if (nameValueArray[0] == 'name') {
+                        document.querySelector('#txtName').value = nameValueArray[1];
+                    }
+                    else if (nameValueArray[0] == 'email') {
+                        document.querySelector('#txtEmail').value = nameValueArray[1];
+                    }
+                    else if (nameValueArray[0] == 'gender') {
+                        document.querySelector('#txtGender').value = nameValueArray[1];
+                    }
+                }
+            }else{
+                alert('Cookie is not found');
+            }
+
+        });
+
+        clearTxtBoxes.addEventListener('click', function () {
+           document.querySelector('#txtName').value = "";
+           document.querySelector('#txtEmail').value = "";
+           document.querySelector('#txtGender').value = "";
+        });
+    </script>
+</body>
+</html>
