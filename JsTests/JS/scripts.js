@@ -70,3 +70,32 @@ function digital_root(n) {
      
    }       
 }
+
+function solution(number){
+  let result = 0;
+  for(let i=0; i < number; i++) {
+    if(i % 3 === 0 || i % 5 == 0){
+      result += i;
+    }      
+  } 
+  return result;
+}
+
+function titleCase(title, minorWords) {
+    if(typeof minorWords === 'undefined'){
+      return title.replace(/\w\S*/g, (el) =>  el.charAt(0).toUpperCase() + el.substr(1).toLowerCase());
+    }else {
+      let result = [];
+      let articles = minorWords.split(' ').map(article => article.toLowerCase());      
+      let words = title.split(' ');
+
+      for(let i=0; i<words.length; i++){
+          if(articles.includes(words[i].toLowerCase())  && i != 0){           
+            result.push(words[i].toLowerCase());       
+          }else{
+            result.push(words[i].charAt(0).toUpperCase() + words[i].substr(1).toLowerCase()) + ',';
+          }
+        }        
+      return result.join(' ');  
+    }
+}
