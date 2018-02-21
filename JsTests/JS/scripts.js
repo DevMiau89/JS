@@ -60,3 +60,13 @@ var moveZeros = function (arr) {
 String.prototype.toJadenCase = function () {
    return this.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 };
+
+function digital_root(n) {
+  // ...  
+   if(n.toString().length === 1){
+     return n;     
+   } else {
+     return digital_root(n.toString().split('').reduce((a,b) => Number(a) + Number(b)));
+     
+   }       
+}

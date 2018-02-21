@@ -53,3 +53,8 @@ describe("Jaden Case", function(){
         expect(str.toJadenCase()).toEqual("How Can Mirrors Be Real If Our Eyes Aren't Real");
     })
 })
+describe("Digital Root", function(){
+    it("Should return recursive function", function(){
+        expect(digital_root(16)).toEqual(7);
+    })
+})
