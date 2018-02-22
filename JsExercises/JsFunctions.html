@@ -63,11 +63,39 @@
             }else{
                 return `${name} uczy się JS`;
             }
+        }
+        console.log(printActions('Ala', 'uczy'));
 
+        function sortString(str) {
+            const arr = str.split('|');
+            const sortedArr = arr.sort();
+            return sortedArr.join('|');
+        }
+        console.log(sortString("Ania|Marcin|Bartek|Piotr|Kuba|Beata|Agnieszka"));
 
+        function minNumber(){
+            let tab = [];
+            for(let i=0; i<10;i++){
+                tab.push(Math.random());
+            }
+
+            //Math.min(...tab);
+            tab.sort((a,b) => a > b ? 1: -1);
+            return tab[0];
+        }
+        console.log(minNumber());
+
+        function upperFirstLetter(tab){
+            let result = [];
+            for(let i =0; i < tab.length; i++){
+                result.push(tab[i].slice(0,1).toUpperCase() + tab[i].substring(1));
+            }
+            return result;
         }
 
-        console.log(printActions('Ala', 'uczy'));
+        console.log(upperFirstLetter( ["ania" , "marcin" , "bartek" , "piotr"]));
+
+
     </script>
 </body>
 </html>
