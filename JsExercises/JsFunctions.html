@@ -95,7 +95,22 @@
 
         console.log(upperFirstLetter( ["ania" , "marcin" , "bartek" , "piotr"]));
 
+        function duplicate(str, n){
+            if(typeof str === 'string' && typeof n === 'number'){
+                return str.repeat(n);
+            }
+        }
+        console.log(duplicate('kot', 2));
 
+        function counter() {
+            let a = 0;
+            return function() {
+                return a++;
+            }
+        }
+        const count = counter();
+        console.log(count());
+        console.log(count());
     </script>
 </body>
 </html>
