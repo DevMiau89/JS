@@ -36,6 +36,38 @@
         }
 
         console.log(mix("Ala ma kota"));
+
+        function multiply(a, b){
+            if (typeof a === "number" && typeof b === "number"){
+                return a * b;
+            }else{
+                return false;
+            }
+        }
+
+        console.log(multiply(3, 2)); //6
+        console.log(multiply("Ala", 2)); //false
+
+        function printActions(name, month){
+            if(month === 'grudzien' || month === 'styczen' || month === 'luty'){
+                return `${name} jezdzi na sankach`;
+            }
+            else if(month === 'marzec' || month === 'kwiecien' || month === 'maj') {
+                return `${name} chodzi po kałuzach`;
+            }
+            else if(month === 'czerwiec' || month === 'lipiec' || month === 'sierpien') {
+                return `${name} się opala`;
+            }
+            else if(month === 'wrzesien' || month === 'pazdziernik' || month === 'listopad'){
+                return `${name} zbiera liscie`;
+            }else{
+                return `${name} uczy się JS`;
+            }
+
+
+        }
+
+        console.log(printActions('Ala', 'uczy'));
     </script>
 </body>
 </html>
