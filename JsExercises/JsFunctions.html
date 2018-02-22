@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Js Functions</title>
+</head>
+<body>
+    <script>
+        var result = (function(str) {
+            return 'Number of letters is ' + str.length;
+        })('Hello World');
+
+        console.log(result);
+
+        (function sumArr(tab) {
+            let sum = tab.reduce((a,b) => a + b);
+            console.log(sum);
+            return sum;
+        })([5, 3, 2, 1]);
+
+        function mix(str) {
+            let result = [];
+            let arr = str.split('');
+            for(let i =0; i < arr.length; i++){
+                if (i % 2 === 0) {
+                    result.push(arr[i].toUpperCase());
+                }
+                else if(i%5===0){
+                    result.push(arr[i].toUpperCase());
+                }
+                else{
+                    result.push(arr[i].toLowerCase());
+                }
+            }
+            return result.join('');
+        }
+
+        console.log(mix("Ala ma kota"));
+    </script>
+</body>
+</html>
