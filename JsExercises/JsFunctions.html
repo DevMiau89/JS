@@ -104,9 +104,10 @@
 
         function counter() {
             let a = 0;
-            return function() {
+            function add() {
                 return a++;
             }
+            return add;
         }
         const count = counter();
         console.log(count());
