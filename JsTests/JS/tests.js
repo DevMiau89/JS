@@ -71,3 +71,10 @@ describe("Title Case", function(){
         expect(titleCase('a clash of KINGS', 'a an the of')).toEqual('A Clash of Kings');
     })
 })
+
+
+describe("Bad Apples", function(){
+    it("Multiples of passed number", function(){
+        expect(badApples([[1,3],[7,6],[7,2],[1,3],[0,1],[4,5],[0,3],[7,6]])).toEqual([[1,3],[7,6],[7,2],[1,3],[1,3],[4,5],[7,6]]);
+    })
+})

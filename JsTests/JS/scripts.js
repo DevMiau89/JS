@@ -99,3 +99,39 @@ function titleCase(title, minorWords) {
       return result.join(' ');  
     }
 }
+
+function badApples(input) {
+  let result = [];
+  let index = 0;
+  let counter = 0;
+  for(let i=0; i<input.length;i++){
+      
+      if(input[i][0] !== 0 && input[i][1] !== 0){
+        console.log("No zero = " + input[i]);
+        result.push(input[i]);     
+      }
+      else if(input[i][0] == 0 && input[i][1] == 0){console.log("Both zero = " + input[i]);}
+      else if(input[i][0] == 0 || input[i][1] == 0) {
+        let noZerosNum = input[i].filter(num => num !== 0);
+        console.log("One zero = " + input[i]);
+        console.log(noZerosNum);
+        if(counter % 2 == 0){
+            result.push(noZerosNum);
+            index = result.length-1;
+        }else {
+          let t = result[index].concat(noZerosNum); 
+          result[index] = t;
+        }    
+        counter++;
+      }
+    
+
+  }
+  
+  for(let i=0; i<result.length;i++){
+    if(result[i].length === 1){
+      result.splice(i, 1);    
+    }
+  }
+  return result;
+}
