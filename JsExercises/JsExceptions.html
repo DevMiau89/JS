@@ -1,10 +1,32 @@
 <!DOCTYPE html>
+<!--suppress ALL -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Exceptions</title>
 </head>
 <body>
-$END$
+    <script>
+        try{
+            function hello () {return true;}
+            for (let i=0; i< 4; i++){
+                if(i == 2){
+                    break;
+                }
+            }
+            document.write(Hello() + "<br/>");
+
+        }
+        catch(e){
+            document.write("Message = " + e.message + '<br/>');
+            document.write("Description = " + e.description + '<br/>');
+            document.write("Stack trace = " + e.stack + '<br/>');
+        }
+        finally {
+            document.write('This line will always be executed');
+
+        }
+
+    </script>
 </body>
 </html>
