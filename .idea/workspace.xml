@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="534ffbed-c5d2-4d3f-8f72-5cd2fd42b6ac" name="Default" comment="" />
+    <list default="true" id="534ffbed-c5d2-4d3f-8f72-5cd2fd42b6ac" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsTests/JS/scripts.js" afterPath="$PROJECT_DIR$/JsTests/JS/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsTests/JS/tests.js" afterPath="$PROJECT_DIR$/JsTests/JS/tests.js" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

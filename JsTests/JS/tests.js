@@ -74,7 +74,13 @@ describe("Title Case", function(){
 
 
 describe("Bad Apples", function(){
-    it("Multiples of passed number", function(){
+    it("Zeros remove", function(){
         expect(badApples([[1,3],[7,6],[7,2],[1,3],[0,1],[4,5],[0,3],[7,6]])).toEqual([[1,3],[7,6],[7,2],[1,3],[1,3],[4,5],[7,6]]);
+    })
+})
+
+describe("Words To Marks", function(){
+    it("Alphabet calculator", function(){
+        expect(wordsToMarks("attitude")).toEqual(100);
     })
 })

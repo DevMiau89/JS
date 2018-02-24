@@ -135,3 +135,10 @@ function badApples(input) {
   }
   return result;
 }
+
+function wordsToMarks(string){
+  let alphabet = 'abcdefghijklmnopqrstuvwxyz'.split(''); 
+  return string.split('').map(char => alphabet.indexOf(char) + 1)
+        .reduce((a,b) => a+b);
+ 
+}
