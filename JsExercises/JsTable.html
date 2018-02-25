@@ -39,6 +39,16 @@
                 });
         });
 
+        function Square(side) {
+            this.side = side;
+            this.area = calcArea;
+            function calcArea() {
+                return this.side * this.side;
+            }
+        }
+
+        const sq = new Square(5);
+        console.log(sq.area());
 
     </script>
 </body>
