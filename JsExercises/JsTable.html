@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Item</td>
+            <td>Input</td>
+            <td>Current</td>
+        </tr>
+        <tr>
+             <td>First Name</td>
+             <td>
+                 <input type="text"/>
+             </td>
+             <td></td>
+        </tr>
+        <tr>
+             <td>Last Name</td>
+             <td>
+                 <input type="text"/>
+             </td>
+             <td></td>
+        </tr>
+    </table>
+    <script>
+        $(document).ready(function () {
+            $('table td:nth-child(2) input').focus(
+                function () {
+                    $(this).parent().next().css("background-color", "#00FF00");
+                });
+             $('table td:nth-child(2) input').blur(
+                function () {
+                    $(this).parent().next().css("background-color", "#FFFFFF");
+                });
+        });
+
+
+    </script>
+</body>
+</html>
