@@ -17,9 +17,7 @@ function solve(arr){
     let num = arr[i];
     counts[num] = counts[num] ? counts[num] + 1 : 1;    
   }
-  
-   console.log(counts);
-  
+   
   for(let num in counts){
       result.push((num.toString()).repeat(counts[num]));
   }
@@ -35,11 +33,32 @@ function solve(arr){
   });
   
   res.forEach(function(el){
-    console.log("El is - " + el);
     let temp = el.split('').map(a => Number(a));
-    console.log("Temp is - " + temp);
     output = output.concat(temp);
   });
   
   return output;
  }
+
+const matrixfy = str => {
+  // code here
+
+  let result = [];
+  let arr = str.split('');
+  console.log(arr);
+  let matrixCount = 0;
+  
+  for(let i=0; matrixCount < arr.length; i++){
+    matrixCount = i * i;
+    }
+  let dots = matrixCount - arr.length;
+  for(let i=0; i<dots; i++){
+      arr.push('.');      
+  }
+  let matrixDimension = Math.sqrt(matrixCount);
+  for(let i=0; i < matrixCount; i+=matrixDimension){
+      result.push(arr.slice(i,i+matrixDimension));    
+  }
+  if(result.length == 0){return 'name must be at least one letter'}
+  return result;
+};
