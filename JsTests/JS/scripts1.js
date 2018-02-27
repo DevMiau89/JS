@@ -62,3 +62,12 @@ const matrixfy = str => {
   if(result.length == 0){return 'name must be at least one letter'}
   return result;
 };
+
+function testit(s){
+  if(s.length ==1){
+    return s
+  }else{
+    return s.substr(0,s.length/2);  
+  }
+  return s;
+}
