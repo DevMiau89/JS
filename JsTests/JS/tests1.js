@@ -15,3 +15,9 @@ describe("matrixfy", function(){
         expect(matrixfy('Franklin')).toEqual([['F', 'r', 'a'], ['n', 'k', 'l'], ['i', 'n', '.']]);
     })
 })
+
+describe("validate", function(){
+    it("should return true or false", function(){
+        expect(testit("a")).toEqual(f'\'a\'');
+    })
+})
