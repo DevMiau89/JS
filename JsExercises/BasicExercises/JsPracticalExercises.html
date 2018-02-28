@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <noscript>
+        <style>
+            .hide {
+                display: none;
+            }
+        </style>
+        <h2>You have disabled js</h2>
+    </noscript>
+
+    <pre class="hide">
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                document.write('<p>' +'<font  size="5">'+'Welcome to our website'+'</font>'+ '</p>' + '<br>');
+                document.write('<p>' + 'Welcome' + '</p>');document.write('<p>' + 'to our website \f' + '</p>');
+
+                document.write('<p>' +'<font  size="5">'+'Oto znak backslash \\,' + 'a to jest cytat: \'lololo\'' + '</font>'+ '</p>' + '<br>');
+                alert('Picture will show up\n Click Ok');
+                document.write('<img src="helga.jpg">');
+
+                var a = 5;
+                a = "Hello World. Hi " + a;
+
+                document.write('<h3>' + a + '</h3>');
+
+                let answer = prompt('Please enter your name');
+                document.write(answer);
+            });
+        </script>
+    </pre>
+</body>
+</html>
