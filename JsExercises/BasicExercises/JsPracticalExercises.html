@@ -24,29 +24,56 @@
                 alert('Picture will show up\n Click Ok');
                 document.write('<img src="helga.jpg">');
 
-                var a = 5;
-                a = "Hello World. Hi " + a;
-
-                document.write('<h3>' + a + '</h3>');
-
-                let name = prompt('Please enter your name');
-                document.write(`Hello ${name}`);
+//                var a = 5;
+//                a = "Hello World. Hi " + a;
+//
+//                document.write('<h3>' + a + '</h3>');
+//
+//                let name = prompt('Please enter your name');
+//                document.write(`Hello ${name}`);
 //                document.write(prompt('Please enter your name', ''));
-                var x = 12;
-                var y;
-                /*1*/document.write (--x);
-                /*2*/document.write (" ");
-                /*3*/document.write (x--);
-                /*4*/document.write (" ");
-                /*5*/document.write (x);
-                /*6*/document.write (" ");
-                /*7*/y = x--;
-                /*8*/document.write (y);
-                /*9*/document.write (" ");
-                /*10*/y = --x;
-                /*11*/document.write (y);
+//                var x = 12;
+//                var y;
+//                /*1*/document.write (--x);
+//                /*2*/document.write (" ");
+//                /*3*/document.write (x--);
+//                /*4*/document.write (" ");
+//                /*5*/document.write (x);
+//                /*6*/document.write (" ");
+//                /*7*/y = x--;
+//                /*8*/document.write (y);
+//                /*9*/document.write (" ");
+//                /*10*/y = --x;
+//                /*11*/document.write (y);
 
-                
+                let uName = prompt('Please enter your name');
+                if(uName === '' || uName === null){
+                    document.write(`You didn't enter any value`);
+                }else{
+                    document.write(`Hello ${uName}`);
+                }
+
+                console.log('Hello World ' + 100);
+                var zmienna1 = 12;
+                var zmienna2 = 5;
+                console.log(zmienna1 + " " + (zmienna2 + 4) + " " );
+
+                function recursive(x){
+                    if(x == 0){
+                        return 1
+                    }else{
+                        return x * recursive(x - 1)
+                    }
+
+                }
+
+                console.log(recursive(5));
+
+//                function a (i){
+//                    console.log(i++ + " ");
+//                    return a(i);
+//                }
+//                console.log(a())
             });
         </script>
     </pre>
