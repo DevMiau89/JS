@@ -3,7 +3,7 @@
  */
 let addressObj = {
     'address': {
-        'street' : 'Main Street',
+        'street': 'Main Street',
         'homeNumber': '2A',
         'postalCode': '64-920',
         'city': 'JS',
@@ -11,12 +11,13 @@ let addressObj = {
             return this.street + ' ' + this.homeNumber + ' ' + this.postalCode;
         },
         'isFromState': function (city) {
-            if(city == this.city){
-                return true
-            }else{
-                return false;
+            if (city == this.city) {
+                return true;
             }
-        }
+            return false;
+
+
+        },
     },
 
     'fnAddress': function () {
