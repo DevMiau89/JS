@@ -55,13 +55,58 @@
 
         console.log(today);
 
-        const today1 = new Date().toLocaleDateString(undefined, {
+        const today1 = new Date().toLocaleDateString('en-US', {
             day: '2-digit',
             month: '2-digit',
             year: '2-digit'
         });
 
         console.log(today1);
+
+        //Set up date 20 days ahead
+        const tt = new Date();
+        console.log(tt.setDate(tt.getDate() + 20));
+        const newDate = tt.toLocaleString();
+
+        console.log('NEW ' + newDate);
+
+        //Finding the Number of Days Between Two Dates
+        const dateFromAPI = "2016-02-10T00:00:00Z";
+        const now = new Date();
+        const nowMs = now.getTime();
+
+        const datefromAPITimeStamp = new Date(dateFromAPI).getTime();
+        const milisecDiffernce = Math.abs(datefromAPITimeStamp - nowMs);
+
+        console.log('Difference:' + milisecDiffernce);
+
+        const toDate = Math.floor(milisecDiffernce/(1000 * 60 *60 *24));
+        console.log(toDate);
+
+        //User Birth Date
+        var birthDateFromAPI = "12/10/1989";
+        const userDate = birthDateFromAPI.split('/');
+
+        const x = new Date();
+        const nowYear = x.getFullYear();
+        const nMonth = x.getMonth()+1;
+        let userAge = nowYear - userDate[2];
+
+        console.log('hhh '+ userAge);
+
+        if(nMonth < userDate[1]){
+            userAge--;
+            console.log(userAge);
+        }else{
+            console.log(userAge);
+        }
+
+        if(nMonth == userDate[1] && x.getDate() < userDate[0]){
+            userAge--;
+            console.log(userAge);
+        }
+
+
 
 
     </script>
