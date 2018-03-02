@@ -19,9 +19,51 @@
         document.write(date.getMinutes()+ '<br>');
         document.write(date.getSeconds()+ '<br>');
 
-        let dateString = date.getDate() + '-' + (date.getMonth()+1) + date.getFullYear();
+        function pad(d) {
+            return d < 10 ? "0" + d : d;
+        }
+
+        let dateString = pad(date.getDate()) + '-' + pad((date.getMonth()+1)) + '-' + date.getFullYear();
         console.log(dateString);
-       
+
+        //Parsing Date
+        const date1 = new Date("Wed, 27 Jul 2017 13:30:00");
+        const date2 = new Date("Wed, 27 Jul 2017 07:45:00 GMT");
+        const date3 = new Date("27 Jul 2017 13:30:00 GMT+05:45");
+
+        const date4 = new Date(2017, 6, 27, 13, 30, 0);
+        const date5 = new Date("2016-07-27T07:45:00Z").getTime();
+
+        function getMonth(month){
+            var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+            return monthNames[month];
+        }
+
+        let dateString2 = pad(date.getDate()) + ' ' + getMonth((date.getMonth()+1)) + ' ' + date.getFullYear();
+        console.log(dateString2);
+        console.log(date1);
+        console.log(date2);
+        console.log(date3);
+        console.log(date4);
+        console.log(date5);
+
+        const today = new Date().toLocaleDateString('en-GB', {
+            day : 'numeric',
+            month : 'short',
+            year : 'numeric'
+        });
+
+        console.log(today);
+
+        const today1 = new Date().toLocaleDateString(undefined, {
+            day: '2-digit',
+            month: '2-digit',
+            year: '2-digit'
+        });
+
+        console.log(today1);
+
+
     </script>
 </body>
 </html>
