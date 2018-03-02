@@ -43,8 +43,8 @@
       <file leaf-file-name="JsNestedAdressObj.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JsExercises/JsNestedAdressObj.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="1386">
+              <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
@@ -90,7 +90,6 @@
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/index.html" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsCallback.js" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/basicExercises.html" />
-        <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsInterviewQuestion.html" />
         <option value="$PROJECT_DIR$/JsExercises/JsDropdown.html" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsGetSetCookie.html" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsKeyValues.html" />
@@ -99,6 +98,7 @@
         <option value="$PROJECT_DIR$/JsExercises/JsExceptions.html" />
         <option value="$PROJECT_DIR$/JsExercises/JsTable.html" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsPracticalExercises.html" />
+        <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsInterviewQuestion.html" />
         <option value="$PROJECT_DIR$/JsExercises/JsNestedAdressObj.js" />
       </list>
     </option>
@@ -115,9 +115,10 @@
     <handled-path value="$PROJECT_DIR$/lj/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="width" value="3078" />
-    <option name="height" value="1922" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="3862" />
+    <option name="height" value="2122" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -157,25 +158,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsExercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JsExercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BasicExercises" />
+              <option name="myItemId" value="Js30daysProjects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -210,10 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.JsPracticalExercises.html">
-    <configuration default="false" name="JsMultipleCookies.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises/BasicExercises/JsMultipleCookies.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.JsInterviewQuestion.html">
     <configuration default="false" name="JsFunctions.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises/JsFunctions.html">
       <method />
     </configuration>
@@ -224,6 +204,9 @@
       <method />
     </configuration>
     <configuration default="false" name="JsPracticalExercises.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises/BasicExercises/JsPracticalExercises.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="JsInterviewQuestion.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises/BasicExercises/JsInterviewQuestion.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -409,19 +392,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsMultipleCookies.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsFunctions.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsExceptions.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsTable.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsPracticalExercises.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsFunctions.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsExceptions.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsTable.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsPracticalExercises.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsInterviewQuestion.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsPracticalExercises.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsTable.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsExceptions.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsFunctions.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsMultipleCookies.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsInterviewQuestion.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsPracticalExercises.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsTable.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsExceptions.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsFunctions.html" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -467,10 +450,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="0" width="3078" height="1922" extended-state="0" />
+    <frame x="-11" y="-11" width="3862" height="2122" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38144675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30212203" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -504,20 +487,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsDecomposition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1353">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/basicExercises.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2805">
-          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsCamelCase.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
@@ -603,13 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-396">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Js30daysProjects/JsClock/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="48" column="6" lean-forward="true" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -704,13 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsCallback.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/30CssSelectors.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -722,13 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2937">
           <caret line="89" column="33" lean-forward="false" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsInterviewQuestion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -789,10 +737,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsTemplateStrings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1419">
+          <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Js30daysProjects/JsClock/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsInterviewQuestion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/Js80basic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsCallback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises/JsNestedAdressObj.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="1386">
+          <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
