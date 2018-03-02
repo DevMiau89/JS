@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Date Object</title>
+</head>
+<body>
+    <script>
+        const date = new Date();
+        document.write(date);
+
+        document.write(date.getTime() + '<br>');
+        document.write(date.getDate()+ '<br>');
+        document.write(date.getDay()+ '<br>');
+        document.write(date.getMonth()+ '<br>');
+        document.write(date.getFullYear()+ '<br>');
+        document.write(date.getYear()+ '<br>');
+        document.write(date.getHours()+ '<br>');
+        document.write(date.getMinutes()+ '<br>');
+        document.write(date.getSeconds()+ '<br>');
+
+        let dateString = date.getDate() + '-' + (date.getMonth()+1) + date.getFullYear();
+        console.log(dateString);
+       
+    </script>
+</body>
+</html>
