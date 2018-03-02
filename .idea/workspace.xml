@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534ffbed-c5d2-4d3f-8f72-5cd2fd42b6ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises/BasicExercises/JsPracticalExercises.html" afterPath="$PROJECT_DIR$/JsExercises/BasicExercises/JsPracticalExercises.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises/JsNestedAdressObj.js" afterPath="$PROJECT_DIR$/JsExercises/JsNestedAdressObj.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,21 +29,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="JsPracticalExercises.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JsPracticalExercises.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsPracticalExercises.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1341">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="1650">
+              <caret line="77" column="17" lean-forward="true" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsNestedAdressObj.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JsNestedAdressObj.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JsExercises/JsNestedAdressObj.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
-              <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+            <state relative-caret-position="1419">
+              <caret line="110" column="19" lean-forward="true" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -115,9 +115,9 @@
         <option value="$PROJECT_DIR$/JsExercises/JsExceptions.html" />
         <option value="$PROJECT_DIR$/JsExercises/JsTable.html" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsInterviewQuestion.html" />
-        <option value="$PROJECT_DIR$/JsExercises/JsNestedAdressObj.js" />
         <option value="$PROJECT_DIR$/JsExercises/JsDates.html" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsPracticalExercises.html" />
+        <option value="$PROJECT_DIR$/JsExercises/JsNestedAdressObj.js" />
       </list>
     </option>
   </component>
@@ -780,26 +780,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JsExercises/JsNestedAdressObj.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises/JsFunctions.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2409">
           <caret line="73" column="70" lean-forward="false" selection-start-line="73" selection-start-column="70" selection-end-line="73" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JsExercises/JsDates.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1308">
-          <caret line="103" column="47" lean-forward="false" selection-start-line="103" selection-start-column="47" selection-end-line="103" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -814,8 +798,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsPracticalExercises.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1341">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="1650">
+          <caret line="77" column="17" lean-forward="true" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises/JsDates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1308">
+          <caret line="103" column="47" lean-forward="false" selection-start-line="103" selection-start-column="47" selection-end-line="103" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises/JsNestedAdressObj.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1419">
+          <caret line="110" column="19" lean-forward="true" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
           <folding />
         </state>
       </provider>

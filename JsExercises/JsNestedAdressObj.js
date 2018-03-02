@@ -51,7 +51,7 @@ function DynamicProtoPattern(name, age, city) {
 
     if(typeof this.printPerson !== 'function'){
         DynamicProtoPattern.prototype.printPerson = function () {
-        console.log(this.city + " " + this.name + " " + this.age);
+            console.log(this.city + " " + this.name + " " + this.age);
         }
     }
 }
@@ -91,4 +91,28 @@ function ObjPattern(name, surname, age, city){
 var pattern = ObjPattern("DevMiau", "Koci", 23, "Kotowo");
 console.log(pattern);
 
+const MyObj = function () {
+    this.data = null;
+};
 
+MyObj.prototype.name = "Marcin";
+MyObj.prototype.print = function () {
+    console.log(this.name);
+};
+
+const ob = new MyObj();
+ob.data = {
+     "2015-10-10" : { name: "City Tour", where: "Barcelona"},
+    "2015-11-10" : { name: "Mall shopping", where: "Mall"},
+    "2015-12-09" : { name: "Things at school", where: "School"}
+};
+
+for(var i in ob){
+    console.log(i);
+}
+
+for(var i in ob){
+    if(ob.hasOwnProperty(i)){
+        console.log(ob[i]);
+    }
+}
