@@ -18,13 +18,11 @@ var library = [
         readingStatus: false
     }];
 
-for (var i = 0; i < library.length; i++)
-   {
+for (var i = 0; i < library.length; i++){
     var book = "'" + library[i].title + "'" + ' by ' + library[i].author + ".";
-    if (library[i].readingStatus) {
+    if (library[i].readingStatus){
       console.log("Already read " + book);
-    } else
-    {
+    }else{
      console.log("You still need to read " + book);
     }
-   }
+}
