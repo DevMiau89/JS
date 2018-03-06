@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534ffbed-c5d2-4d3f-8f72-5cd2fd42b6ac" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsExercises/JsMathFunc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises/ex.js" afterPath="$PROJECT_DIR$/JsExercises/ex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsTests/JS/tests1.js" afterPath="$PROJECT_DIR$/JsTests/JS/tests1.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,14 +74,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ex.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JsExercises/ex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="53" column="2" lean-forward="true" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#43#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsMathFunc.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JsExercises/JsMathFunc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,6 +155,7 @@
         <option value="$PROJECT_DIR$/JsExercises/objEx.js" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsInterviewQuestion.html" />
         <option value="$PROJECT_DIR$/JsExercises/ex.js" />
+        <option value="$PROJECT_DIR$/JsExercises/JsMathFunc.js" />
       </list>
     </option>
   </component>
@@ -553,13 +565,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/cakes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Js30daysProjects/CssVariables/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
@@ -847,11 +852,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises/ex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="53" column="2" lean-forward="true" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises/JsMathFunc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

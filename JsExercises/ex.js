@@ -62,6 +62,5 @@ function fn(str){
         }
         str = str.slice(1);
     }
-    // output.pop();
     return output;
 }

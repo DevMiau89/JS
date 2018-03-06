@@ -16,11 +16,11 @@ describe("matrixfy", function(){
     })
 })
 
-describe("validate", function(){
-    it("should return true or false", function(){
-        expect(testit("a")).toEqual(f'\'a\'');
-    })
-})
+//describe("validate", function(){
+//    it("should return true or false", function(){
+//        expect(testit('a')).toEqual('\'a\'');
+//    })
+//})
 
 describe('betterThanAverage', function(){
     it("sholud return greather than average", function(){
