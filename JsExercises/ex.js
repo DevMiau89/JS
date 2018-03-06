@@ -44,7 +44,9 @@ String.prototype.subString = function () {
     let output = [];
     console.log(this);
     for(let i=0; i<this.length;i++){
+        console.log('i=' + i);
         for(let j=i+1; j<this.length+1;j++){
+            console.log('j=' + j);
             output.push(this.slice(i,j));
         }
     }

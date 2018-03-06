@@ -21,3 +21,15 @@ describe("validate", function(){
         expect(testit("a")).toEqual(f'\'a\'');
     })
 })
+
+describe('betterThanAverage', function(){
+    it("sholud return greather than average", function(){
+        expect(betterThanAverage([2, 3], 5)).toEqual(true);
+    });
+    it("sholud return greather than average", function(){
+        expect(betterThanAverage([100, 40, 34, 57, 29, 72, 57, 88], 75)).toEqual(true);
+    });
+    it("sholud return less than average", function(){
+        expect(betterThanAverage([12, 23, 34, 45, 56, 67, 78, 89, 90], 9)).toEqual(false);
+    })
+})
