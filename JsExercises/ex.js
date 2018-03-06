@@ -32,20 +32,33 @@ function counter(obj){
 }
 console.log(counter(student));
 
-function volumeOfCyliner(r,h){
+function volumeOfCylinder(r,h){
     let cylinder = Math.PI * (Math.pow(r,2)) * h;
     return cylinder.toFixed(4);
 }
-console.log(volumeOfCyliner(7,4));
+console.log(volumeOfCylinder(7,4));
+
+
+
+String.prototype.subString = function () {
+    let output = [];
+    console.log(this);
+    for(let i=0; i<this.length;i++){
+        for(let j=i+1; j<this.length+1;j++){
+            output.push(this.slice(i,j));
+        }
+    }
+    return output;
+};
 
 
 function fn(str){
     let output = [];
-    for(let i=0; i<str.length;i++){
-        output.push(str.slice(0,i+1));
-    }
-    for(let i=0; i<str.length;i++){
-        output.push(str.slice(-i));
+    while(str.length > 0) {
+        for (let i = 0; i < str.length; i++) {
+            output.push(str.slice(0, i + 1));
+        }
+        str = str.slice(1);
     }
     // output.pop();
     return output;
