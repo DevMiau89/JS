@@ -38,10 +38,27 @@ function createPerson() {
         getName: function () {
             return firstName;
         },
-        getSurname: function () {
+        getLastName: function () {
             return lastName;
         }
     };
     return returnObj;
+}
+
+let person = createPerson();
+person.setName('kot');
+person.setLastName('koci');
+
+person.getName();
+person.getLastName();
+
+var i;
+
+for(i=0; i < 10; i++) {
+    (function(currentValueOfI) {
+        setTimeout(function () {
+           console.log(currentValueOfI);
+        });
+    })(i);
 }
 
