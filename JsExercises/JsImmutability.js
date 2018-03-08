@@ -24,3 +24,24 @@ let newHeroesArr2 = heroes.map(h => {
     return newHero;
 });
 
+function createPerson() {
+    var firstName = 'DevMiau';
+    var lastName = 'Koci';
+
+    var returnObj = {
+        setName: function (name) {
+            firstName = name;
+        },
+        setLastName: function (surname) {
+            lastName = surname;
+        },
+        getName: function () {
+            return firstName;
+        },
+        getSurname: function () {
+            return lastName;
+        }
+    };
+    return returnObj;
+}
+
