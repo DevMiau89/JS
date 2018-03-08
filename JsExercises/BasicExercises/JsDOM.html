@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS DOM paragraph style</title>
+</head>
+<body>
+    <p id ='text'>JavaScript Exercises - w3resource</p>
+    <div>
+        <button id="jsstyle">Style</button>
+    </div>
+    <br>
+    <div>
+    <form id="form1" action="#" method="post">
+    First name: <input type="text" name="fname" value="David"><br>
+    Last name: <input type="text" name="lname" value="Beckham"><br><br>
+    <input type="submit" value="Submit">
+    </form>
+    </div>
+</body>
+    <script>
+        const button = document.querySelector('#jsstyle');
+        const paragraph = document.querySelector('#text');
+
+        const form = document.querySelector('#form1');
+
+        button.addEventListener('click', function(){
+            paragraph.style.setProperty('font-size', '30px');
+            paragraph.style.setProperty('color', 'red');
+            paragraph.style.setProperty('font-family', 'Georgia');
+        });
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const inputs = document.querySelectorAll('#form1 input[type=text]');
+            const inputArray = Array.from(inputs);
+            console.log(inputArray.map(input => input.value));
+            inputArray.forEach(function(ipt) {
+                console.log(ipt.value);
+            });
+
+            form.submit();
+
+        })
+
+    </script>
+</html>
