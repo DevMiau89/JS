@@ -6,11 +6,12 @@
 	<script>
 		function writeIt(numTimes, multiple) {
 		    function doMultiplication(val, multiple) {
-		        i = val * multiple;
+		        let i = val * multiple;
 		        return i;
 		    }
 
 		    for (let i=0; i<numTimes; i++) {
+		        console.log('var i is ' + i);
 		        document.write(doMultiplication(i, multiple) + ' ');
 		    }
 		}
