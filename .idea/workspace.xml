@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534ffbed-c5d2-4d3f-8f72-5cd2fd42b6ac" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsExercises/JsScopeBug.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises/BasicExercises/JsDOM.html" afterPath="$PROJECT_DIR$/JsExercises/BasicExercises/JsDOM.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises/BasicExercises/JsDom2.html" afterPath="$PROJECT_DIR$/JsExercises/BasicExercises/JsDom2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsValidator/src/index.html" afterPath="$PROJECT_DIR$/JsValidator/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsValidator/src/js/form.js" afterPath="$PROJECT_DIR$/JsValidator/src/js/form.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,11 +62,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="form.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JsValidator/src/js/form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state relative-caret-position="198">
+              <caret line="6" column="57" lean-forward="true" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsScopeBug.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JsExercises/JsScopeBug.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -162,6 +169,7 @@
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsDOM.html" />
         <option value="$PROJECT_DIR$/JsValidator/src/index.html" />
         <option value="$PROJECT_DIR$/JsValidator/src/js/form.js" />
+        <option value="$PROJECT_DIR$/JsExercises/JsScopeBug.html" />
       </list>
     </option>
   </component>
@@ -327,10 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration default="false" name="JsPracticalExercises.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises/BasicExercises/JsPracticalExercises.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.JsScopeBug.html">
     <configuration default="false" name="JsInterviewQuestion.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises/BasicExercises/JsInterviewQuestion.html">
       <method />
     </configuration>
@@ -341,6 +346,9 @@
       <method />
     </configuration>
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsValidator/src/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="JsScopeBug.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises/JsScopeBug.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -526,19 +534,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsPracticalExercises.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsInterviewQuestion.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsDOM.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsDom2.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsInterviewQuestion.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsDOM.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsDom2.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsScopeBug.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsDOM.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsDom2.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsInterviewQuestion.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsPracticalExercises.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsScopeBug.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsDOM.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsDom2.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsInterviewQuestion.html" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -625,7 +633,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/shoppingCart.js" />
     <entry file="file://$PROJECT_DIR$/cart.html" />
     <entry file="file://$PROJECT_DIR$/cart.html" />
     <entry file="file://$PROJECT_DIR$/cart.html" />
@@ -926,8 +933,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JsValidator/src/js/form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="198">
+          <caret line="6" column="57" lean-forward="true" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises/JsScopeBug.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding />
         </state>
       </provider>
