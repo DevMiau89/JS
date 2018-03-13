@@ -1,31 +1,31 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Form Fields</title>
-<script>
-function changeBg(){
-		var userName = document.getElementById("userName").value;
-		var backgroundClr = document.getElementById("color").value;
+    <head>
+    <meta charset="UTF-8">
+    <title>Form Fields</title>
+    <script>
+        function changeBg(){
+                var userName = document.getElementById("userName").value;
+                var backgroundClr = document.getElementById("color").value;
 
-		document.body.style.backgroundColor = backgroundClr;
-		alert(userName + ", the background color is " + backgroundClr + ".");
-	}
+                document.body.style.backgroundColor = backgroundClr;
+                alert(userName + ", the background color is " + backgroundClr + ".");
+            }
 
 
-	window.onload = function() {
-		document.getElementById("changebutton").addEventListener("click", function(){
-	    	changeBg();
-		});
-	}
-</script>
-</head>
-<body>
-<h1>Change Background Color</h1>
-<form name="colorForm">
-	Your Name: <input type="text" name="userName" id="userName"><br>
-	Background Color: <input type="text" name="color" id="color"><br>
-	<input type="button" value="Change Background" id="changebutton">
-</form>
-</body>
+            window.onload = function() {
+                document.getElementById("changebutton").addEventListener("click", function(){
+                    changeBg();
+                });
+            }
+    </script>
+    </head>
+    <body>
+        <h1>Change Background Color</h1>
+        <form name="colorForm">
+            Your Name: <input type="text" name="userName" id="userName"><br>
+            Background Color: <input type="text" name="color" id="color"><br>
+            <input type="button" value="Change Background" id="changebutton">
+        </form>
+    </body>
 </html>
