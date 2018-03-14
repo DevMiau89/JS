@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Textfield to Textfield</title>
+<script src="DateUDFs.js"></script>
+<script>
+/*
+		Write a function called getMonth() that passes the
+		month number entered by the user to the monthAsString()
+		function in DateUDFs.js and writes the result in
+		the monthName field.
+	*/
+	document.addEventListener('DOMContentLoaded', function () {
+		const button = document.querySelector('#getmonthbutton');
+		document.querySelector('#MonthNumber').value = 6;
+		document.querySelector('#monthName').value = 'June';
+
+		function getMonth(e) {
+            e.preventDefault();
+            let userMonthNum = document.forms["dateForm"]["MonthNumber"].value;
+            if (userMonthNum == '' || userMonthNum < 1 || userMonthNum > 12) {
+                alert('Provided value is incorrect');
+            } else {
+                monthAsString(userMonthNum);
+            }
+        }
+
+		button.addEventListener('click', getMonth);
+
+    })
+	
+</script>
+</head>
+<body>
+<h1>Month Check</h1>
+<form name="dateForm">
+	Month Number: <input type="text" name="MonthNumber" id="MonthNumber" title="Numbers from one to twelve" required>
+	<input type="submit" value="Get Month" id="getmonthbutton"><br>
+	Month Name: <input type="text" name="monthName" id="monthName" size="10">
+</form>
+
+</body>
+</html>
