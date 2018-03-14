@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<script>
+function validate(e){
+	var userName = document.getElementById("Username").value;
+	var password = document.getElementById("Password").value;
+    var errors = [];
+
+	if (!checkLength(userName, 1, 100)) {
+	    errors[errors.length] = "You must enter a username.";
+	}
+	if (!checkLength(password, 1, 100)) {
+        errors[errors.length] = "You must enter a password.";
+    }
+    if (errors.length > 0) {
+        reportErrors(errors);
+        e.preventDefault();
+    }
+}
+
+function checkLength(text,min,max) {
+    if(text.length < min || text.length > max){
+        return false;
+    }
+    return true;
+}
+
+function reportErrors(errors) {
+    var msg = "There were some problems...\n";
+    var  numError;
+    for(let i=0; i < errors.length; i++){
+        numError = i + 1;
+        msg += "\n" + numError + ". " + errors[i];
+    }
+    alert(msg);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+	document.getElementById("logInForm").addEventListener("submit", function(e){
+    	validate(e);
+	});
+});
+</script>
+</head>
+<body>
+<h1>Login Form</h1>
+<form method="post" action="" id="logInForm">
+
+	Username: <input type="text" name="Username" id="Username" size="10"><br>
+	Password: <input type="password" name="password" id="Password" size="10"><br>
+
+	<input type="submit" value="Submit">
+	<input type="reset" value="Reset Form">
+</form>
+</body>
+</html>
