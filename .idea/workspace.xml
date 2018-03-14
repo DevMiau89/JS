@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534ffbed-c5d2-4d3f-8f72-5cd2fd42b6ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises/BasicExercises/Jsform.html" afterPath="$PROJECT_DIR$/JsExercises/BasicExercises/Jsform.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsExercises/jsEventDispatcher.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises/JsDropdown.html" afterPath="$PROJECT_DIR$/JsExercises/JsDropdown.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,11 +51,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Jsform.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Jsform.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/Jsform.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="990">
               <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jsEventDispatcher.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JsExercises/jsEventDispatcher.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#43#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsDropdown.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JsExercises/JsDropdown.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -74,8 +98,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -107,7 +131,6 @@
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/index.html" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsCallback.js" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/basicExercises.html" />
-        <option value="$PROJECT_DIR$/JsExercises/JsDropdown.html" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsGetSetCookie.html" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsKeyValues.html" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsMultipleCookies.html" />
@@ -135,6 +158,8 @@
         <option value="$PROJECT_DIR$/JsExercises/JsModule/public/es6/mathFunctions.js" />
         <option value="$PROJECT_DIR$/JsExercises/JsModule/public/es6/JsModule.html" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/Jsform.html" />
+        <option value="$PROJECT_DIR$/JsExercises/JsDropdown.html" />
+        <option value="$PROJECT_DIR$/JsExercises/jsEventDispatcher.js" />
       </list>
     </option>
   </component>
@@ -171,8 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,26 +222,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JsExercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BasicExercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,13 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.JsModule.html (1)">
-    <configuration default="false" name="JsDOM.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises/BasicExercises/JsDOM.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsValidator/src/index.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.JsDropdown.html">
     <configuration default="false" name="JsScopeBug.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises/JsScopeBug.html">
       <method />
     </configuration>
@@ -261,6 +262,12 @@
       <method />
     </configuration>
     <configuration default="false" name="JsModule.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises/JsModule/public/es6/JsModule.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="Jsform.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises/BasicExercises/Jsform.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="JsDropdown.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises/JsDropdown.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -446,19 +453,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsDOM.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsScopeBug.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsModule.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsModule.html (1)" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsScopeBug.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsModule.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsModule.html (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Jsform.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsDropdown.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsModule.html (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsModule.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsScopeBug.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsDOM.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsDropdown.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Jsform.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsModule.html (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsModule.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsScopeBug.html" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -507,7 +514,7 @@
     <frame x="3829" y="-11" width="3862" height="2122" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19522546" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19681698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -545,13 +552,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Js30daysProjects/JsArrayCardioPractice/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="70" lean-forward="false" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Js30daysProjects/CssVariables/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
@@ -605,13 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2937">
           <caret line="89" column="33" lean-forward="false" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JsExercises/JsDropdown.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -868,11 +861,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises/JsDropdown.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/Jsform.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises/jsEventDispatcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

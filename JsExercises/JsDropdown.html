@@ -5,12 +5,19 @@
     <title>Title</title>
 </head>
 <body>
+    <div>
+        <p>Hello World</p>
+        <button id="button">Click Me</button>
+    </div>
+    <br>
+    <div>
     <select id="colors">
         <option value="Select Color">Select Color</option>
         <option value="Red">Red</option>
         <option value="Green">Green</option>
         <option value="Blue">Blue</option>
     </select>
+    </div>
     <script>
         window.onload = function () {
             if(document.cookie.length != 0) {
@@ -28,7 +35,7 @@
             document.bgColor = selectedColor;
             document.cookie = 'color=' + selectedColor + ';expires=Thu, 22 Feb 2018 01:00:00 UTC;'
         })
-
     </script>
+    <script src="jsEventDispatcher.js"></script>
 </body>
 </html>
