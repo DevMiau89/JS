@@ -12,6 +12,7 @@
         <input type="radio" value="k" name="gender" /> k
     </fieldset>
 </form>
+<br>
 <form id="myForm2">
     <fieldset>
         <legend>Wybierz dwa (2) ulubione owoce</legend>
@@ -21,6 +22,16 @@
         <input type="checkbox" value="pomarancz" name="chkTest" /> pomarancz <br><br>
         <button type="submit" class="button">Sprawdź</button>
     </fieldset>
+</form>
+<br>
+<form>
+    <select name="eyeColor">
+        <option value="-1">wybierz kolor</option>
+        <option value="niebieskie">niebieskie</option>
+        <option value="zielone">zielone</option>
+        <option value="bronzowe">bronzowe</option>
+        <option value="czarne">czarne</option>
+    </select>
 </form>
 <script>
     function checkRadio() {
@@ -46,10 +57,10 @@
     function checkCheckbox(e) {
     e.preventDefault();
 
-//    const form = this;
+    const form = this;
 
     let checkedCount = 0;
-    const checkbox = this.querySelectorAll(':scope input[name="chkTest"]');
+    const checkbox = form.querySelectorAll(':scope input[name="chkTest"]');
 
     for (let x=0; x<checkbox.length; x++) {
         if (checkbox[x].checked) {
@@ -66,6 +77,14 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     document.querySelector('#myForm2').addEventListener('submit', checkCheckbox);
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const select = document.querySelector('select[name="eyeColor"]');
+
+    select.addEventListener('change', function() {
+        alert('Wybrałeś: ' + this.options[this.selectedIndex].value);
+    });
 });
 </script>
 </body>

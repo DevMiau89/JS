@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534ffbed-c5d2-4d3f-8f72-5cd2fd42b6ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsExercises/BasicExercises/JsFormFieldsPaths.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises/BasicExercises/JsFormFieldsPaths.html" afterPath="$PROJECT_DIR$/JsExercises/BasicExercises/JsFormFieldsPaths.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,8 +42,8 @@
       <file leaf-file-name="JsFormFieldsPaths.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsFormFieldsPaths.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
-              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="24" />
+            <state relative-caret-position="2199">
+              <caret line="86" column="4" lean-forward="false" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -147,8 +146,8 @@
     <handled-path value="$PROJECT_DIR$/lj/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3827" />
-    <option name="y" value="14" />
+    <option name="x" value="3829" />
+    <option name="y" value="-11" />
     <option name="width" value="3862" />
     <option name="height" value="2122" />
   </component>
@@ -500,7 +499,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3827" y="14" width="3862" height="2122" extended-state="0" />
+    <frame x="3829" y="-11" width="3862" height="2122" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -865,8 +864,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsFormFieldsPaths.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="24" />
+        <state relative-caret-position="2199">
+          <caret line="86" column="4" lean-forward="false" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
           <folding />
         </state>
       </provider>
