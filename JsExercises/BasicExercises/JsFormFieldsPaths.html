@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Js Form Paths</title>
+</head>
+<body>
+<form id="myForm">
+    <fieldset>
+        <legend>Wybierz płeć</legend>
+        <input type="radio" value="m" name="gender" /> m
+        <input type="radio" value="k" name="gender" /> k
+    </fieldset>
+</form>
+<form id="myForm2">
+    <fieldset>
+        <legend>Wybierz dwa (2) ulubione owoce</legend>
+        <input type="checkbox" value="niebieski" name="chkTest" /> niebieski <br>
+        <input type="checkbox" value="czerwony" name="chkTest" /> czerwony <br>
+        <input type="checkbox" value="zielony" name="chkTest" /> zielony <br>
+        <input type="checkbox" value="pomarancz" name="chkTest" /> pomarancz <br><br>
+        <button type="submit" class="button">Sprawdź</button>
+    </fieldset>
+</form>
+<script>
+    function checkRadio() {
+        console.log(this);
+    const genderRadio = this.form.querySelectorAll('input[name="gender"]');
+    for (let i=0; i<genderRadio.length; i++) {
+        if (genderRadio[i].checked) {
+            alert('Zaznaczyłeś opcję nr: ' + i);
+            break;
+        }
+    }
+}
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const form = document.querySelector('#myForm');
+        const genderRadio = form.querySelectorAll(':scope input[name="gender"]');
+
+        for (let i=0; i<genderRadio.length; i++) {
+            genderRadio[i].addEventListener('click', checkRadio);
+        }
+    });
+
+    function checkCheckbox(e) {
+    e.preventDefault();
+
+//    const form = this;
+
+    let checkedCount = 0;
+    const checkbox = this.querySelectorAll(':scope input[name="chkTest"]');
+
+    for (let x=0; x<checkbox.length; x++) {
+        if (checkbox[x].checked) {
+            checkedCount++;
+        }
+    }
+
+    if (checkedCount < 2) {
+        alert('Wybrałeś ' +checkedCount+' owoce, a musisz wybrać 2');
+    } else {
+        alert('Wybrałeś ' +checkedCount+' owoce. Bądź pozdrowiony!');
+    }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector('#myForm2').addEventListener('submit', checkCheckbox);
+});
+</script>
+</body>
+</html>
