@@ -7,22 +7,27 @@
     document.addEventListener('DOMContentLoaded', function () {
         const button = document.querySelector('#btnAdd');
         function addNumbers() {
-            const num1 = document.querySelector('#txtFirstNumber').value;
-            const num2 = document.querySelector('#txtSecondNumber').value;
-            if(num1 == '') {
-                alert('You need to provide value for the First Number');
+            let num1 = document.querySelector('#txtFirstNumber').value;
+            if(num1 == ''){
+                alert('First number is required');
+            }
+
+            num1 = parseFloat(num1);
+            if(isNaN(num1)) {
+                alert('You need to provide a valid value for the First Number');
                 return;
             }
-            else if(num2 == ''){
-                alert('You need to provide value for the Second Number');
+
+            let num2 = document.querySelector('#txtSecondNumber').value;
+            if(num2 == ''){
+                alert('Second number is required');
+            }
+            num2 = parseFloat(num2);
+            if(isNaN(num2)){
+                alert('You need to provide a valid value for the Second Number');
                 return;
             }
-            else if(isNaN(num1) || isNaN(num2)){
-               alert('You need to provide number value');
-               return;
-            }else {
-                document.querySelector('#txtResult').value = parseInt(num1, 10) + parseInt(num2, 10);
-            }
+            document.querySelector('#txtResult').value = num1 + num2;
         }
         button.addEventListener('click', addNumbers);
     })
