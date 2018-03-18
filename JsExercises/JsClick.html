@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Click</title>
+</head>
+<body>
+<button id="clicker">Clicker</button>
+<p>0</p>
+<script>
+    const button = document.querySelector('#clicker');
+    let p = document.querySelector('p');
+    let result = 0;
+    function click(){
+        result++;
+        return p.innerHTML = result;
+
+    }
+
+    button.addEventListener('click', click);
+</script>
+</body>
+</html>
