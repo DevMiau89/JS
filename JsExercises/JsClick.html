@@ -5,19 +5,25 @@
     <title>Click</title>
 </head>
 <body>
-<button id="clicker">Clicker</button>
+<button type="button" id="clicker">Clicker</button>
 <p>0</p>
 <script>
-    const button = document.querySelector('#clicker');
-    let p = document.querySelector('p');
-    let result = 0;
-    function click(){
-        result++;
-        return p.innerHTML = result;
 
-    }
+    var module = (function() {
+        const button = document.querySelector('#clicker');
+        let p = document.querySelector('p');
+        let result = 0;
 
-    button.addEventListener('click', click);
+        function incrementClickCount() {
+            result++;
+            return p.innerHTML = result;
+
+        }
+        button.addEventListener('click', incrementClickCount);
+        return {incrementClickCount:incrementClickCount};
+    })();
+
+
 </script>
 </body>
 </html>
