@@ -9,7 +9,7 @@
 <p>0</p>
 <script>
 
-    var module = (function() {
+   (function() {
         const button = document.querySelector('#clicker');
         let p = document.querySelector('p');
         let result = 0;
@@ -19,8 +19,7 @@
             return p.innerHTML = result;
 
         }
-        button.addEventListener('click', incrementClickCount);
-        return {incrementClickCount:incrementClickCount};
+        return button.addEventListener('click', incrementClickCount);
     })();
 
 
