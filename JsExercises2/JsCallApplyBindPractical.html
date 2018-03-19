@@ -2,9 +2,86 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let add = function (c) {
+        console.log(this.a + this.b + c)
+    };
+
+    let obj = {
+        a : 6,
+        b: 5
+    };
+
+    console.log(add.call(obj, 1));
+
+    let toArray = function (...r) {
+        return [].slice.call(r);
+    };
+
+    console.log(toArray(2,2,2));
+
+    let numArray = [1,2,3];
+    console.log(Math.min.apply(null,numArray));
+    
+    let button = function (content) {
+        this.content = content;
+    };
+
+    button.prototype.click = function () {
+        console.log(`${this.content} clicked`);
+    };
+
+    let newButton = new button('add');
+    console.log(newButton.click());
+    let looseClick = newButton.click.bind(newButton);
+
+    looseClick();
+
+
+    let myObj = {
+        asyncGet(cb){
+            cb();
+        },
+        parse(){
+            console.log('parse called');
+        },
+        render(){
+            this.asyncGet(function () {
+                this.parse();
+            }.bind(this));
+        }
+    };
+
+    myObj.render();
+
+    $("#SIPUPNFixerButton").click(function(e) { };
+
+       $(document).keypress(function(e) {
+
+              if(e.which == 13) {
+
+                     e.preventDefault();
+
+                     $("#SIPUPNFixerButton").trigger('click');
+
+              }
+
+       });
+
+       const button = document.querySelector('#SIPUPNFixerButton');
+       button.addEventListener('click', function () {
+
+       });
+       document.addEventListener('keypress', function (e) {
+           if(e.keyCode == 13){
+               e.preventDefault();
+               button.click();
+           }
+       });
+
+</script>
 </body>
 </html>
