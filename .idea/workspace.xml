@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534ffbed-c5d2-4d3f-8f72-5cd2fd42b6ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsExercises2/JsProblematicUI.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classFiles/ClassFiles/AdvancedArrays/Exercises/mode.html" afterPath="$PROJECT_DIR$/classFiles/ClassFiles/AdvancedArrays/Exercises/mode.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,11 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsProblematicUI.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JsProblematicUI.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JsExercises2/JsProblematicUI.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="858">
               <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mode.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classFiles/ClassFiles/AdvancedArrays/Exercises/mode.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -64,6 +73,7 @@
     <findStrings>
       <find>:</find>
       <find>divTextBox</find>
+      <find>return indices;</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -76,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Js30daysProjects/JsArrayCardioPractice/index.html" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/memoize.js" />
         <option value="$PROJECT_DIR$/JsExercises/cakes.js" />
         <option value="$PROJECT_DIR$/JsExercises/JsCurryingFn.js" />
@@ -127,6 +136,7 @@
         <option value="$PROJECT_DIR$/JsExercises/JsClick.html" />
         <option value="$PROJECT_DIR$/JsExercises2/JsCallApplyBindPractical.html" />
         <option value="$PROJECT_DIR$/JsExercises2/JsProblematicUI.html" />
+        <option value="$PROJECT_DIR$/classFiles/ClassFiles/AdvancedArrays/Exercises/mode.html" />
       </list>
     </option>
   </component>
@@ -194,6 +204,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classFiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClassFiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdvancedArrays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classFiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClassFiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdvancedArrays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -226,10 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.JsProblematicUI.html">
-    <configuration default="false" name="JsFormFieldsPaths.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises/BasicExercises/JsFormFieldsPaths.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.mode.html">
     <configuration default="false" name="JsFormParsers.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsFormParsers.html">
       <method />
     </configuration>
@@ -240,6 +295,9 @@
       <method />
     </configuration>
     <configuration default="false" name="JsProblematicUI.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsProblematicUI.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="mode.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/classFiles/ClassFiles/AdvancedArrays/Exercises/mode.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -425,19 +483,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsFormFieldsPaths.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsFormParsers.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsClick.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsCallApplyBindPractical.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsProblematicUI.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsFormParsers.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsClick.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsCallApplyBindPractical.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsProblematicUI.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.mode.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsProblematicUI.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsCallApplyBindPractical.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsClick.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsFormParsers.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsFormFieldsPaths.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.mode.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsProblematicUI.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsCallApplyBindPractical.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsClick.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsFormParsers.html" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -486,15 +544,16 @@
     <frame x="3829" y="-11" width="3862" height="2122" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20928381" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24986738" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20928381" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24986738" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958268" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -503,7 +562,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -524,13 +582,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsMultipleCookies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises2/JsExceptions.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1023">
@@ -850,6 +901,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classFiles/ClassFiles/AdvancedArrays/Exercises/mode.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
           <folding />
         </state>
       </provider>
