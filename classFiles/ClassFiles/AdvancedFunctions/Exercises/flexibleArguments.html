@@ -7,8 +7,13 @@
 <body>
 	<h1>Flexible Arguments</h1>
 	<script>
-		function stats(maxOrMin) {
+		function stats(maxOrMin, ...args) {
 			// write body of function here
+			if(maxOrMin === 'max'){
+			    return Math.max(...args);
+			}else{
+			    return Math.min(...args);
+			}
 		}
 
 		document.write(stats('max', 3, 49, 20, -3, 17));

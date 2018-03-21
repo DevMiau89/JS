@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534ffbed-c5d2-4d3f-8f72-5cd2fd42b6ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classFiles/ClassFiles/AdvancedFunctions/Exercises/closures.html" afterPath="$PROJECT_DIR$/classFiles/ClassFiles/AdvancedFunctions/Exercises/closures.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classFiles/ClassFiles/AdvancedFunctions/Exercises/flexibleArguments.html" afterPath="$PROJECT_DIR$/classFiles/ClassFiles/AdvancedFunctions/Exercises/flexibleArguments.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,11 +69,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="closures.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="closures.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classFiles/ClassFiles/AdvancedFunctions/Exercises/closures.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="findMax.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classFiles/ClassFiles/AdvancedFunctions/Exercises/findMax.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flexibleArguments.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classFiles/ClassFiles/AdvancedFunctions/Exercises/flexibleArguments.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -106,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JsExercises/JsCurryingFn.js" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsCurryingFn.js" />
         <option value="$PROJECT_DIR$/JsExercises/JsDecomposition.js" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsCamelCase.js" />
@@ -157,6 +176,7 @@
         <option value="$PROJECT_DIR$/classFiles/ClassFiles/AdvancedArrays/Exercises/mode.html" />
         <option value="$PROJECT_DIR$/classFiles/ClassFiles/Scope/Exercises/scope.html" />
         <option value="$PROJECT_DIR$/classFiles/ClassFiles/AdvancedFunctions/Exercises/closures.html" />
+        <option value="$PROJECT_DIR$/classFiles/ClassFiles/AdvancedFunctions/Exercises/flexibleArguments.html" />
       </list>
     </option>
   </component>
@@ -173,7 +193,7 @@
     <handled-path value="$PROJECT_DIR$/lj/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
+    <option name="x" value="3829" />
     <option name="y" value="-11" />
     <option name="width" value="3862" />
     <option name="height" value="2122" />
@@ -352,10 +372,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.closures.html">
-    <configuration default="false" name="JsCallApplyBindPractical.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsCallApplyBindPractical.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.flexibleArguments.html">
     <configuration default="false" name="JsProblematicUI.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsProblematicUI.html">
       <method />
     </configuration>
@@ -366,6 +383,9 @@
       <method />
     </configuration>
     <configuration default="false" name="closures.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/classFiles/ClassFiles/AdvancedFunctions/Exercises/closures.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="flexibleArguments.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/classFiles/ClassFiles/AdvancedFunctions/Exercises/flexibleArguments.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -551,19 +571,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsCallApplyBindPractical.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsProblematicUI.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.mode.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.scope.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.closures.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsProblematicUI.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.mode.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.scope.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.closures.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.flexibleArguments.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.closures.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.scope.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.mode.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsProblematicUI.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsCallApplyBindPractical.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.flexibleArguments.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.closures.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.scope.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.mode.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsProblematicUI.html" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -609,7 +629,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="3862" height="2122" extended-state="6" />
+    <frame x="3829" y="-11" width="3862" height="2122" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21114059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -650,20 +670,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsTemplateStrings.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1419">
-          <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Js30daysProjects/JsClock/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/Js80basic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -978,6 +984,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classFiles/ClassFiles/AdvancedFunctions/Exercises/findMax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classFiles/ClassFiles/AdvancedFunctions/Exercises/flexibleArguments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding />
         </state>
       </provider>
