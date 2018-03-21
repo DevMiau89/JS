@@ -9,9 +9,13 @@
 	<script>
 		function stats(maxOrMin, ...args) {
 			// write body of function here
+
 			if(maxOrMin === 'max'){
 			    return Math.max(...args);
-			}else{
+            }else if(args.length === 0 && maxOrMin === 'max' || args.length === 0 && maxOrMin === 'min'){
+				return null;
+			}
+            else{
 			    return Math.min(...args);
 			}
 		}
@@ -19,6 +23,8 @@
 		document.write(stats('max', 3, 49, 20, -3, 17));
 		document.write('<hr>');
 		document.write(stats('min', 22, 11, 38, -3, 17));
+		document.write('<hr>');
+		document.write(stats('min', 0));
 	</script>
 </body>
 </html>
