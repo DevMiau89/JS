@@ -5,30 +5,24 @@
 	<title>Closures</title>
 	<script>
 		function bankAccount(ownerName) {
-			/*
-				add two local variables:
-				
-					balance, initially set to 0
-				
-					ownerName, set to the value passed in
-
-				the function should return an object with the following fields as function:
-
-					withdrawal, which accepts an amount to withdraw and decrememts balance
-
-					deposit, which accepts an amount to deposit and increments balance
-
-					getBalance, which returns the current balance
-
-					getOwnerName, which returns the owner's name
-
-				add validations:
-
-					ensure that a withdrawal can't be made for more than the current balance and must be > 0
-
-					ensure that a deposit must be > 0
-
-			*/
+			let balance = 0;
+			let owner = ownerName;
+			return {
+			    deposit : function (amount) {
+					balance += amount;
+                },
+			    withdrawal : function (deposit) {
+			        if (deposit && balance){
+			        	return balance -= deposit;
+					};
+                },
+                getBalance : function () {
+					return balance;
+                },
+				getOwnerName: function () {
+					return owner;
+                }
+			}
 
 		}
 	</script>

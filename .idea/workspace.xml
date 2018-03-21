@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534ffbed-c5d2-4d3f-8f72-5cd2fd42b6ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classFiles/ClassFiles/Scope/Exercises/scope.html" afterPath="$PROJECT_DIR$/classFiles/ClassFiles/Scope/Exercises/scope.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classFiles/ClassFiles/AdvancedFunctions/Exercises/closures.html" afterPath="$PROJECT_DIR$/classFiles/ClassFiles/AdvancedFunctions/Exercises/closures.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,11 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scope.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scope.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classFiles/ClassFiles/Scope/Exercises/scope.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="792">
               <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="closures.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classFiles/ClassFiles/AdvancedFunctions/Exercises/closures.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -96,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JsExercises/cakes.js" />
         <option value="$PROJECT_DIR$/JsExercises/JsCurryingFn.js" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsCurryingFn.js" />
         <option value="$PROJECT_DIR$/JsExercises/JsDecomposition.js" />
@@ -147,6 +156,7 @@
         <option value="$PROJECT_DIR$/JsExercises2/JsProblematicUI.html" />
         <option value="$PROJECT_DIR$/classFiles/ClassFiles/AdvancedArrays/Exercises/mode.html" />
         <option value="$PROJECT_DIR$/classFiles/ClassFiles/Scope/Exercises/scope.html" />
+        <option value="$PROJECT_DIR$/classFiles/ClassFiles/AdvancedFunctions/Exercises/closures.html" />
       </list>
     </option>
   </component>
@@ -210,54 +220,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ClassFiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classFiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClassFiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Scope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classFiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClassFiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Scope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Exercises" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -390,10 +352,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.scope.html">
-    <configuration default="false" name="JsClick.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsClick.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.closures.html">
     <configuration default="false" name="JsCallApplyBindPractical.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsCallApplyBindPractical.html">
       <method />
     </configuration>
@@ -404,6 +363,9 @@
       <method />
     </configuration>
     <configuration default="false" name="scope.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/classFiles/ClassFiles/Scope/Exercises/scope.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="closures.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/classFiles/ClassFiles/AdvancedFunctions/Exercises/closures.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -589,19 +551,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsClick.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsCallApplyBindPractical.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsProblematicUI.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.mode.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.scope.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsCallApplyBindPractical.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsProblematicUI.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.mode.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.scope.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.closures.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.scope.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.mode.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsProblematicUI.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsCallApplyBindPractical.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsClick.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.closures.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.scope.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.mode.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsProblematicUI.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsCallApplyBindPractical.html" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -688,13 +650,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JsExercises2/JsTable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsTemplateStrings.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1419">
@@ -1015,6 +970,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classFiles/ClassFiles/AdvancedFunctions/Exercises/closures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding />
         </state>
       </provider>
