@@ -14,24 +14,24 @@
 			//your code here
 			let max = Math.max.apply(null, arr);
 			let newArr = new Array(max+1);
-			console.log(newArr);
 
-			let myArray = newArr.fill(0)
-			console.log(myArray);
-//			for(let i=0; i<nums.length;i++){
-//				myArray[nums[i]]++;
-//			}
-//			console.log(myArray);
-//			let newArrMax = Math.max.apply(null, myArray);
-//			let indices = [];
-//			console.log(newArrMax);
-//			for(let i=0; i<myArray.length;i++){
-//				if(myArray[i] === newArrMax){
-//				    indices.push(i);
-//				}
-//			}
-//			console.log(indices);
-//			return indices;
+
+			let myArray = newArr.fill(0);
+
+			for(let i=0; i<nums.length;i++){
+				myArray[nums[i]]++;
+			}
+
+			let newArrMax = Math.max.apply(null, myArray);
+			let indices = [];
+
+			for(let i=0; i<myArray.length;i++){
+			if(myArray[i] === newArrMax){
+				    indices.push(i);
+				}
+			}
+
+			return indices;
 		}
 
 		document.write('<hr>');
