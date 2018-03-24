@@ -6,6 +6,26 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
+    <div id="myDiv">
+    <button id="myButton">Click</button>
+    </div>
     <script src="jsAsyncCall.js"></script>
+    <script>
+       const button = document.querySelector('#myButton');
+       const div = document.querySelector('#myDiv');
+
+       button.addEventListener('click', function () {
+            const p = document.createElement('p');
+            p.innerHTML = 'I am paragraph';
+            p.addEventListener('click', () => console.log('yolo'));
+            div.appendChild(p);
+       });
+
+       div.addEventListener('mouseover', function (e) {
+            if(e.target.nodeName === 'P'){
+                alert('yolo');
+            }
+       });
+    </script>
 </body>
 </html>
