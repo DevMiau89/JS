@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Switch</title>
+</head>
+<body>
+<script>
+    var orderType = 'personal';
+    var shipMethod;
+
+    switch (orderType) {
+        case 'business':
+            shipMethod  = 'FedEx';
+            console.log(shipMethod);
+            break;
+        case 'personal':
+            shipMethod = 'UPS Ground';
+            console.log(shipMethod);
+            break;
+        default:
+            shipMethod = 'USPS';
+    }
+    console.log(shipMethod);
+</script>
+</body>
+</html>
