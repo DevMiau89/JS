@@ -22,6 +22,36 @@
             shipMethod = 'USPS';
     }
     console.log(shipMethod);
+
+
+    //Pass by value and reference
+
+    var x = 5;
+    var obj = {
+        name : 'koci'
+    };
+
+    function valRef(x, y){
+        console.log('--------------');
+        console.log(x);
+        x = 6;
+        console.log(x);
+        var x = 3;
+        console.log(x);
+        console.log('================');
+        console.log(y);
+        y.name = 'devMiau';
+        console.log(y);
+        var obj = {name : 'dev'};
+        console.log(obj);
+
+    }
+
+    valRef(x, obj);
+    console.log("--------------");
+    console.log(x);
+    console.log(obj);
+
 </script>
 </body>
 </html>
