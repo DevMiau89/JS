@@ -22,3 +22,4 @@ function min(array){
 function max(array){
     return Math.floor(Math.sqrt(Math.max.apply(null,array)));
 }
+
