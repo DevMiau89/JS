@@ -28,10 +28,11 @@ function priceFormatter(price) {
     return '$ ' + price.toFixed(2);
 }
 
-while(bankAccountBalance > 0 && bankAccountBalance >= accessoryPrice){
+while(bankAccountBalance > 0 && bankAccountBalance > accessoryPrice){
     purchase();
     if (bankAccountBalance < accessoryPrice) {
         console.log("You can't afford this purchase. :(");
     }
+
 }
 
