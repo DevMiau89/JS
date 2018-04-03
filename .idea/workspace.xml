@@ -78,8 +78,8 @@
       <file leaf-file-name="JsBlackJack.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JsExercises2/JsBlackJack.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="594">
+              <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -264,10 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.jsSwitch.html">
-    <configuration default="false" name="closures.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/classFiles/ClassFiles/AdvancedFunctions/Exercises/closures.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.JsBlackJack.html">
     <configuration default="false" name="flexibleArguments.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/classFiles/ClassFiles/AdvancedFunctions/Exercises/flexibleArguments.html">
       <method />
     </configuration>
@@ -278,6 +275,9 @@
       <method />
     </configuration>
     <configuration default="false" name="JsDates.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsDates.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="JsBlackJack.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsBlackJack.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -463,19 +463,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.closures.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.flexibleArguments.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.jsSwitch.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsDates.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.flexibleArguments.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.jsSwitch.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsDates.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsBlackJack.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.jsSwitch.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsDates.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.flexibleArguments.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.closures.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsBlackJack.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.jsSwitch.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsDates.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.flexibleArguments.html" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -894,8 +894,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises2/JsBlackJack.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="594">
+          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding />
         </state>
       </provider>
