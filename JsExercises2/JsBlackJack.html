@@ -6,9 +6,13 @@
 </head>
 <body>
     <h2 id="title">Blackjack</h2>
+    <h4><strong>by DevMiau</strong></h4>
     <br>
 
     <p id="text-area">Welcome to Blackjack!</p>
+
+
+    <p id="winner-area"></p>
     <button id="new-game-button">New Game</button>
     <button id="hit-button">Hit!</button>
     <button id="stay-button">Stay</button>
@@ -23,15 +27,52 @@
     let newGameButton = document.getElementById('new-game-button');
     let hitButton = document.getElementById('hit-button');
     let stayButton = document.getElementById('stay-button');
+    let winnerArea = document.getElementById('winner-area');
+
+    let gameStarted = false,
+        gameOver = false,
+        playerWon = false,
+        dealerCards =  [],
+        playerCards = [],
+        dealerScore = 0,
+        playerScore = 0,
+        deck = [];
 
     hitButton.style.display = 'none';
     stayButton.style.display = 'none';
+    showStatus();
+
 
     newGameButton.addEventListener('click', function () {
-        textArea.innerText = 'Started...';
+        gameStarted = true;
+        gameOver = false;
+        playerWon = false;
+        winnerArea.innerText = '';
+
+        let deck = createDeck();
+        shuffleDeck(deck);
+
+        dealerCards = [getNextCard(deck), getNextCard(deck)];
+        playerCards = [getNextCard(deck), getNextCard(deck)];
+
         newGameButton.style.display = 'none';
         hitButton.style.display = 'inline';
         stayButton.style.display = 'inline';
+        showStatus();
+
+
+    });
+
+    hitButton.addEventListener('click', function () {
+       console.log(playerCards.push(getNextCard()));
+       checkForEndOfGame();
+       showStatus();
+    });
+
+    stayButton.addEventListener('click', function () {
+       gameOver = true;
+       checkForEndOfGame();
+       showStatus();
     });
 
     function createDeck() {
@@ -47,27 +88,166 @@
         }
         return deck;
     }
-    
-    function getCardString(card) {
+
+    function getCardString(card){
         return card.value + ' of ' + card.suit;
     }
 
-    function getNextCard() {
+    function getNextCard(deck) {
         return deck.shift();
     }
 
-    let deck = createDeck();
 
-    console.log(deck);
-    let playerCards = [getNextCard(), getNextCard()] ;
+    function getCardNumericValue(card) {
+        switch(card.value){
+            case 'Ace':
+                return 1;
+            case 'Two':
+                return 2;
+            case 'Three':
+                return 3;
+            case 'Four':
+                return 4;
+            case 'Five':
+                return 5;
+            case 'Six':
+                return 6;
+            case 'Seven':
+                return 7;
+            case 'Eight':
+                return 8;
+            case 'Nine':
+                return 9;
+            default:
+                return 10;
+        }
+    }
 
-    let score = 0;
+    function getScore(cardArray) {
+        let score = 0;
+        let hasAce = false;
 
-    console.log("Welcome to Blackjack!");
+        for (let i = 0; i < cardArray.length; i++){
+            let card = cardArray[i];
+            score += getCardNumericValue(card);
+            if(card.value === 'Ace'){
+                hasAce = true;
+            }
+        }
+        if(hasAce && score + 10 <= 21){
+            return score + 10;
+        }
 
-    console.log("You are dealt: ");
-    console.log(" " + getCardString(playerCards[0]));
-    console.log(" " + getCardString(playerCards[1]));
+        return score;
+    }
+    
+    function checkForEndOfGame() {
+        updateScores();
+        if(gameOver){
+            while(dealerScore < playerScore && playerScore <= 21 && dealerScore <= 21){
+                dealerCards.push(getNextCard());
+                updateScores();
+            }
+        }
+
+        if(playerScore > 21){
+            playerWon = false;
+            gameOver = true;
+        }
+        else if(dealerScore > 21){
+            playerWon = true;
+            gameOver = true;
+        }
+        else if(gameOver){
+            if(playerScore > dealerScore){
+                playerWon = true;
+            }else{
+                false;
+            }
+        }
+    }
+    
+    function updateScores() {
+        dealerScore = getScore(dealerCards);
+        playerScore = getScore(playerCards);
+    }
+
+    function showStatus() {
+        if(!gameStarted){
+            textArea.innerText = 'Welcome to Blackjack!';
+            return;
+        }
+
+        let dealerCardString = '';
+        for(let i=0; i < dealerCards.length; i++){
+            dealerCardString += getCardString(dealerCards[i])+ '\n';
+        }
+
+        let playerCardString = '';
+        for(let i=0; i < playerCards.length; i++){
+            playerCardString += getCardString(playerCards[i])+ '\n';
+        }
+
+        updateScores();
+        let dealerP = document.getElementById('dealerP');
+        let playerP = document.getElementById('playerP');
+        if(!dealerP && !playerP){
+            //Dealer
+            let dealerP = document.createElement('p');
+            dealerP.setAttribute('id', 'dealerP');
+            dealerP.innerText = 'Dealer has:' + '\n'
+                + dealerCardString + '\n'
+                + '(score ' + dealerScore + ')\n\n';
+            textArea.parentNode.insertBefore(dealerP, textArea.nextSibling);
+
+            //Player
+            let playerP = document.createElement('p');
+            playerP.setAttribute('id', 'playerP');
+            playerP.innerText = 'Player has:' + '\n'
+                + playerCardString + '\n'
+                + '(score ' + playerScore + ')\n\n';
+            let dealerParagraph = document.getElementById('dealerP');
+            dealerParagraph.parentNode.insertBefore(playerP, dealerParagraph.nextSibling);
+        }else{
+            //Dealer
+            dealerP.innerText = 'Dealer has:' + '\n'
+                + dealerCardString + '\n'
+                + '(score ' + dealerScore + ')\n\n';
+            textArea.parentNode.insertBefore(dealerP, textArea.nextSibling);
+
+            //Player
+            playerP.innerText = 'Player has:' + '\n'
+                + playerCardString + '\n'
+                + '(score ' + playerScore + ')\n\n';
+            let dealerParagraph = document.getElementById('dealerP');
+            dealerParagraph.parentNode.insertBefore(playerP, dealerParagraph.nextSibling);
+        }
+
+
+
+        //Game Over
+        if (gameOver) {
+            if (playerWon) {
+                winnerArea.innerText = 'You Won!';
+            } else {
+                winnerArea.innerText = 'Dealer Wins!';
+            }
+
+            newGameButton.style.display = 'inline';
+            hitButton.style.display = 'none';
+            stayButton.style.display = 'none';
+        }
+    }
+
+    function shuffleDeck(deck) {
+        for(let i=0; i < deck.length; i++){
+            let swapIndex = Math.trunc(Math.random() * deck.length);
+            let temp = deck[swapIndex];
+            deck[swapIndex] = deck[i];
+            deck[i] = temp;
+        }
+        return deck;
+    }
 
 
 </script>
