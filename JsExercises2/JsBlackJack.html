@@ -49,11 +49,11 @@
         playerWon = false;
         winnerArea.innerText = '';
 
-        let deck = createDeck();
+        deck = createDeck();
         shuffleDeck(deck);
 
-        dealerCards = [getNextCard(deck), getNextCard(deck)];
-        playerCards = [getNextCard(deck), getNextCard(deck)];
+        dealerCards = [getNextCard(), getNextCard()];
+        playerCards = [getNextCard(), getNextCard()];
 
         newGameButton.style.display = 'none';
         hitButton.style.display = 'inline';
@@ -64,7 +64,7 @@
     });
 
     hitButton.addEventListener('click', function () {
-       console.log(playerCards.push(getNextCard()));
+       playerCards.push(getNextCard(deck));
        checkForEndOfGame();
        showStatus();
     });
@@ -93,7 +93,7 @@
         return card.value + ' of ' + card.suit;
     }
 
-    function getNextCard(deck) {
+    function getNextCard() {
         return deck.shift();
     }
 
