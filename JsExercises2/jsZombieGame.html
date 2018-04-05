@@ -12,8 +12,6 @@
         'Desparate times call for desperate measures. You see a small convenience store up ahead and decide to loot it for goods.',
         'It is zombie apocalypse. You are looting a store and suddenly a zombie bursts out through the door!'
     ];
-    
-    let weaponList = ['shovel', 'crossbow', 'baseball bat', 'rubber chicken'];
 
     let randomNumber = Math.round(Math.random());
     const scenarioParagraph = document.getElementById('scenario');
@@ -25,8 +23,17 @@
     }
 
     function continueGame() {
-        let weapon = prompt('You search around frantically for a weapon. What do you choose? A bow and arrow, an axe, or a rubber chicken?');
-        return weapon;
+        let weapon = prompt('You search around frantically for a weapon. What do you choose? A shovel, a crossbow, a baseball bat or a rubber chicken?');
+        switch (weapon){
+            case 'shovel':
+                return weapon;
+            case 'crossbow':
+                return weapon;
+            case 'baseball bat':
+                return weapon;
+            case 'rubber chicken':
+                return weapon;
+        }
     }
 
     function continueGame2(weaponValueReturn) {
