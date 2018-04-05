@@ -11,37 +11,31 @@
     let randomNumber = Math.round(Math.random());
     function continueGame() {
         let weapon = prompt('You search around frantically for a weapon. What do you choose? A bow and arrow, an axe, or a rubber chicken?');
-        let p = document.createElement('p');
-        let p2 = document.createElement('p');
         return weapon;
     }
-    function weaponPrompt() {
-        let weapon = prompt('You search around frantically for a weapon. What do you choose? A bow and arrow, an axe, or a rubber chicken?');
+    function continueGame2(weaponValueReturn) {
         let p = document.createElement('p');
         let p2 = document.createElement('p');
-        if(weapon){
-            p.innerText = `You attacked zombie with your ${weapon}`;
+        p.innerText = `You attacked zombie with your ${weaponValueReturn}`;
             document.body.appendChild(p);
             if(randomNumber) {
-               p2.innerText = `You killed zombie with your ${weapon}. You win.`;
+               p2.innerText = `You killed zombie with your ${weaponValueReturn}. You win.`;
             }else{
                p2.innerText = `The zombie bites you. You loose!!!.`;
             }
             document.body.appendChild(p2);
+    }
+
+    function weaponPrompt() {
+        let weaponValueReturn = continueGame();
+        if(weaponValueReturn){
+            continueGame2(weaponValueReturn);
         }else{
-            while(!weapon){
+            while(!weaponValueReturn){
                 alert('You need to provide correct value.');
                 let weaponValueReturn = continueGame();
-
                 if(weaponValueReturn){
-                     p.innerText = `You attacked zombie with your ${weaponValueReturn}`;
-                     document.body.appendChild(p);
-                     if(randomNumber) {
-                        p2.innerText = `You killed zombie with your ${weaponValueReturn}. You win.`;
-                     }else{
-                        p2.innerText = `The zombie bites you. You loose!!!.`;
-                     }
-                     document.body.appendChild(p2);
+                     continueGame2(weaponValueReturn);
                     break;
                 }
             }
