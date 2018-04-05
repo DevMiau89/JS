@@ -5,14 +5,28 @@
     <title>Zombie Game</title>
 </head>
 <body>
-    <p><strong>It is zombie apocalypse. You are looting a store and suddenly a zombie bursts out through the door!</strong></p>
+    <p id="scenerio"><strong></strong></p>
 <script>
+    let begginigScenarios = ["You wake up in hospital and notice that the patient in the next bed has become zombified.",
+        "You are standing in an open field west of white house with a boarded front door. There is a small maibox there",
+        "Desparate times call for desperate measures. You see a small convenience store up ahead and decide to loot it for goods.",
+        "It is zombie apocalypse. You are looting a store and suddenly a zombie bursts out through the door!"
+    ];
 
     let randomNumber = Math.round(Math.random());
+    const scenerioParagraph = document.getElementById('scenerio');
+
+
+    function randomNumberGen(range) {
+        let randomScenario = Math.round(Math.random() * range );
+        return randomScenario;
+    }
+
     function continueGame() {
         let weapon = prompt('You search around frantically for a weapon. What do you choose? A bow and arrow, an axe, or a rubber chicken?');
         return weapon;
     }
+
     function continueGame2(weaponValueReturn) {
         let p = document.createElement('p');
         let p2 = document.createElement('p');
@@ -41,6 +55,7 @@
             }
         }
     }
+    scenerioParagraph.innerText = begginigScenarios[ randomNumberGen(begginigScenarios.length - 1) ] ;
     setTimeout(weaponPrompt, 2000);
 
 </script>
