@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-    <meta charset="UTF-8">
+    <meta charset='UTF-8'>
     <title>Zombie Game</title>
 </head>
 <body>
-    <p id="scenerio"><strong></strong></p>
+    <p id='scenario'><strong></strong></p>
 <script>
-    let begginigScenarios = ["You wake up in hospital and notice that the patient in the next bed has become zombified.",
-        "You are standing in an open field west of white house with a boarded front door. There is a small maibox there",
-        "Desparate times call for desperate measures. You see a small convenience store up ahead and decide to loot it for goods.",
-        "It is zombie apocalypse. You are looting a store and suddenly a zombie bursts out through the door!"
+    let beggingScenarios = ['You wake up in hospital and notice that the patient in the next bed has become zombified.',
+        'You are standing in an open field west of white house with a boarded front door. There is a small maibox there',
+        'Desparate times call for desperate measures. You see a small convenience store up ahead and decide to loot it for goods.',
+        'It is zombie apocalypse. You are looting a store and suddenly a zombie bursts out through the door!'
     ];
+    
+    let weaponList = ['shovel', 'crossbow', 'baseball bat', 'rubber chicken'];
 
     let randomNumber = Math.round(Math.random());
-    const scenerioParagraph = document.getElementById('scenerio');
+    const scenarioParagraph = document.getElementById('scenario');
 
 
     function randomNumberGen(range) {
@@ -55,7 +57,7 @@
             }
         }
     }
-    scenerioParagraph.innerText = begginigScenarios[ randomNumberGen(begginigScenarios.length - 1) ] ;
+    scenarioParagraph.innerText = beggingScenarios[ randomNumberGen(beggingScenarios.length - 1) ] ;
     setTimeout(weaponPrompt, 2000);
 
 </script>
