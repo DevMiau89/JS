@@ -5,6 +5,27 @@
     <title>Zombie Game</title>
 </head>
 <body>
-<script></script>
+    <p><strong>It is zombie apocalypse. You are looting a store and suddenly a zombie bursts out through the door!</strong></p>
+<script>
+
+    let randomNumber = Math.round(Math.random());
+    function weaponPrompt() {
+        let weapon = prompt('You search around frantically for a weapon. What do you choose? A bow and arrow, an axe, or a rubber chicken?');
+        let p = document.createElement('p');
+        let p2 = document.createElement('p');
+        p.innerText = `You attacked zombie with your ${weapon}`;
+        document.body.appendChild(p);
+
+        if (randomNumber) {
+           p2.innerText = `You killed zombie with your ${weapon}. You win.`;
+        }else{
+           p2.innerText = `The zombie bites you. You loose!!!.`;
+        }
+        document.body.appendChild(p2);
+    }
+
+    setTimeout(weaponPrompt, 2000);
+
+</script>
 </body>
 </html>

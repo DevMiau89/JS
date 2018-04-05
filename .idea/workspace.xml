@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534ffbed-c5d2-4d3f-8f72-5cd2fd42b6ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsExercises2/jsZombieGame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises2/jsZombieGame.html" afterPath="$PROJECT_DIR$/JsExercises2/jsZombieGame.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,8 +88,8 @@
       <file leaf-file-name="jsZombieGame.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JsExercises2/jsZombieGame.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="858">
+              <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -275,10 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.JsBlackJack.html">
-    <configuration default="false" name="flexibleArguments.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/classFiles/ClassFiles/AdvancedFunctions/Exercises/flexibleArguments.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.jsZombieGame.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsAsync/index.html">
       <method />
     </configuration>
@@ -289,6 +285,9 @@
       <method />
     </configuration>
     <configuration default="false" name="JsBlackJack.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsBlackJack.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="jsZombieGame.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/jsZombieGame.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -474,19 +473,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.flexibleArguments.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.jsSwitch.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsDates.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsBlackJack.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.jsSwitch.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsDates.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsBlackJack.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.jsZombieGame.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsBlackJack.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.jsSwitch.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsDates.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.flexibleArguments.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.jsZombieGame.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsBlackJack.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.jsSwitch.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsDates.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -912,8 +911,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises2/jsZombieGame.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="858">
+          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding />
         </state>
       </provider>
