@@ -15,13 +15,13 @@
         <label for="email">E-mail:</label>
         <input type="email" name="email" id="email" value="" />
     </div>
-
+    <br>
     <fieldset>
         <legend>Wybierz płeć</legend>
         <input type="radio" value="m" name="gender" checked="checked" /> m
         <input type="radio" value="k" name="gender" /> k
     </fieldset>
-
+    <br>
     <fieldset>
         <legend>Wybierz dwa (2) ulubione owoce</legend>
         <input type="checkbox" value="jagoda" name="color" /> niebieski
@@ -29,8 +29,17 @@
         <input type="checkbox" value="arbuz" name="color" /> zielony
         <input type="checkbox" value="pomarancz" name="color" /> pomarańcz
     </fieldset>
+    <br>
+    <select name="eyeColor">
+        <option value="-1">wybierz kolor</option>
+        <option value="niebieskie">niebieskie</option>
+        <option value="zielone">zielone</option>
+        <option value="bronzowe">bronzowe</option>
+        <option value="czarne">czarne</option>
+    </select>
 
     <div>
+        <br>
         <button type="submit">Zapisz</button>
     </div>
 </form>
@@ -61,7 +70,21 @@
         }
         return form.submit();
     }
-    form.addEventListener('submit', genderChecker);
+
+    function eyeColorChecker(e) {
+        e.preventDefault();
+        const select = document.querySelector('select[name="eyeColor"]');
+        const eyeColor = select.options[select.selectedIndex].value;
+        if(document.querySelector('select[name=eyeColor]').selectedIndex){
+            alert('Your eyes are ' + eyeColor);
+            return form.submit();
+        }else{
+            alert('You need to select value');
+            return false;
+        }
+    }
+
+    form.addEventListener('submit', eyeColorChecker);
 </script>
 </body>
 </html>
