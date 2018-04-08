@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534ffbed-c5d2-4d3f-8f72-5cd2fd42b6ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises/JsModule/public/dist/mathFunctions.js" afterPath="$PROJECT_DIR$/JsExercises/JsModule/public/dist/mathFunctions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises2/JsFormImprovement.html" afterPath="$PROJECT_DIR$/JsExercises2/JsFormImprovement.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises2/JsFormParsers.html" afterPath="$PROJECT_DIR$/JsExercises2/JsFormParsers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises2/jsZombieGame.html" afterPath="$PROJECT_DIR$/JsExercises2/jsZombieGame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html" afterPath="$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -132,8 +128,8 @@
       <file leaf-file-name="jsDifferentFormInputs.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+            <state relative-caret-position="1572">
+              <caret line="63" column="49" lean-forward="false" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -320,10 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.JsFormImprovement.html">
-    <configuration default="false" name="JsBlackJack.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsBlackJack.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.jsDifferentFormInputs.html">
     <configuration default="false" name="jsZombieGame.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/jsZombieGame.html">
       <method />
     </configuration>
@@ -334,6 +327,9 @@
       <method />
     </configuration>
     <configuration default="false" name="JsFormImprovement.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsFormImprovement.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="jsDifferentFormInputs.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/jsDifferentFormInputs.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -519,19 +515,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsBlackJack.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.jsZombieGame.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsFormParsers.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsFormsEx.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsFormImprovement.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.jsZombieGame.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsFormParsers.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsFormsEx.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsFormImprovement.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.jsDifferentFormInputs.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsFormImprovement.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsFormsEx.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsFormParsers.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.jsZombieGame.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsBlackJack.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.jsDifferentFormInputs.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsFormImprovement.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsFormsEx.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsFormParsers.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.jsZombieGame.html" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -967,8 +963,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        <state relative-caret-position="1572">
+          <caret line="63" column="49" lean-forward="false" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
           <folding />
         </state>
       </provider>

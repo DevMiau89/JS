@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<form id="myForm" method="post" action="skrypt_przetwarzajacy.php">
+<form id="myForm" method="post" action="">
     <div>
         <label for="name">Imię:</label>
         <input type="text" name="name" id="name" value="" />
@@ -34,5 +34,34 @@
         <button type="submit">Zapisz</button>
     </div>
 </form>
+
+<script>
+    const form = document.getElementById('myForm');
+
+    function checker(e) {
+        const checkboxes = document.querySelectorAll('input[name=color]:checked').length;
+        e.preventDefault();
+        if (checkboxes > 1) {
+            alert('yolo');
+            return form.submit();
+        }else{
+            alert('Need to pick two colors');
+            return false;
+        }
+
+    }
+
+    function genderChecker(e) {
+        e.preventDefault();
+        const male = document.querySelectorAll('input[name=gender]')[0];
+        if(male.checked){
+            alert('Male picked');
+        }else{
+            alert('Female picked');
+        }
+        return form.submit();
+    }
+    form.addEventListener('submit', genderChecker);
+</script>
 </body>
 </html>
