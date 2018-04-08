@@ -1,20 +1,19 @@
-/**
- * Created by DevMiau on 12-Mar-18.
- */
+
+//Created by DevMiau on 12-Mar-18.
+
 var jsModule = function () {
+    'use strict';
     var n = 5;
     var avg = function (...n) {
         let tot = 0;
-
         for (let i = 0; i < n.length; i++) {
             tot += n[i];
         }
         return tot / n.length;
     };
-    var add = function (n, m) {
+    var add = function(n, m) {
         return n + m;
     };
-
     return {
         avg: avg,
         add: add

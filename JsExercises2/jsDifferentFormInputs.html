@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form id="myForm" method="post" action="skrypt_przetwarzajacy.php">
+    <div>
+        <label for="name">Imię:</label>
+        <input type="text" name="name" id="name" value="" />
+    </div>
+
+    <div>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" value="" />
+    </div>
+
+    <fieldset>
+        <legend>Wybierz płeć</legend>
+        <input type="radio" value="m" name="gender" checked="checked" /> m
+        <input type="radio" value="k" name="gender" /> k
+    </fieldset>
+
+    <fieldset>
+        <legend>Wybierz dwa (2) ulubione owoce</legend>
+        <input type="checkbox" value="jagoda" name="color" /> niebieski
+        <input type="checkbox" value="jablko" name="color" /> czerwony
+        <input type="checkbox" value="arbuz" name="color" /> zielony
+        <input type="checkbox" value="pomarancz" name="color" /> pomarańcz
+    </fieldset>
+
+    <div>
+        <button type="submit">Zapisz</button>
+    </div>
+</form>
+</body>
+</html>

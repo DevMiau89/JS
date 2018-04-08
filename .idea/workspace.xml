@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534ffbed-c5d2-4d3f-8f72-5cd2fd42b6ac" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises/JsModule/public/dist/mathFunctions.js" afterPath="$PROJECT_DIR$/JsExercises/JsModule/public/dist/mathFunctions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises2/JsFormImprovement.html" afterPath="$PROJECT_DIR$/JsExercises2/JsFormImprovement.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises2/JsFormParsers.html" afterPath="$PROJECT_DIR$/JsExercises2/JsFormParsers.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises2/jsZombieGame.html" afterPath="$PROJECT_DIR$/JsExercises2/jsZombieGame.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,18 +82,58 @@
       <file leaf-file-name="JsBlackJack.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JsExercises2/JsBlackJack.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1473">
+            <state relative-caret-position="3135">
               <caret line="95" column="25" lean-forward="true" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jsZombieGame.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jsZombieGame.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JsExercises2/jsZombieGame.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            <state relative-caret-position="285">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsFormParsers.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JsExercises2/JsFormParsers.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1011">
+              <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsFormsEx.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JsExercises2/JsFormsEx.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsFormImprovement.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JsExercises2/JsFormImprovement.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1341">
+              <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jsDifferentFormInputs.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1122">
+              <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -124,9 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JsExercises/JsExceptions.html" />
-        <option value="$PROJECT_DIR$/JsExercises/JsTable.html" />
-        <option value="$PROJECT_DIR$/JsExercises/JsDates.html" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsPracticalExercises.html" />
         <option value="$PROJECT_DIR$/JsExercises/JsNestedAdressObj.js" />
         <option value="$PROJECT_DIR$/JsExercises/objEx.js" />
@@ -175,6 +216,9 @@
         <option value="$PROJECT_DIR$/JsExercises2/jsSwitch.html" />
         <option value="$PROJECT_DIR$/JsExercises2/JsBlackJack.html" />
         <option value="$PROJECT_DIR$/JsExercises2/jsZombieGame.html" />
+        <option value="$PROJECT_DIR$/JsExercises2/JsFormParsers.html" />
+        <option value="$PROJECT_DIR$/JsExercises2/JsFormImprovement.html" />
+        <option value="$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html" />
       </list>
     </option>
   </component>
@@ -217,6 +261,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -246,7 +291,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,20 +320,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.jsZombieGame.html">
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsAsync/index.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="jsSwitch.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/jsSwitch.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="JsDates.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsDates.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.JsFormImprovement.html">
     <configuration default="false" name="JsBlackJack.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsBlackJack.html">
       <method />
     </configuration>
     <configuration default="false" name="jsZombieGame.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/jsZombieGame.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="JsFormParsers.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsFormParsers.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="JsFormsEx.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsFormsEx.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="JsFormImprovement.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsFormImprovement.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -475,19 +519,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.jsSwitch.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsDates.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsBlackJack.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.jsZombieGame.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsBlackJack.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.jsZombieGame.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsFormParsers.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsFormsEx.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsFormImprovement.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.jsZombieGame.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsBlackJack.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.jsSwitch.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsDates.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsFormImprovement.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsFormsEx.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsFormParsers.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.jsZombieGame.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsBlackJack.html" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -536,7 +580,7 @@
     <frame x="-11" y="-11" width="3862" height="2122" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23819628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24244031" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -574,7 +618,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JsExercises/JsModule/JsModule.html" />
     <entry file="file://$PROJECT_DIR$/JsExercises/JsModule/es6/mathFunctions.js" />
     <entry file="file://$PROJECT_DIR$/JsExercises/JsModule/es6/JsModule.html" />
     <entry file="file://$PROJECT_DIR$/JsExercises/JsModule/public/dist/mathFunctions.js">
@@ -647,13 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JsExercises2/JsFormImprovement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/Jsform.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -665,20 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JsExercises2/JsFormsEx.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JsExercises2/JsFormParsers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -905,7 +927,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises2/JsBlackJack.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1473">
+        <state relative-caret-position="3135">
           <caret line="95" column="25" lean-forward="true" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
           <folding />
         </state>
@@ -913,8 +935,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises2/jsZombieGame.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        <state relative-caret-position="285">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises2/JsFormParsers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1011">
+          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises2/JsFormsEx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises2/JsFormImprovement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1341">
+          <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
           <folding />
         </state>
       </provider>
