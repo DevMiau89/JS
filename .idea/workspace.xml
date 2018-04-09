@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534ffbed-c5d2-4d3f-8f72-5cd2fd42b6ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html" afterPath="$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JsExercises/BasicExercises/helga.jpg" afterPath="$PROJECT_DIR$/JsExercises2/submissionTargets/helga.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises/BasicExercises/JsImg2.html" afterPath="$PROJECT_DIR$/JsExercises/BasicExercises/JsImg2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises/BasicExercises/JsPracticalExercises.html" afterPath="$PROJECT_DIR$/JsExercises/BasicExercises/JsPracticalExercises.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,107 +32,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="JsCelsiusToFarenheit.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JsExercises2/JsCelsiusToFarenheit.js">
+      <file leaf-file-name="JsExceptions.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JsExercises2/JsExceptions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#43#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsMathFunc.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JsExercises2/JsMathFunc.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsYouDontKnow.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JsExercises2/JsYouDontKnow.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#43#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jsSwitch.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JsExercises2/jsSwitch.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsBlackJack.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JsExercises2/JsBlackJack.html">
+      <file leaf-file-name="iFrameA.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JsExercises2/submissionTargets/iFrameA.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3135">
-              <caret line="95" column="25" lean-forward="true" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+            <state relative-caret-position="330">
+              <caret line="10" column="65" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jsZombieGame.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JsExercises2/jsZombieGame.html">
+      <file leaf-file-name="iFrameB.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JsExercises2/submissionTargets/iFrameB.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="297">
+              <caret line="9" column="63" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="9" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsFormParsers.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JsExercises2/JsFormParsers.html">
+      <file leaf-file-name="image.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JsExercises2/submissionTargets/image.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1011">
-              <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsFormsEx.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JsExercises2/JsFormsEx.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsFormImprovement.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JsExercises2/JsFormImprovement.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1341">
-              <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jsDifferentFormInputs.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1374">
-              <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+            <state relative-caret-position="297">
+              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -164,9 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsPracticalExercises.html" />
-        <option value="$PROJECT_DIR$/JsExercises/JsNestedAdressObj.js" />
-        <option value="$PROJECT_DIR$/JsExercises/objEx.js" />
         <option value="$PROJECT_DIR$/JsExercises/BasicExercises/JsInterviewQuestion.html" />
         <option value="$PROJECT_DIR$/JsExercises/ex.js" />
         <option value="$PROJECT_DIR$/JsExercises/JsMathFunc.js" />
@@ -215,6 +149,9 @@
         <option value="$PROJECT_DIR$/JsExercises2/JsFormParsers.html" />
         <option value="$PROJECT_DIR$/JsExercises2/JsFormImprovement.html" />
         <option value="$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html" />
+        <option value="$PROJECT_DIR$/JsExercises2/submissionTargets/iFrameA.html" />
+        <option value="$PROJECT_DIR$/JsExercises2/submissionTargets/iFrameB.html" />
+        <option value="$PROJECT_DIR$/JsExercises2/submissionTargets/image.html" />
       </list>
     </option>
   </component>
@@ -237,7 +174,7 @@
     <handled-path value="$PROJECT_DIR$/lj/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
+    <option name="x" value="3829" />
     <option name="y" value="-11" />
     <option name="width" value="3862" />
     <option name="height" value="2122" />
@@ -257,7 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -285,8 +221,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JsExercises2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="submissionTargets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JsExercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JsExercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicExercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,11 +284,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Kitty Stuff\PycharmProjects\JS\JsExercises2\submissionTargets" />
       <recent name="C:\Kitty Stuff\PycharmProjects\JS\JsExercises2" />
       <recent name="C:\Kitty Stuff\PycharmProjects\JS\JsExercises" />
       <recent name="C:\Kitty Stuff\PycharmProjects\JS\JsExercises\BasicExercises\projekt-todo\project" />
       <recent name="C:\Kitty Stuff\PycharmProjects\JS\JsExercises\BasicExercises\projekt-todo" />
-      <recent name="C:\Kitty Stuff\PycharmProjects\JS\JsExercises\BasicExercises" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -573,10 +560,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="3862" height="2122" extended-state="6" />
+    <frame x="3829" y="-11" width="3862" height="2122" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24244031" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24456233" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -614,22 +601,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JsExercises/JsModule/es6/mathFunctions.js" />
-    <entry file="file://$PROJECT_DIR$/JsExercises/JsModule/es6/JsModule.html" />
-    <entry file="file://$PROJECT_DIR$/JsExercises/JsModule/public/dist/mathFunctions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JsExercises2/JsDropdown.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsDom2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -923,7 +894,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises2/JsBlackJack.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3135">
+        <state relative-caret-position="1770">
           <caret line="95" column="25" lean-forward="true" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
           <folding />
         </state>
@@ -939,8 +910,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises2/JsFormParsers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1011">
-          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="56" />
+        <state relative-caret-position="945">
+          <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -963,8 +934,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1374">
-          <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        <state relative-caret-position="714">
+          <caret line="50" column="81" lean-forward="false" selection-start-line="50" selection-start-column="81" selection-end-line="50" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises2/JsExceptions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises2/submissionTargets/iFrameA.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="65" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises2/submissionTargets/iFrameB.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="63" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="9" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises2/submissionTargets/image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding />
         </state>
       </provider>
