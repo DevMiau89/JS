@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534ffbed-c5d2-4d3f-8f72-5cd2fd42b6ac" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JsExercises/BasicExercises/helga.jpg" afterPath="$PROJECT_DIR$/JsExercises2/submissionTargets/helga.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises/BasicExercises/JsImg2.html" afterPath="$PROJECT_DIR$/JsExercises/BasicExercises/JsImg2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises/BasicExercises/JsPracticalExercises.html" afterPath="$PROJECT_DIR$/JsExercises/BasicExercises/JsPracticalExercises.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises2/submissionTargets/iFrameA.html" afterPath="$PROJECT_DIR$/JsExercises2/submissionTargets/iFrameA.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises2/submissionTargets/image.html" afterPath="$PROJECT_DIR$/JsExercises2/submissionTargets/image.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +43,8 @@
       <file leaf-file-name="iFrameA.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JsExercises2/submissionTargets/iFrameA.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" column="65" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="65" />
+            <state relative-caret-position="363">
+              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -55,8 +53,8 @@
       <file leaf-file-name="iFrameB.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JsExercises2/submissionTargets/iFrameB.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="63" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="9" selection-end-column="63" />
+            <state relative-caret-position="33">
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -66,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/JsExercises2/submissionTargets/image.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -149,8 +147,8 @@
         <option value="$PROJECT_DIR$/JsExercises2/JsFormParsers.html" />
         <option value="$PROJECT_DIR$/JsExercises2/JsFormImprovement.html" />
         <option value="$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html" />
-        <option value="$PROJECT_DIR$/JsExercises2/submissionTargets/iFrameA.html" />
         <option value="$PROJECT_DIR$/JsExercises2/submissionTargets/iFrameB.html" />
+        <option value="$PROJECT_DIR$/JsExercises2/submissionTargets/iFrameA.html" />
         <option value="$PROJECT_DIR$/JsExercises2/submissionTargets/image.html" />
       </list>
     </option>
@@ -239,38 +237,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JsExercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JsExercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BasicExercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -303,13 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.jsDifferentFormInputs.html">
-    <configuration default="false" name="jsZombieGame.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/jsZombieGame.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="JsFormParsers.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsFormParsers.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.iFrameA.html">
     <configuration default="false" name="JsFormsEx.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsFormsEx.html">
       <method />
     </configuration>
@@ -317,6 +277,12 @@
       <method />
     </configuration>
     <configuration default="false" name="jsDifferentFormInputs.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/jsDifferentFormInputs.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="iFrameA.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/submissionTargets/iFrameA.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="JsExceptions.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsExceptions.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -502,19 +468,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.jsZombieGame.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsFormParsers.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsFormsEx.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsFormImprovement.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.jsDifferentFormInputs.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsFormsEx.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsFormImprovement.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.jsDifferentFormInputs.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.iFrameA.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsExceptions.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.jsDifferentFormInputs.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsFormImprovement.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsFormsEx.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsFormParsers.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.jsZombieGame.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.iFrameA.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsExceptions.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.jsDifferentFormInputs.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsFormImprovement.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsFormsEx.html" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -948,18 +914,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JsExercises2/submissionTargets/iFrameA.html">
+    <entry file="file://$PROJECT_DIR$/JsExercises2/submissionTargets/iFrameB.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="65" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="65" />
+        <state relative-caret-position="33">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JsExercises2/submissionTargets/iFrameB.html">
+    <entry file="file://$PROJECT_DIR$/JsExercises2/submissionTargets/iFrameA.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="63" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="9" selection-end-column="63" />
+        <state relative-caret-position="363">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -967,7 +933,7 @@
     <entry file="file://$PROJECT_DIR$/JsExercises2/submissionTargets/image.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding />
         </state>
       </provider>
