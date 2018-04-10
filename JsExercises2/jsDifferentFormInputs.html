@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+
 <body>
-<form id="myForm" method="post" action="">
+<form id="myForm" method="post" action="" style="display:none">
     <div>
         <label for="name">Imię:</label>
         <input type="text" name="name" id="name" value="" />
@@ -45,8 +46,9 @@
 </form>
 
 <script>
-    const form = document.getElementById('myForm');
+    const form = document.getElementById('myForm').style.display = '';
     form.setAttribute("target", "_blank");
+
     function checker(e) {
         const checkboxes = document.querySelectorAll('input[name=color]:checked').length;
         e.preventDefault();
@@ -86,5 +88,8 @@
 
     form.addEventListener('submit', eyeColorChecker);
 </script>
+<noscript>
+   <h1>You've turned off your js. You are one messed up person. Haha</h1>
+</noscript>
 </body>
 </html>
