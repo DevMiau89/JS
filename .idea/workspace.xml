@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534ffbed-c5d2-4d3f-8f72-5cd2fd42b6ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html" afterPath="$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsTests/JS/scripts1.js" afterPath="$PROJECT_DIR$/JsTests/JS/scripts1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsTests/JS/tests1.js" afterPath="$PROJECT_DIR$/JsTests/JS/tests1.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +32,8 @@
       <file leaf-file-name="jsDifferentFormInputs.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="62" column="51" lean-forward="false" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
+            <state relative-caret-position="2826">
+              <caret line="111" column="34" lean-forward="false" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -184,7 +181,7 @@
     <handled-path value="$PROJECT_DIR$/lj/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3829" />
+    <option name="x" value="-11" />
     <option name="y" value="-11" />
     <option name="width" value="3862" />
     <option name="height" value="2122" />
@@ -520,7 +517,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3829" y="-11" width="3862" height="2122" extended-state="6" />
+    <frame x="-11" y="-11" width="3862" height="2122" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25464192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -915,8 +912,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="62" column="51" lean-forward="false" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
+        <state relative-caret-position="2826">
+          <caret line="111" column="34" lean-forward="false" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
           <folding />
         </state>
       </provider>
