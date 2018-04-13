@@ -33,3 +33,10 @@ describe('betterThanAverage', function(){
         expect(betterThanAverage([12, 23, 34, 45, 56, 67, 78, 89, 90], 9)).toEqual(false);
     })
 })
+var tom = {name: 'Tom'};
+
+describe("passByReference", function(){
+     it("should return mutated obj", function(){
+        expect(reversePerson(tom)).toEqual('moT');
+    })
+})

@@ -76,3 +76,16 @@ function betterThanAverage(classPoints, yourPoints) {
   const average = (classPoints.reduce((a,b) => a + b))/classPoints.length;
   return average < yourPoints ? true : false;
 }
+
+function reverseString(str) {
+    return str.split('').reverse().join('');
+}
+
+function reversePerson(obj) {
+    for (let i=0; i < arguments.length;i++){
+        total++;
+    }
+    return reverseString(obj.name);
+}
+
+console.log(reversePerson)

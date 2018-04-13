@@ -6,17 +6,16 @@
 </head>
 
 <body>
-<form id="myForm" method="post" action="" style="display:none">
+<form name="oForm" id="myForm" method="post" action="#">
     <div>
         <label for="name">Imię:</label>
         <input type="text" name="name" id="name" value="" />
     </div>
-
-    <div>
+    <div id="before">
         <label for="email">E-mail:</label>
         <input type="email" name="email" id="email" value="" />
     </div>
-    <br>
+
     <fieldset>
         <legend>Wybierz płeć</legend>
         <input type="radio" value="m" name="gender" checked="checked" /> m
@@ -46,8 +45,30 @@
 </form>
 
 <script>
-    const form = document.getElementById('myForm').style.display = '';
-    form.setAttribute("target", "_blank");
+    var ref = document.querySelector('div#before');
+    let form = document.getElementById('myForm');
+    form.style.display = '';
+    form.setAttribute('target', '_blank');
+
+    let div = document.createElement('div');
+    let label = document.createElement('label');
+    let input = document.createElement('input');
+
+    label.setAttribute('for', 'phone');
+    label.innerText='Phone Number: ';
+    input.setAttribute('type', 'text');
+    input.setAttribute('name', 'phone');
+    input.setAttribute('type', 'text');
+    input.setAttribute('id', 'phone');
+    input.setAttribute('placeholder', '202-456-1111');
+    input.setAttribute('pattern', '^(\([0-9]{3}\)|[0-9]{3}-)[0-9]{3}-[0-9]{4}$');
+    input.setAttribute('required', 'true');
+    div.appendChild(label);
+    div.appendChild(input);
+
+    ref.parentNode.insertBefore(div, ref.nextSibling);
+
+
 
     function checker(e) {
         const checkboxes = document.querySelectorAll('input[name=color]:checked').length;
