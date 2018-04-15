@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<form name="oForm" id="myForm" method="post" action="#">
+    <div>
+        <label for="name">Imię:</label>
+        <input type="text" name="name" id="name" value="" />
+    </div>
+    <div id="before">
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" value="" />
+    </div>
+
+    <div>
+        <br>
+        <button type="button">Click</button>
+    </div>
+</form>
+
+<script>
+
+
+    const button =  document.querySelector('button');
+    function printName() {
+        const inputName = document.querySelector('#name').value;
+        console.log('Name is: ' + inputName);
+    }
+
+    button.addEventListener('click', printName);
+
+</script>
+</body>
+</html>
