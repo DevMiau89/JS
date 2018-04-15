@@ -20,15 +20,20 @@
         <br>
         <button type="button">Click</button>
     </div>
+     <div>
+        <br>
+        <button type="button" onclick="printName(this)">Click Me</button>
+    </div>
 </form>
 
 <script>
 
 
     const button =  document.querySelector('button');
-    function printName() {
+    function printName(el) {
         const inputName = document.querySelector('#name').value;
         console.log('Name is: ' + inputName);
+        console.log(el);
     }
 
     button.addEventListener('click', printName);
