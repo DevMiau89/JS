@@ -5,8 +5,8 @@
     <title>Form Fields</title>
     <script>
         function changeBg(){
-                var userName = document.getElementById("userName").value;
-                var backgroundClr = document.getElementById("color").value;
+                var userName = document.getElementById("userName").value.toLowerCase();
+                var backgroundClr = document.getElementById("color").value.toUpperCase();
 
                 document.body.style.backgroundColor = backgroundClr;
                 alert(userName + ", the background color is " + backgroundClr + ".");

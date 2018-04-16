@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534ffbed-c5d2-4d3f-8f72-5cd2fd42b6ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises2/jsEvents.html" afterPath="$PROJECT_DIR$/JsExercises2/jsEvents.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsExercises/BasicExercises/Jsform.html" afterPath="$PROJECT_DIR$/JsExercises/BasicExercises/Jsform.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="jsDifferentFormInputs.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jsDifferentFormInputs.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2430">
+            <state relative-caret-position="549">
               <caret line="79" column="33" lean-forward="true" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
               <folding />
             </state>
@@ -75,6 +74,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2013">
               <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="62" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsFormFieldsPaths.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsFormFieldsPaths.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1815">
+              <caret line="86" column="4" lean-forward="false" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Jsform.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/Jsform.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="8" column="88" lean-forward="false" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -133,7 +152,6 @@
         <option value="$PROJECT_DIR$/JsExercises/JsModule/public/dist/mathFunctions.js" />
         <option value="$PROJECT_DIR$/JsExercises/JsModule/public/es6/mathFunctions.js" />
         <option value="$PROJECT_DIR$/JsExercises/JsModule/public/es6/JsModule.html" />
-        <option value="$PROJECT_DIR$/JsExercises/BasicExercises/Jsform.html" />
         <option value="$PROJECT_DIR$/JsExercises/JsDropdown.html" />
         <option value="$PROJECT_DIR$/JsExercises/jsEventDispatcher.js" />
         <option value="$PROJECT_DIR$/JsExercises/DateUDFs.js" />
@@ -170,6 +188,7 @@
         <option value="$PROJECT_DIR$/JsExercises2/jsValRef.js" />
         <option value="$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html" />
         <option value="$PROJECT_DIR$/JsExercises2/jsEvents.html" />
+        <option value="$PROJECT_DIR$/JsExercises/BasicExercises/Jsform.html" />
       </list>
     </option>
   </component>
@@ -192,7 +211,7 @@
     <handled-path value="$PROJECT_DIR$/lj/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
+    <option name="x" value="3829" />
     <option name="y" value="-11" />
     <option name="width" value="3862" />
     <option name="height" value="2122" />
@@ -240,6 +259,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JsExercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JsExercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicExercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -271,20 +322,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.jsEvents.html">
+  <component name="RunManager" selected="JavaScript Debug.Jsform.html">
+    <configuration default="false" name="jsEvents.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/jsEvents.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="JsFormsEx.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsFormsEx.html">
+      <method />
+    </configuration>
     <configuration default="false" name="JsFormImprovement.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsFormImprovement.html">
       <method />
     </configuration>
-    <configuration default="false" name="jsDifferentFormInputs.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/jsDifferentFormInputs.html">
+    <configuration default="false" name="JsFormParsers.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsFormParsers.html">
       <method />
     </configuration>
-    <configuration default="false" name="iFrameA.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/submissionTargets/iFrameA.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="JsExceptions.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/JsExceptions.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="jsEvents.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises2/jsEvents.html">
+    <configuration default="false" name="Jsform.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/JsExercises/BasicExercises/Jsform.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -470,19 +521,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JsFormImprovement.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.jsDifferentFormInputs.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.iFrameA.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsExceptions.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.jsEvents.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.jsEvents.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsFormsEx.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsFormImprovement.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsFormParsers.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Jsform.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.jsEvents.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.jsDifferentFormInputs.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.iFrameA.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsExceptions.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JsFormImprovement.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Jsform.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.JsFormParsers.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JsFormImprovement.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.JsFormsEx.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.jsEvents.html" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -528,9 +579,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="3862" height="2122" extended-state="6" />
+    <frame x="3829" y="-11" width="3862" height="2122" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25888595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25888595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -600,13 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1023">
           <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/Jsform.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -758,13 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsFormFieldsPaths.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2838">
-          <caret line="86" column="4" lean-forward="false" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises2/DateUDFs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -885,10 +923,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JsExercises2/JsFormsEx.html">
+    <entry file="file://$PROJECT_DIR$/JsExercises2/jsEvents.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="1386">
+          <caret line="42" column="42" lean-forward="true" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="79" column="33" lean-forward="true" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -901,6 +947,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JsExercises2/JsFormsEx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JsExercises2/JsFormParsers.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2013">
@@ -909,18 +963,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JsExercises2/jsEvents.html">
+    <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/JsFormFieldsPaths.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="42" column="42" lean-forward="true" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+        <state relative-caret-position="1815">
+          <caret line="86" column="4" lean-forward="false" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JsExercises2/jsDifferentFormInputs.html">
+    <entry file="file://$PROJECT_DIR$/JsExercises/BasicExercises/Jsform.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="79" column="33" lean-forward="true" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+        <state relative-caret-position="264">
+          <caret line="8" column="88" lean-forward="false" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
           <folding />
         </state>
       </provider>
