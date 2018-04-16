@@ -38,6 +38,16 @@
 
     button.addEventListener('click', printName);
 
+    var myDate = new Date();
+
+    myDate.setDate(myDate.getDate() + 20);
+
+    var myDateString = ('0' + myDate.getDate()).slice(-2) + '/'
+                       + ('0' + (myDate.getMonth()+1)).slice(-2) + '/'
+                       + myDate.getFullYear();
+
+    console.log(myDateString);
+
 </script>
 </body>
 </html>
