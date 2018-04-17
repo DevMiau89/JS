@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <title>Form Fields</title>
     <script>
+        const tab = document.getElementById('tabelka');
+
+        const td = tab.getElementsByTagName('td');
+        console.log(td.length);
+
+        for (let i=0; i<td.length; i++) {
+            td[i].style.backgroundColor = 'red';
+        }
         function changeBg(){
                 var userName = document.getElementById("userName").value.toLowerCase();
                 var backgroundClr = document.getElementById("color").value.toUpperCase();
@@ -27,5 +35,13 @@
             Background Color: <input type="text" name="color" id="color"><br>
             <input type="button" value="Change Background" id="changebutton">
         </form>
+        <table id="tabelka">
+            <tr>
+                <td>1</td>2<td class="czerwone">3</td>
+            </tr>
+            <tr>
+                <td>4</td>5<td class="czerwone">6</td>
+            </tr>
+        </table>
     </body>
 </html>
