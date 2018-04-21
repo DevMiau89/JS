@@ -68,6 +68,16 @@ table {
    clear: both; 
 }
 
+.hidden {
+    /* hide content visually, but not from screen readers*/
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
 /* --------------- Type ------------------ */
 
 h1, h2, h3, h4, h5, h6, p, aside {
