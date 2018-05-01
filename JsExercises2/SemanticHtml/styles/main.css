@@ -401,4 +401,9 @@ hr {
     text-align: center;
 }
 
-
+li {
+display: block;
+margin-right: 10px;
+font-weight: bold;}
+li.coming-soon {
+display: none;}

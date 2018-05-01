@@ -19,9 +19,9 @@ em {
 
 .blueBox {
     background: #627da0;
-    position: relative;
-    top: 45px;
-    left: 45px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .greenBox {
