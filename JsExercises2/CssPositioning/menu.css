@@ -4,5 +4,25 @@
 }
 
 ul {
-    background-color: aqua;
+    background-color: #cccccc;
+    list-style: none;
+    text-align: center;
+    
+}
+
+ul li {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    background-color: #cccc99;
+    padding: 3px 0 0 10px;
+    margin: 10px;
+    border-bottom: 5px solid #000000;    
+    height: 25px;
+}
+
+@media screen and (max-width: 992px) /* Desktop */ {
+  body {
+    background: red;
+  }
 }
