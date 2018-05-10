@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
     <title>Test</title>
     <style type="text/css">
+        
     p:only-of-type
 
     {
@@ -15,33 +16,36 @@
     font-weight:bolder;
 
     }
-
-  
-
+    @media (max-width: 400px) {
+    html { background: red; }
+    }
+    @media (min-width: 600px) {
+      html { background: green; }
+    }
+    @media (min-width: 800px) {
+      html { background: blue; }
+    }
+      
     </style>
 </head>
     <body>
-    <div>
+        <div>
+            <h1>Lorem ipsum dolor sit amet</h1>
 
-<h1>Lorem ipsum dolor sit amet</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non turpis at leo tempus consectetur vitae non mi. Integer mi purus, rhoncus et ornare ac, consectetur sit amet orci.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non turpis at leo tempus consectetur vitae non mi. Integer mi purus, rhoncus et ornare ac, consectetur sit amet orci.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non turpis at leo tempus consectetur vitae non mi. Integer mi purus, rhoncus et ornare ac, consectetur sit amet orci.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non turpis at leo tempus consectetur vitae non mi. Integer mi purus, rhoncus et ornare ac, consectetur sit amet orci.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non turpis at leo tempus consectetur vitae non mi. Integer mi purus, rhoncus et ornare ac, consectetur sit amet orci.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non turpis at leo tempus consectetur vitae non mi. Integer mi purus, rhoncus et ornare ac, consectetur sit amet orci.</p>
+            </div>
 
-</div>
+            <div>
 
-<div>
+            <h1>Lorem ipsum dolor sit amet</h1>
 
-<h1>Lorem ipsum dolor sit amet</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non turpis at leo tempus consectetur vitae non mi. Integer mi purus, rhoncus et ornare ac, consectetur sit amet orci.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non turpis at leo tempus consectetur vitae non mi. Integer mi purus, rhoncus et ornare ac, consectetur sit amet orci.</p>
-
-</div>
-
-
-     
+        </div>   
     </body>
 </html>
