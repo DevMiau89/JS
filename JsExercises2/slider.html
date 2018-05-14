@@ -30,7 +30,7 @@
         <label class="slider" for="slider" id="startValue">0</label>
         <input type="range" name="slider" min="0" max="10" value="5">        
         <label class="slider" for="slider" id="endValue">10</label>
-        <output id="output">0</output>
+        <output id="output"></output>
     </form>
     
     <script>
@@ -38,7 +38,7 @@
         let output = document.getElementById("output");
         
         sliderValue.addEventListener("change", function() {
-            output.innerText = this.value;    
+            output.value = this.value;    
             
         });
     </script>
