@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title>Slider</title>
+    <style>
+        
+        .slider {
+           position: absolute;
+           color: rgb(102, 102, 102);    
+        }
+        #startValue {
+            margin: 4px 0 0 0;
+            
+        }
+        #endValue {
+            margin: 4px 0 0 -10px;    
+        }
+        output{
+            position: absolute;
+            color: red;
+            margin: 5px 0 0 25px;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <form>   
+        <label class="slider" for="slider" id="startValue">0</label>
+        <input type="range" name="slider" min="0" max="10" value="5">        
+        <label class="slider" for="slider" id="endValue">10</label>
+        <output id="output">0</output>
+    </form>
+    
+    <script>
+        let sliderValue = document.querySelector("input[name='slider']");
+        let output = document.getElementById("output");
+        
+        sliderValue.addEventListener("change", function() {
+            output.innerText = this.value;    
+            
+        });
+    </script>
+</body>
+</html>
