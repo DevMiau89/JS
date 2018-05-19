@@ -26,6 +26,24 @@ th {
 	text-transform: uppercase;
     background-color: #ff00ff;
 }
+    
+input[type="submit"] {
+    color: aqua;
+} 
+    
+.orange {
+  background-color: #ff9e2c;
+  margin-top: 15px;
+  margin-bottom: 30px;
+
+}
+
+.yellow {
+  background-color: #eeee78;
+  margin-top: 15px;
+    
+        
+}    
 </style>
 </head>
 <body>
@@ -69,13 +87,25 @@ th {
         <li>HTML fundamentals
             <ol>
                 <li>creating documents</li>
-                <li>creating memories</li>
+                <li value="6">creating memories</li>
             </ol>
         </li>
         <li>Have Fun</li>
         <li>Mark it up!</li>
     </ul>
 
+<button type="submit">Submit</button>
+<input type="submit"/>
+
+<form action="/action_page.php">
+  <input type="radio" name="gender" value="male" required> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br><br>
+  <input type="submit">
+</form> 
+
+<div class="orange">Orange</div>
+<div class="yellow">Yellow</div>
 
 </body>
 </html>
