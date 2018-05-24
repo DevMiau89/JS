@@ -17,7 +17,7 @@
            <legend>Test form</legend>
            <input type="checkbox" name="chk" id="chk" /> 
            <label for="chk">Click to show/hide</label>
-           <br />
+           <br/>
            <label class="hidden">Name:</label><input type="text" name="name" class="hidden" />
            <label class="hidden">Email:</label><input type="email" name="email" class="hidden" />
         </fieldset> 
@@ -28,17 +28,7 @@
         
         function showHide(){
             let inputs = document.querySelectorAll('.hidden');
-            let arrayInputs = Array.from(inputs);
-            
-            arrayInputs.forEach(function(el){
-                if(chk.checked){
-                    el.style.display = "inline";        
-                    
-                }else{
-                    el.style.display = "none";     
-                }    
-            })
-                       
+            let arrayInputs = Array.from(inputs, el => (chk.checked) ? el.style.display = "inline" : el.style.display = "none");                       
         };
         
         chk.addEventListener('click', showHide);
