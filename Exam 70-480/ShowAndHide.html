@@ -28,9 +28,17 @@
         
         function showHide(){
             let inputs = document.querySelectorAll('.hidden');
-            let arrayInputs = Array.from(inputs, el => el.classList.toggle('hidden'));
-            return arrayInputs;
+            let arrayInputs = Array.from(inputs);
             
+            arrayInputs.forEach(function(el){
+                if(chk.checked){
+                    el.style.display = "inline";        
+                    
+                }else{
+                    el.style.display = "none";     
+                }    
+            })
+                       
         };
         
         chk.addEventListener('click', showHide);
