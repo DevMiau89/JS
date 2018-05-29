@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Ajax Request</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+
+    <h1>Form 1</h1>
+    
+    <form action="#" style="max-width: 40%;">
+       <fieldset>
+           <legend>Personal Data: </legend>
+           <label for="chk">Enter Your Name: </label>
+           <input type="text" name="firstName" id="firstName" /> 
+           <label for="chk">Enter your Last Name:</label>
+           <input type="text" name="firstName" id="firstName" /> 
+           <br /><br />
+           <input type="submit" value="Submit" />
+        </fieldset> 
+    </form>
+    <br>
+    <br>
+    <div>
+        <button id="btnAdd">Add List</button>
+        <ul>
+        </ul>
+        
+    </div>
+    
+    <script>
+        $(document).ready(function() {
+            $.ajax({
+                url: $('form').attr("action"),
+                data : $('form').serialize();
+                type: "post",
+                success : function(data){
+                    var li = $('<li></li>');
+                    $('ul').append(li.text(data));
+                }
+                
+            })
+        });
+    </script>
+</body>
+</html>

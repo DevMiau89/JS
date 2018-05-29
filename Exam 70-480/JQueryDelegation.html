@@ -14,6 +14,8 @@
     <h1>My First Heading</h1>
     
     <div>
+        <button id="btnAdd">Add Item</button>
+        <button id="btnUndelegate">Undelegate</button>
         <ul>
             <li>List Item 1</li>
             <li>List Item 2</li>
@@ -23,8 +25,19 @@
     
     <script>
         $(document).ready(function() {
-            
-        })
+            $('ul').on('click', 'li', function(){
+                $(this).fadeOut(500);       
+            });     
+
+
+            $('#btnAdd').on('click', function(){
+                $('ul').append('<li>List Item </li>');         
+            }); 
+
+            $('#btnUndelegate').on('click', function(){
+                $('ul').off('click', 'li');             
+            });     
+        });
     </script>
 </body>
 </html>
