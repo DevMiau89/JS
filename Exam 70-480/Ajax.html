@@ -14,33 +14,38 @@
            <label for="chk">Enter Your Name: </label>
            <input type="text" name="firstName" id="firstName" /> 
            <label for="chk">Enter your Last Name:</label>
-           <input type="text" name="firstName" id="firstName" /> 
+           <input type="text" name="lastName" id="lastName" /> 
            <br /><br />
-           <input type="submit" value="Submit" />
+           <button id="btnAdd" type="submit">Add List</button>
         </fieldset> 
     </form>
     <br>
     <br>
-    <div>
-        <button id="btnAdd">Add List</button>
+    <div id="output">
+        
         <ul>
         </ul>
         
     </div>
     
-    <script>
+     <script>
         $(document).ready(function() {
-            $.ajax({
-                url: $('form').attr("action"),
-                data : $('form').serialize();
-                type: "post",
-                success : function(data){
-                    var li = $('<li></li>');
-                    $('ul').append(li.text(data));
-                }
-                
+            $('#btnAdd').on('click', function(e){
+                    e.preventDefault();
+                    $.ajax({
+                    url: "test.json",
+                    data : $('form').serialize(),
+                    type: "get",
+                    success : function(data){
+                        var li = $('<li></li>');
+                        $('ul').append(li.text(data.name));
+
+                    }
+    
+                })
             })
+                       
         });
-    </script>
+    </script> 
 </body>
 </html>
