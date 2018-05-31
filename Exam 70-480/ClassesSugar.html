@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Classes sugar</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+
+    <h1>Form 1</h1>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            class Animal{
+                constructor(voice) {
+                    this.voice = voice || 'grunt';
+                }
+                speak() {
+                    console.log(this.voice);
+                }
+            }        
+            
+        })
+    </script> 
+</body>
+</html>
