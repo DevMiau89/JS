@@ -17,8 +17,22 @@
                 speak() {
                     console.log(this.voice);
                 }
-            }        
+            }
             
+            class Cat extends Animal {
+                constructor(voice, name, color) {
+                    super(voice);
+                    this.name = name;
+                    this.color = color;
+                }
+            }
+            
+            
+            let kitty = new Cat('purr','devMiau', 'brown');
+            console.log(kitty.speak());
+            
+            let animal = new Animal();
+            console.log(animal);
         })
     </script> 
 </body>
