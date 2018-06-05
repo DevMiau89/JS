@@ -5,9 +5,14 @@ html,body {
 ul#flex-container {
 	list-style-type:none;
 	margin:0;padding:0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
 
 ul li {
+    flex-grow: 1;
 	height:150px;
 	padding-top:45px;
 	color:#fff;
@@ -17,7 +22,7 @@ ul li {
 }
 
 ul li:first-child { background: #c2d775; }
-ul li:nth-child(2) { background: #007278; }
+ul li:nth-child(2) { background: #007278; flex-grow: 2;}
 ul li:nth-child(3) { background: #c7b600; }
 ul li:nth-child(4) { background: #a90077; }
 ul li:nth-child(5) { background: #00a378; }
