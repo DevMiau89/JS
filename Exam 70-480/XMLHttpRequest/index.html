@@ -4,8 +4,12 @@
 <head>
   <meta charset="utf-8">
   <title>XMLHttpRequest</title>
-
+   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>  
 </head>
+    
+    <div>
+        <button id='myButton'>Click Me</button>
+    </div>
 
 <body>
   <script>
@@ -25,5 +29,25 @@
 
     });   
   </script>
+    <script>
+    $(document).ready(function(){
+        $('#myButton').on('click', function() {
+            $.ajax({
+                url: 'https://jsonplaceholder.typicode.com/posts',
+                type: 'get',
+                contenttype : 'application/json',
+                dataType: 'json',
+                success: function(res){
+                    res.forEach(function(el){
+                        console.log(el);
+                    })    
+                }
+            })
+            .done(function(res) {
+                console.log('This is your response ' + res.forEach(function(el){console.log(el)}));
+            })
+        })        
+    })
+    </script>
 </body>
 </html>
