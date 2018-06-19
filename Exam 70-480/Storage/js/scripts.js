@@ -22,7 +22,10 @@ function clearLocaleStorage() {
 }
 
 function RemoveItemFromStorage() {
-    
+    let key = document.querySelector("input[name= 'Key']");
+    localStorage.removeItem(key.value);
+    key.value = '';
+    value.value = '';
 }
 
 
@@ -33,7 +36,7 @@ var loadButton = document.getElementById('btnLoad');
 
 
 saveButton.addEventListener('click', saveToLocaleStorage);
-//removeFromStorage.addEventListener('click', RemoveItemFromStorage);
+removeButton.addEventListener('click', RemoveItemFromStorage);
 clearButton.addEventListener('click', clearLocaleStorage);
 //loadFromLocaleStorage.addEventListener('click', loadFromLocaleStorage);
 
