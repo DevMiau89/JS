@@ -11,13 +11,14 @@ function saveToLocaleStorage() {
     
     let keySavedToStorage = JSON.stringify(key.value);
     let valueSavedToStorage = JSON.stringify(value.value);
+    
     localStorage.setItem(keySavedToStorage, valueSavedToStorage);
     key.value = '';
     value.value = '';
 }
 
 function clearLocaleStorage() {
-    
+    localStorage.clear();
 }
 
 function RemoveItemFromStorage() {
@@ -25,14 +26,14 @@ function RemoveItemFromStorage() {
 }
 
 
-var addToStorage = document.getElementById('btnAdd');
-var removeFromStorage = document.getElementById('btnRemove');
-var clearLocaleStorage = document.getElementById('btnClear');
-var loadFromLocaleStorage = document.getElementById('loadFromLocaleStorage');
+var saveButton = document.getElementById('btnAdd');
+var removeButton = document.getElementById('btnRemove');
+var clearButton = document.getElementById('btnClear');
+var loadButton = document.getElementById('btnLoad');
 
 
-addToStorage.addEventListener('click', saveToLocaleStorage);
+saveButton.addEventListener('click', saveToLocaleStorage);
 //removeFromStorage.addEventListener('click', RemoveItemFromStorage);
-//clearLocaleStorage.addEventListener('click', clearLocaleStorage);
+clearButton.addEventListener('click', clearLocaleStorage);
 //loadFromLocaleStorage.addEventListener('click', loadFromLocaleStorage);
 
