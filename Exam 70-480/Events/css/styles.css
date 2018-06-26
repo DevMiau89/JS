@@ -1,0 +1,29 @@
+.styleClass {
+    border: 1px soild black;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+}
+
+.one {
+    width: 250px; 
+    height: 250px; 
+    border: 1px solid black
+}
+
+.three {
+    width: 75px; 
+    height: 75px; 
+    border: 1px solid black; 
+    margin-left: 35px
+}
+
+.two {
+    width: 150px; 
+    height: 150px; 
+    border: 1px solid black; 
+    margin-left: 35px
+}
