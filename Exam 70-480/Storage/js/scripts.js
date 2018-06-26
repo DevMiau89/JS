@@ -38,5 +38,5 @@ var loadButton = document.getElementById('btnLoad');
 saveButton.addEventListener('click', saveToLocaleStorage);
 removeButton.addEventListener('click', RemoveItemFromStorage);
 clearButton.addEventListener('click', clearLocaleStorage);
-//loadFromLocaleStorage.addEventListener('click', loadFromLocaleStorage);
+loadFromLocaleStorage.addEventListener('click', loadFromLocaleStorage);
 
