@@ -1,0 +1,67 @@
+body, html {
+  height: 100%;
+  display: grid;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 80px;
+    grid-template-areas: 'left center right'; 
+   
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 0.5vw;
+    height: 0.5vw;
+    display: inline-block;
+    border-radius: 10px; 
+    border-color: rgba(0, 0, 0, 0.8);
+    border-style: solid;
+    border-width: 1px;  
+
+}
+
+
+i {
+    margin: auto;
+}
+
+.col-1 {
+   background-color: bisque; 
+   width: 65%;
+          
+       
+}
+
+.first {
+    width: 20%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    
+    
+    
+}
+
+.second {
+    width: 40%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.third {
+    width: 15%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 60px;
+    position: relative;
+}
+
+
+
