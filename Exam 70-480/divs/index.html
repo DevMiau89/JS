@@ -14,27 +14,39 @@
 
 <body>
  <div class="grid-container">
-    <div style="background-color: aquamarine">
+    <div style="background-color: aquamarine; width: 70%">
          <div class="first">
          <div class="grid-item grid-item-a"><i class="fa fa-car"></i></div>
-         <div class="grid-item grid-item-b"><i class="fa fa-car"></i></div>
+         <div class="grid-item grid-item-b"><i class="fa fa-wrench"></i></div>
          <div class="grid-item grid-item-a"><i class="fa fa-car"></i></div>
         </div>
        <div class="second">
          <div class="grid-item grid-item-a"><i class="fa fa-car"></i></div>         
+         <div class="grid-item grid-item-b"><i class="fa fa-wrench"></i></div>
+         <div class="grid-item grid-item-a"><i class="fa fa-car"></i></div>
+         <div class="grid-item grid-item-a"><i class="fa fa-wrench"></i></div>
          <div class="grid-item grid-item-b"><i class="fa fa-car"></i></div>
-         <div class="grid-item grid-item-a"><i class="fa fa-car"></i></div>
-         <div class="grid-item grid-item-a"><i class="fa fa-car"></i></div>
-         <div class="grid-item grid-item-b"><i class="fa fa-car"></i></div>
-         <div class="grid-item grid-item-a"><i class="fa fa-car"></i></div>
+         <div class="grid-item grid-item-a"><i class="fa fa-wrench"></i></div>
         </div>
         <div class="third">
-         <div class="grid-item grid-item-b"><i class="fa fa-car"></i></div>
+         <div class="grid-item grid-item-b"><i class="fa fa-wrench"></i></div>
          <div class="grid-item grid-item-a"><i class="fa fa-car"></i></div>
         </div> 
      </div>
   </div>
- 
-  <script src="js/scripts.js"></script>
+    <svg width="250" height="250" id="mySvg">
+        <circle cx=150 cy="150" r="40" stroke="black" stroke-width="2" fill="red" id="myCircle"/>
+    </svg>       
+<script src="js/scripts.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        const circle = document.querySelector('#myCircle');
+        const svg = document.querySelector('#mySvg');
+        
+//        circle.setAttribute('transform', "scale(1.5)");
+        svg.setAttribute('transform', "scale(1.5)");
+
+    });
+</script>
 </body>
 </html>

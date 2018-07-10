@@ -1,6 +1,6 @@
 body, html {
   height: 100%;
-  display: grid;
+
 }
 
 i {
@@ -27,8 +27,6 @@ i {
     border-width: 1px;  
 
 }
-
-
 
 
 .col-1 {
