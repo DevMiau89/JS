@@ -10,6 +10,7 @@
 
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -36,15 +37,25 @@
   </div>
     <svg width="250" height="250" id="mySvg">
         <circle cx=150 cy="150" r="40" stroke="black" stroke-width="2" fill="red" id="myCircle"/>
-    </svg>       
-<script src="js/scripts.js"></script>
+    </svg>
+    <br/> 
+    <img src="NonExistingImage.jpg" />    
+                
+
 <script>
     document.addEventListener('DOMContentLoaded', function(){
         const circle = document.querySelector('#myCircle');
         const svg = document.querySelector('#mySvg');
         
 //        circle.setAttribute('transform', "scale(1.5)");
-        svg.setAttribute('transform', "scale(1.5)");
+        svg.setAttribute('transform', "scale(2.0)");
+        
+        window.onerror = function(msg, url, line) {
+            console.log("Message: " + msg + ", URL: " + url + ", Line: " + line);
+            return true;
+        }
+        
+        NonExistingFunction();
 
     });
 </script>
