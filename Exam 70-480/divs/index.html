@@ -35,13 +35,16 @@
         </div> 
      </div>
   </div>
+<!--
     <svg width="250" height="250" id="mySvg">
         <circle cx=150 cy="150" r="40" stroke="black" stroke-width="2" fill="red" id="myCircle"/>
     </svg>
+-->
     <br/> 
     <img src="NonExistingImage.jpg" />    
                 
-
+    <input type="button" id="btnSubmit" value="Submit" onclick="disable(this)"/>
+    <input type="button" id="btnCancel" value="Cancel" onclick="disable(this)"/>
 <script>
     document.addEventListener('DOMContentLoaded', function(){
         const circle = document.querySelector('#myCircle');
@@ -56,8 +59,14 @@
         }
         
         NonExistingFunction();
-
+        
+        
+        
     });
+    
+    function offClick(ctrl) {
+        ctrl.disabled = true;
+    }
 </script>
 </body>
 </html>
