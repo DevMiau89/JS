@@ -62,5 +62,18 @@ i {
     position: relative;
 }
 
-
+img {
+/*    position: relative;*/
+    top: 40px;
+    left: 30px;
+    width: 50%;
+    height: 50%;
+/*
+    clip: rect(0px,150px,75px,0px);
+    border: 10px dotted black;
+    background-color: lightblue;
+    background-clip: content-box;
+*/
+    -ms-wrap-flow: start;
+}
 

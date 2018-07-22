@@ -18,6 +18,9 @@
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",
     "gulp-babel": "^7.0.1",
-    "gulp-eslint": "^4.0.2"
+    "gulp-clean-css": "^3.9.4",
+    "gulp-eslint": "^4.0.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^3.0.0"
   }
 }

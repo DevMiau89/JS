@@ -1,0 +1,16 @@
+.logo,li a{text-decoration:none;text-transform:uppercase}
+body{margin:0;background:#222;font-family:'Work Sans',sans-serif;font-weight:300}
+.container{width:80%;margin:0 auto}
+header{background:#55d6aa}
+header::after{content:'';display:table;clear:both}
+.el-ctn,li a{display:block}
+.logo{float:left;padding:22px 0;color:#222;font-size:25px}
+nav,nav li{float:right}
+nav ul{list-style-type:none;margin:0;padding:0;overflow:hidden}
+.hamburger{width:40px;height:15px;border-top:5px solid #222;background:0 0;position:relative;margin-top:15px;border-left-color:transparent;border-right-color:transparent;border-bottom-color:transparent}
+.hamburger::after,.hamburger::before{content:'';position:absolute;top:0;left:0;width:100%;border-top:5px solid #222;transform:translateY(10px)}
+.hamburger::after{transform:translateY(25px)}
+li a{color:#444;text-align:center;padding:27px 16px;margin-right:80px}
+li a:hover{background-color:#111}
+.elements-ctn{border:1px solid #ddd;margin:2rem 0;background:#eee;width:150px}
+.el-ctn{background:#fff;padding:1rem;box-shadow:0 1px 2px rgba(0,0,0,.3);margin-bottom:1rem;width:100px;float:left;margin-right:10px}
