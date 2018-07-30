@@ -13,9 +13,33 @@ function Hero() {
         </div>
     </div>);
 }
+            
+function Book({title, onClick}) {
+    return(<div className="answer" onClick={() => {onClick(title);}}>
+        <h4>{title}</h4>   
+    </div>)    
+}            
+            
 
-function Turn() {
-    return(<div/>);    
+function Turn({author, books, highlight, onAnswerSelected}) {
+    function highlightToBgColor(highlight){
+        const mapping = {
+            'none': '',
+            'correct': 'green',
+            'wrong': 'red'
+        };
+        return mapping[highlight];
+    }    
+        
+        
+    return(<div className="row turn" style={{backgroundColor: highlightToBgColor(highlight)}}>
+      <div className="col-4 offset-1">
+        <img src={author.imageUrl} className="authorimage" alt="Author" />
+       </div>
+       <div className="col-6">
+         {books.map((title) => <Book title={title} key={title} onClick={onAnswerSelected}/>)}
+       </div>   
+     </div>);    
 }
     
 function Continue() {
@@ -24,8 +48,8 @@ function Continue() {
 
 function Footer() {
     return(<div id="footer" className="row">
-          <div className="col-12">
-              <p className="text-muted credit"> 
+          <div className="col-11 offset-1">
+              <p className="text-muted credit" > 
                 All images are from <a href="https://www.wikimedia.org/">WikiMeadia Coomons</a> and are in the public domain
               </p>   
           </div>
@@ -34,17 +58,15 @@ function Footer() {
         
 }
         
-class AuthorQuiz extends Component {
-  render() {
+function AuthorQuiz({turnData, highlight, onAnswerSelected}) {
     return (
       <div className="container-fluid">
         <Hero />
-        <Turn />
+        <Turn {...turnData} highlight={highlight} onAnswerSelected={onAnswerSelected}/>
         <Continue />
         <Footer />
       </div>
     );
-  }
 }
 
 export default AuthorQuiz;
