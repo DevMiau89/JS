@@ -11,14 +11,15 @@
     <script>
         const counter = {
             cnt: 0,
-            inc: function () {
+            inc: () => {
+                console.log(this.cnt);
                 this.cnt;
                 console.log(this.cnt++);
 
             }
         };
         const button = document.getElementsByTagName('button')[0];
-        button.addEventListener('click', counter.inc.bind(counter), false);
+        button.addEventListener('click', () => counter.inc , false);
     </script>
 </body>
 </html>
