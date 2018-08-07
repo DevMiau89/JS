@@ -181,7 +181,102 @@ function average() {
 console.log(sum(1, 2, 3, 4, 5));
 console.log(average(10, 9.5, 8, 9.5, 10));
 
+var Bank = (function () {
+    function Bank(balance) {
+        this.fee = 0.01;
+        this.account = { balance: balance };
+    }
 
+    Bank.prototype.deposit = function (amount) {
+        var amountWithFee, fee = this.fee;
+        this.amountWithFee = amount - (amount * fee);
+        this.account.balance += this.amountWithFee;
+    }
+
+    Bank.prototype.withdrawal = function (amount) {
+        this.amountWithFee = amount + (amount * this.fee);
+        this.account.balance -= this.amountWithFee;
+    }
+
+
+    return Bank;
+})();
+
+var bank = new Bank(1000);
+console.log("fee: " + window.fee);
+bank.withdrawal(250);
+console.log(JSON.stringify(bank));
+console.log("amountWithFee: " + window.amountWithFee);
+console.log("fee: " + window.fee);
+bank.deposit(250);
+console.log(JSON.stringify(bank));
+console.log("amountWithFee: " + window.amountWithFee);
+console.log("fee: " + window.fee);    
+
+function purchase(item, amount) {
+    var amount = parseInt(amount, 10);
+    console.log("Got " + item + ": $" + amount.toFixed(2));
+}
+
+purchase("Eggs", "01");
+purchase("Bacon", "08");
+
+
+function purchase(item, amount) {
+  amount = parseFloat(amount);
+  if (isNaN(amount)) { throw "Amount is not a number" }
+  console.log("Got " + item + ": $" + amount.toFixed(2));
+}
+
+try {
+  purchase("Eggs", "1.75");
+  purchase("Bacon", "priceless");
+} catch (e) {
+  console.log(e);
+}
+
+(function() {
+    "use strict";
+    var x = 15;
+    var person = {
+        firstName: "John",
+        lastName: "Smith",
+        birthday: "12",
+        phone: "(555) 123-4567",
+        ssn: "123-45-6789",
+        address: "123 White Ave.",
+        city: "Nashville",
+        state: "TN",
+        zip: "90210",
+ 
+        toString: function() {
+            return this.firstName + " " + this.lastName + ": " + this.phone;
+        }
+    };
+    console.log(person.toString());
+    
+    console.log(person.toString());
+}());
+
+var element = document.getElementById("greeting");
+
+function html(value) {
+    if ( value === undefined) {
+        console.log(typeof value);
+        return element.innerHTML;
+    } else if (typeof value === "string") {
+         element.innerHTML = value;
+    } else if (typeof value === "function") {
+        element.innerHTML = value(element.innerHTML);
+    }
+}
+
+console.log(html());
+html('Hello');
+console.log(html());
+html(function (text) { return text + " World!"; });
+console.log(html());
+ 
 var collection = (function() {
     var items = [];
     var add = function(item) { items.push(item); };
