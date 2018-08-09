@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import './bootstrap.min.css';
@@ -42,8 +43,17 @@ function Turn({author, books, highlight, onAnswerSelected}) {
      </div>);    
 }
     
-function Continue() {
-    return(<div/>);    
+function Continue(newGame) {
+    console.log(newGame)
+    function reload() {
+        return window.location.reload();
+    }
+    
+    return(<div className="row">
+             <div className="col-6 offset-5">
+               <button type="button" className="btn btn-primary" onClick={reload}>Continue</button>
+             </div>
+           </div>);    
 }    
 
 function Footer() {
@@ -63,7 +73,8 @@ function AuthorQuiz({turnData, highlight, onAnswerSelected}) {
       <div className="container-fluid">
         <Hero />
         <Turn {...turnData} highlight={highlight} onAnswerSelected={onAnswerSelected}/>
-        <Continue />
+        <Continue {...turnData} />
+        <p><Link to="/add">Add an author</Link></p>
         <Footer />
       </div>
     );

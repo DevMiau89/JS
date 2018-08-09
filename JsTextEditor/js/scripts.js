@@ -62,3 +62,25 @@ console.log(n.next());
 console.log(n.next());
 console.log(n.next());
 console.log(n.next());
+
+function generator(input){
+	var i = 0;	
+	return {
+		next: function(){
+            var arr = input.split('');
+            
+            if(i < arr.length){
+                i++;
+                return arr[i-1];
+			return "";	
+		}
+		
+		
+	}
+	
+  }
+}
+
+var myGen = generator('boom');
+console.log(myGen.next());
+console.log(myGen.next());

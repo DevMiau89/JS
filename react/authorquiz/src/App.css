@@ -53,3 +53,13 @@
 .answer:hover {
   background-color: #D0E3F0;
 }
+
+
+.btn-primary{
+    float: right;
+    width: 10em;
+}
+
+#footer {
+    padding-top: 100px;
+}
