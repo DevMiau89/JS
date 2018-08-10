@@ -58,8 +58,10 @@
 .btn-primary{
     float: right;
     width: 10em;
+    margin: 20px;
 }
 
 #footer {
     padding-top: 100px;
 }
+

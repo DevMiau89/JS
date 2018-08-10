@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {BrowserRouter, Route, withRouter} from 'react-router-dom';
 import './index.css';
 import AuthorQuiz from './AuthorQuiz';
+import AddAuthorForm from './AddAuthorForm';
 import registerServiceWorker from './registerServiceWorker';
 import {shuffle, sample} from 'underscore';
 
@@ -75,22 +76,29 @@ function onAnswerSelected(answer) {
 }
 
 
-function AddAuthorForm(match){
-    return <div>
-        <h1>Add Author</h1>
-        <p>{JSON.stringify(match)}</p>
-        </div>;
-}
-
 function App() {
     return <AuthorQuiz {...state} onAnswerSelected={onAnswerSelected} />
 }
+    
+const AuthorWrapper = withRouter(({ history }) =>
+  <AddAuthorForm onAddAuthor={(author) => {
+    authors.push(author);
+    history.push('/');
+  }} />
+);   
+
+function TestowyComponent(){
+    return <AddAuthorForm onAddAuthor={(author) => {
+        console.log(author);               
+    }} />
+} 
 
 function render() {
     ReactDOM.render(<BrowserRouter>
                       <React.Fragment>
                         <Route exact path="/" component={App}/>
-                        <Route path="/add" component={AddAuthorForm}/>
+                        <Route path="/add" component={AuthorWrapper}/>
+                        <Route path="/takichuj" component={TestowyComponent} />
                       </React.Fragment>
                     </BrowserRouter>, document.getElementById('root'));
 }
