@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {Clicker, CardList} from './Clicker';
+
+import Layout from './Components/Layout.js'
+
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<div>
-                <Clicker />
-                <CardList />
+                <Layout/>
                 </div>, 
                 document.getElementById('root')
 );
