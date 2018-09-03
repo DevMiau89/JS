@@ -123,27 +123,55 @@
 //})
 
 
-var unsortedArray = [-10, 7, 29, 30, 5, -10, -70];
+//var unsortedArray = [-10, 7, 29, 30, 5, -10, -70];
+//
+//function findLargest(arr){
+//    arr.sort(function(a,b){
+//        return a - b;   
+//    })   
+//    return arr;
+//}
+////console.log(findLargest(unsortedArray));
+//
+//var arrayOfIntegers = [2, 5, 1, 4, 9, 6, 3, 7];
+//
+//var sorted = findLargest(arrayOfIntegers);
+//
+//console.log(sorted)
+//
+//for(var i=0; i < sorted.length-1; i++){
+//    if(sorted[i + 1] !== sorted[i] + 1){
+//           console.log(sorted[i] + 1);
+//       }
+//}
 
-function findLargest(arr){
-    arr.sort(function(a,b){
-        return a - b;   
-    })   
-    return arr;
+
+ const prizes = ['A Unicorn!', 'A Hug!', 'Fresh Laundry!'];
+  for (var btnNum = 0; btnNum < prizes.length; btnNum++) {
+
+    // For each of our buttons, when the user clicks it...
+    document.getElementById(`btn-${btnNum}`).onclick = () => {
+      console.log(btnNum)  
+      // Tell her what she's won!
+      console.log(prizes[btnNum]);
+    };
+  }
+
+var openers = ['(', '{', '['];
+var closers = [')', '}', ']']; 
+
+function bracketsValidator(str){
+    if (str.length <= 1){
+        return false;
+    }
+    
+    var splittedStr = str.split;
+    for(var i=0; i< splittedStr.length; i++){
+        
+    }
+    
 }
-//console.log(findLargest(unsortedArray));
 
-var arrayOfIntegers = [2, 5, 1, 4, 9, 6, 3, 7];
-
-var sorted = findLargest(arrayOfIntegers);
-
-console.log(sorted)
-
-for(var i=0; i < sorted.length-1; i++){
-    if(sorted[i + 1] !== sorted[i] + 1){
-           console.log(sorted[i] + 1);
-       }
-}
 
 //function* generator(str){
 //    var x = str.split('');
