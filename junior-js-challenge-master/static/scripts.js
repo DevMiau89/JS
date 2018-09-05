@@ -1,30 +1,17 @@
 const canvas = document.getElementById('chart')
 const ctx = canvas.getContext('2d')
 
-//function drawLine (start, end, style) {
-//  ctx.beginPath()
-//  ctx.strokeStyle = style || 'black'
-//  ctx.moveTo(...start)
-//  ctx.lineTo(...end)
-//  ctx.stroke()
-//}
-//
-//function drawTriangle (apex1, apex2, apex3) {
-//  ctx.beginPath()
-//  ctx.moveTo(...apex1)
-//  ctx.lineTo(...apex2)
-//  ctx.lineTo(...apex3)
-//  ctx.fill()
-//}
-//
-//drawLine([50, 50], [50, 550])
-//drawTriangle([35, 50], [65, 50], [50, 35])
-//
-//drawLine([50, 550], [950, 550])
-//drawTriangle([950, 535], [950, 565], [965, 550])
-
 
 const btn = document.querySelector('#btn');
+
+function getRandomColor() {
+  var letters = '0123456789ABCDEF';
+  var color = '#';
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
 
 function leadingZero(i) {
     return (i < 10)? '0'+i : i;
@@ -64,13 +51,15 @@ var chart = new Chart(canvas, {
         yAxes: [{ 
           scaleLabel: {
             display: true,
-            labelString: "Value"
+            labelString: "Value",
+            fontColor: "#800000"  
           }
         }],
         xAxes: [{ 
           scaleLabel: {
             display: true,
-            labelString: "Timestamp"
+            labelString: "Timestamp",
+            fontColor: "#800000"  
           }
         }]
       }
@@ -83,12 +72,14 @@ fetch('./stocks').then(resp => resp.json()).then(resp => {(Array.from(resp.stock
         pWithoutText.textContent = el;
         divWithStocks.appendChild(pWithoutText);   
         stockName = el;
+        pWithoutText.setAttribute('id', `${el}`);
         arrayOfStocks.push(el);
         fetch(`./stocks/${el}`).then(resp => resp.json()).then(resp => {dataSet = {
             label: el,
             data: resp.map(x => x.value),
+            borderColor: getRandomColor(),
             fill: false
-        }; chart.data.datasets.push(dataSet); chart.data.labels = resp.map(y => timeConverter(y.timestamp)); chart.update();});
+        }; chart.data.datasets.push(dataSet); chart.data.labels = resp.map(y => timeConverter(y.timestamp)); chart.update();}).catch(err =>  { x = document.querySelector(`#${el}`); x.textContent += ' - Sorry, Stock ' + err.message; x.style.color =  'red'; });
                                                                        
     });    
 })
