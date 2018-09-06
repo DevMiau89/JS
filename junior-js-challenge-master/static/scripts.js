@@ -82,7 +82,7 @@ fetch('./stocks').then(resp => resp.json()).then(resp => {(Array.from(resp.stock
         }; chart.data.datasets.push(dataSet); chart.data.labels = resp.map(y => timeConverter(y.timestamp)); chart.update();}).catch(err =>  { x = document.querySelector(`#${el}`); x.textContent += ' - Sorry, Stock ' + err.message; x.style.color =  'red'; });
                                                                        
     });    
-}).catch(err => alert('Sorry something went wrong. The data connot be fetched'))
+}).catch(err => alert('Sorry something went wrong. The data could not be retrieved from the database'))
 
 
 
