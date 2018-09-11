@@ -12,26 +12,32 @@ class Characters {
          let div = document.querySelector('#container')
          let tpl = "<ul>"
          
-         result.forEach(el => {tpl += "<li>"; tpl += el.login; tpl += "</li>";})
+         result.forEach(el => {tpl += `<li id =${el.id}>`; tpl += el.login; tpl += "</li>";})        
          
-        
          tpl += "</ul>" 
-//         let ul = document.createElement('ul');
-//         
-//         let li = document.createElement('li');
-//         result.forEach(el => { let li = document.createElement('li'); li.innerText = el.login; ul.append(li)})
-//         let x = document.createRange().createContextualFragment(tpl); 
 
          div.insertAdjacentHTML('afterbegin', tpl);
          
-         (function x(){
-           var idEl = '';
-                
-             
-         })()
-         document.querySelectorAll('li').forEach(el => el.addEventListener('click', function () { console.log(el.id) }))
+         document.querySelectorAll('li').forEach(el => el.addEventListener('click', (e) =>{this.getDetails(e.target.id)}))
         
-    }              
+    }
+    
+    getDetails(element) {
+        fetch(`https://api.github.com/users/${element}`)
+            .then(response => response.json())
+            .then(response => {
+                let div = document.querySelector('.characters');
+                div.innerHTML = "";
+                let tpl = `
+                    <p>${response.name}</p><p>${response.public_repos}    
+                `
+                tpl += `</p>`             
+                div.insertAdjacentHTML('afterbegin', tpl);
+                
+                
+        })
+        .catch(err => console.log(err))
+    }
 }
 
 module.exports = Characters;
