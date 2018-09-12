@@ -1,10 +1,10 @@
 const path = require('path');
-
 const distDir = path.resolve(__dirname, 'dist');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 
 module.exports = {
-    entry: './app/index.js',
+  entry: './app/index.js',
     output: {
         path: distDir,
         filename: 'boundle.js'
@@ -18,5 +18,8 @@ module.exports = {
     },
     devServer: {
         contentBase: distDir
-    }
+    },
+    optimization: {
+        minimize: true
+  }
 }

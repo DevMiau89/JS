@@ -5,7 +5,7 @@
   "main": "app/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack app/index.js --output dist/boundle.js --mode development"
+    "build": "webpack app/index.js --output dist/boundle.js --mode production"
   },
   "author": "",
   "license": "ISC",

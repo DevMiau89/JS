@@ -1,7 +1,7 @@
 const path = require('path');
 
 const distDir = path.resolve(__dirname, 'dist');
-
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
     entry: './app/index.js',
@@ -18,5 +18,15 @@ module.exports = {
     },
     devServer: {
         contentBase: distDir
-    }
+    },
+    plugins:  [
+        new UglifyJSPlugin({
+                    parallel: true,  
+                    cache: true      
+                    uglifyOptions: {
+                        
+                        compress: { inline:false },
+                    },
+                })
+  ]
 }
