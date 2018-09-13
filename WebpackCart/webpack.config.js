@@ -18,8 +18,6 @@ module.exports = {
     },
     devServer: {
         contentBase: distDir
-    },
-    optimization: {
-        minimize: true
-  }
+    }
+    
 }
