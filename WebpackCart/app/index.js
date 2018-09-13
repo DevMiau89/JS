@@ -1,12 +1,11 @@
-(function () {
-
-var Cart = function() {
-    var self = {};
+(function() {
     
-    return self;
+var Cart = function() {
+
 }
 
-var Item = function (name, price, color) { 
+var Item = function (id, name, price, color) {
+    this.id = id;
     this.name = name;
     this.price = price;
     this.color = color;
@@ -37,19 +36,22 @@ Item.prototype.getColor = function () {
 }
 
 
-Cart.prototype.addToCart = function (item) {
-    this.self = item;
-}
-
-Cart.prototype.deleteFromCart = function (item) {
-   
-}
-
-var item = new Item('bike', '60', 'red');
-var cart = Cart();
-  
-item.setName('kot');
-console.log(item.getColor());
-console.log(item);
+Cart.prototype.addItem = function (item) {
+    this[item.id] = item;
     
+}
+
+Cart.prototype.deleteItem = function (item) {
+   delete this[item.id];
+}
+
+var item = new Item(1,'bike', '60', 'red');
+var item2 = new Item(2,'bike', '20', 'blue');
+var cart = new Cart();
+
+cart.addItem(item);
+cart.addItem(item2);
+cart.deleteItem(item2);    
+console.log(cart);
+  
 })();
