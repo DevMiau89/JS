@@ -18,6 +18,7 @@ module.exports = {
     },
     devServer: {
         contentBase: distDir
-    }
-    
+    },
+    watch: true
+       
 }

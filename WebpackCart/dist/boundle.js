@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _Cart = __webpack_require__(/*! ./modules/Cart.js */ \"./app/modules/Cart.js\");\n\nvar _Item = __webpack_require__(/*! ./modules/Item.js */ \"./app/modules/Item.js\");\n\n(function () {\n\n  var products = [];\n\n  var item = new _Item.Item(1, 'bike', '60', 'red');\n  var item2 = new _Item.Item(2, 'bike', '20', 'blue');\n  var cart = new _Cart.Cart();\n\n  cart.addItem(item);\n  cart.addItem(item2);\n\n  console.log(products);\n})();\n\n//# sourceURL=webpack:///./app/index.js?");
+eval("\n\nvar _Cart = __webpack_require__(/*! ./modules/Cart.js */ \"./app/modules/Cart.js\");\n\nvar _Item = __webpack_require__(/*! ./modules/Item.js */ \"./app/modules/Item.js\");\n\n(function () {\n\n    var item = new _Item.Item(1, 'bike', '60', 'red');\n    var item2 = new _Item.Item(2, 'bike', '20', 'blue');\n    var cart = new _Cart.Cart();\n\n    cart.addItem(item);\n    cart.addItem(item2);\n    cart.deleteItem(item2);\n    console.log(cart.isInCart(item));\n    console.log(cart.isInCart(item2));\n\n    console.log(_Cart.products);\n})();\n\n//# sourceURL=webpack:///./app/index.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("\n\nvar _Cart = __webpack_require__(/*! ./modules/Cart.js */ \"./app/modul
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nvar Cart = exports.Cart = function Cart() {};\n\nCart.prototype.addItem = function (item) {\n    products.push(item);\n};\n\n//Cart.prototype.deleteItem = function (item) {\n//   delete this[item.id];\n//}\n\n//# sourceURL=webpack:///./app/modules/Cart.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n   value: true\n});\nvar Cart = exports.Cart = function Cart() {};\n\nvar products = exports.products = [];\n\nCart.prototype.addItem = function (item) {\n   products.push(item);\n};\n\nCart.prototype.deleteItem = function (item) {\n   var index = products.indexOf(item);\n   products.splice(index, 1);\n};\n\nCart.prototype.isInCart = function (item) {\n   var index = products.indexOf(item);\n   var isInCart = false;\n   if (index > -1) {\n      isInCart = true;\n   };\n   return isInCart;\n};\n\n//# sourceURL=webpack:///./app/modules/Cart.js?");
 
 /***/ }),
 
@@ -118,7 +118,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nvar Item = exports.Item = function Item(id, name, price, color) {\n    this.id = id;\n    this.name = name;\n    this.price = price;\n    this.color = color;\n};\n\nItem.prototype.setName = function (newName) {\n    this.name = newName;\n};\n\nItem.prototype.setPrice = function (newPrice) {\n    this.price = newPrice;\n};\n\nItem.prototype.setColor = function (newColor) {\n    this.color = newColor;\n};\n\nItem.prototype.getName = function () {\n    return this.name;\n};\n\nItem.prototype.getPrice = function () {\n    return this.price;\n};\n\nItem.prototype.getColor = function () {\n    return this.color;\n};\n\n//# sourceURL=webpack:///./app/modules/Item.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nvar Item = exports.Item = function Item() {\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n        args[_key] = arguments[_key];\n    }\n\n    this.args = args;\n};\n\nItem.prototype.setArg = function (arg) {\n    this.arg = arg;\n};\n\nItem.prototype.getArg = function () {\n    return this.arg;\n};\n\n//# sourceURL=webpack:///./app/modules/Item.js?");
 
 /***/ })
 
