@@ -15,10 +15,6 @@ Cart.prototype.deleteItem = function (item) {
 }
 
 Cart.prototype.isInCart = function(item) {
-   var index = products.indexOf(item);
-   var isInCart = false;    
-   if(index > -1){
-       isInCart = true
-   };
-   return isInCart;  
+   
+   return products.indexOf(item) !== -1;  
 }

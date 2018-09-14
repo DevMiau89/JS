@@ -106,7 +106,7 @@ eval("\n\nvar _Cart = __webpack_require__(/*! ./modules/Cart.js */ \"./app/modul
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n   value: true\n});\nvar Cart = exports.Cart = function Cart() {};\n\nvar products = exports.products = [];\n\nCart.prototype.addItem = function (item) {\n   products.push(item);\n};\n\nCart.prototype.deleteItem = function (item) {\n   var index = products.indexOf(item);\n   products.splice(index, 1);\n};\n\nCart.prototype.isInCart = function (item) {\n   var index = products.indexOf(item);\n   var isInCart = false;\n   if (index > -1) {\n      isInCart = true;\n   };\n   return isInCart;\n};\n\n//# sourceURL=webpack:///./app/modules/Cart.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n   value: true\n});\nvar Cart = exports.Cart = function Cart() {};\n\nvar products = exports.products = [];\n\nCart.prototype.addItem = function (item) {\n   products.push(item);\n};\n\nCart.prototype.deleteItem = function (item) {\n   var index = products.indexOf(item);\n   products.splice(index, 1);\n};\n\nCart.prototype.isInCart = function (item) {\n\n   return products.indexOf(item) !== -1;\n};\n\n//# sourceURL=webpack:///./app/modules/Cart.js?");
 
 /***/ }),
 
