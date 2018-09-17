@@ -14,7 +14,7 @@ import {Item} from './modules/Item.js'
     console.log(cart.isInCart(item));
     console.log(cart.isInCart(item2));    
 
-    console.log(products);
+    console.log(cart.products);
 
 })();
 

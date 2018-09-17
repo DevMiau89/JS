@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _Cart = __webpack_require__(/*! ./modules/Cart.js */ \"./app/modules/Cart.js\");\n\nvar _Item = __webpack_require__(/*! ./modules/Item.js */ \"./app/modules/Item.js\");\n\n(function () {\n\n    var item = new _Item.Item(1, 'bike', '60', 'red');\n    var item2 = new _Item.Item(2, 'bike', '20', 'blue');\n    var cart = new _Cart.Cart();\n\n    cart.addItem(item);\n    cart.addItem(item2);\n    cart.deleteItem(item2);\n    console.log(cart.isInCart(item));\n    console.log(cart.isInCart(item2));\n\n    console.log(_Cart.products);\n})();\n\n//# sourceURL=webpack:///./app/index.js?");
+eval("\n\nvar _Cart = __webpack_require__(/*! ./modules/Cart.js */ \"./app/modules/Cart.js\");\n\nvar _Item = __webpack_require__(/*! ./modules/Item.js */ \"./app/modules/Item.js\");\n\n(function () {\n\n    var item = new _Item.Item(1, 'bike', '60', 'red');\n    var item2 = new _Item.Item(2, 'bike', '20', 'blue');\n    var cart = new _Cart.Cart();\n\n    cart.addItem(item);\n    cart.addItem(item2);\n    cart.deleteItem(item2);\n    console.log(cart.isInCart(item));\n    console.log(cart.isInCart(item2));\n\n    console.log(cart.products);\n})();\n\n//# sourceURL=webpack:///./app/index.js?");
 
 /***/ }),
 
@@ -118,7 +118,7 @@ eval("\n\nvar cartModule = function () {\n    var Cart = function Cart() {\n    
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nvar Item = exports.Item = function Item() {\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n        args[_key] = arguments[_key];\n    }\n\n    this.args = args;\n};\n\nItem.prototype.setArg = function (arg) {\n    this.arg = arg;\n};\n\nItem.prototype.getArg = function () {\n    return this.arg;\n};\n\n//# sourceURL=webpack:///./app/modules/Item.js?");
+eval("\n\nvar itemModule = function () {\n    function Item() {\n        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n            args[_key] = arguments[_key];\n        }\n\n        this.args = args;\n    }\n\n    Item.prototype.setArg = function (arg) {\n        this.arg = arg;\n    };\n\n    Item.prototype.getArg = function () {\n        return this.arg;\n    };\n\n    return {\n        Item: Item\n    };\n}();\n\nmodule.exports = {\n    Item: itemModule.Item\n};\n\n//# sourceURL=webpack:///./app/modules/Item.js?");
 
 /***/ })
 
