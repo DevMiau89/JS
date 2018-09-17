@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _Cart = __webpack_require__(/*! ./modules/Cart.js */ \"./app/modules/Cart.js\");\n\nvar _Item = __webpack_require__(/*! ./modules/Item.js */ \"./app/modules/Item.js\");\n\n(function () {\n\n    var item = new _Item.Item(1, 'bike', '60', 'red');\n    var item2 = new _Item.Item(2, 'bike', '20', 'blue');\n    var cart = new _Cart.Cart();\n\n    cart.addItem(item);\n    cart.addItem(item2);\n    cart.deleteItem(item2);\n    console.log(cart.isInCart(item));\n    console.log(cart.isInCart(item2));\n\n    console.log(cart.products);\n})();\n\n//# sourceURL=webpack:///./app/index.js?");
+eval("\n\nvar _Cart = __webpack_require__(/*! ./modules/Cart.js */ \"./app/modules/Cart.js\");\n\nvar _Item = __webpack_require__(/*! ./modules/Item.js */ \"./app/modules/Item.js\");\n\nvar item = new _Item.Item(1, 'bike', '60', 'red');\nvar item2 = new _Item.Item(2, 'bike', '20', 'blue');\nvar cart = _Cart.Cart.init();\ncart.addItem(item);\ncart.addItem(item2);\ncart.deleteItem(item2);\nconsole.log(cart.isInCart(item));\nconsole.log(cart.isInCart(item2));\nconsole.log(cart.products);\n\n//# sourceURL=webpack:///./app/index.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("\n\nvar _Cart = __webpack_require__(/*! ./modules/Cart.js */ \"./app/modul
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar cartModule = function () {\n    var Cart = function Cart() {\n        this.products = [];\n    };\n\n    Cart.prototype.addItem = function (item) {\n        this.products.push(item);\n    };\n\n    Cart.prototype.deleteItem = function (item) {\n        var index = this.products.indexOf(item);\n        this.products.splice(index, 1);\n    };\n\n    Cart.prototype.isInCart = function (item) {\n        return this.products.includes(item);\n    };\n\n    return {\n        Cart: Cart\n    };\n}();\n\nmodule.exports = {\n    Cart: cartModule.Cart\n};\n\n//# sourceURL=webpack:///./app/modules/Cart.js?");
+eval("\n\nvar cartModule = function () {\n    var Cart = function Cart() {\n        this.products = [];\n    };\n\n    Cart.prototype.addItem = function (item) {\n        this.products.push(item);\n    };\n\n    Cart.prototype.deleteItem = function (item) {\n        var index = this.products.indexOf(item);\n        this.products.splice(index, 1);\n    };\n\n    Cart.prototype.isInCart = function (item) {\n        return this.products.includes(item);\n    };\n\n    var initCart = function initCart() {\n        var cart = new Cart();\n        return cart;\n    };\n    return {\n        Cart: Cart,\n        init: initCart\n    };\n}();\n\nmodule.exports = {\n    Cart: cartModule\n\n};\n\n//# sourceURL=webpack:///./app/modules/Cart.js?");
 
 /***/ }),
 

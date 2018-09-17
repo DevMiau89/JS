@@ -17,13 +17,19 @@
         return this.products.includes(item);  
     }
     
+    const initCart = function() {
+        var cart = new Cart();
+        return cart;
+    }
     return {
-        Cart: Cart    
+        Cart: Cart,
+        init : initCart,
     }
      
 })();
 
 
 module.exports = {
-    Cart: cartModule.Cart
+    Cart: cartModule
+
 }
