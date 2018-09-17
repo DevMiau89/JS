@@ -1,15 +1,16 @@
-import {Cart} from './modules/Cart.js'
-import {products} from './modules/Cart.js'
+import {Cart, products} from './modules/Cart.js'
 import {Item} from './modules/Item.js'
-
 
 
 var item = new Item(1,'bike', '60', 'red');
 var item2 = new Item(2,'bike', '20', 'blue');
-var cart = Cart.init();
-cart.addItem(item);
-cart.addItem(item2);
-cart.deleteItem(item2);
-console.log(cart.isInCart(item));
-console.log(cart.isInCart(item2));    
-console.log(cart.products);
+
+
+Cart.addItem(item);
+Cart.addItem(item2);
+
+Cart.deleteItem(item2);
+console.log(Cart.isInCart(item));
+console.log(Cart.isInCart(item2));    
+console.log(Cart);
+

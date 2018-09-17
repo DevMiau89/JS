@@ -1,35 +1,36 @@
- const cartModule = (function() {
-    var Cart = function() {
-        this.products = [];    
+ const cartModule = (function() {    
+    function Cart() {
     }
-       
+     
+    var products = [];  
+     
     Cart.prototype.addItem = function (item) {
-        this.products.push(item);
+        products.push(item);
 
     }
 
     Cart.prototype.deleteItem = function (item) {
-        var index = this.products.indexOf(item);
-        this.products.splice(index, 1)    
+        var index = products.indexOf(item);
+        products.splice(index, 1)    
     }
 
     Cart.prototype.isInCart = function(item) {
-        return this.products.includes(item);  
+        return products.includes(item);  
     }
     
-    const initCart = function() {
+    const initCart =  function initCart() {
         var cart = new Cart();
         return cart;
     }
     return {
-        Cart: Cart,
-        init : initCart,
+        initCart: initCart,
+        products: products
     }
      
 })();
 
 
 module.exports = {
-    Cart: cartModule
-
+    Cart: cartModule.initCart(),
+    products: cartModule.products
 }
