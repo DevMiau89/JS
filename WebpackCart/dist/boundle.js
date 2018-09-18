@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _Cart = __webpack_require__(/*! ./modules/Cart.js */ \"./app/modules/Cart.js\");\n\nvar _Item = __webpack_require__(/*! ./modules/Item.js */ \"./app/modules/Item.js\");\n\nvar item = new _Item.Item(1, 'bike', '60', 'red');\nvar item2 = new _Item.Item(2, 'bike', '20', 'blue');\n\n_Cart.Cart.addItem(item);\n_Cart.Cart.addItem(item2);\n\n_Cart.Cart.deleteItem(item2);\nconsole.log(_Cart.Cart.isInCart(item));\nconsole.log(_Cart.Cart.isInCart(item2));\nconsole.log(_Cart.Cart);\n\n//# sourceURL=webpack:///./app/index.js?");
+eval("\n\nvar _Cart = __webpack_require__(/*! ./modules/Cart.js */ \"./app/modules/Cart.js\");\n\nvar _Item = __webpack_require__(/*! ./modules/Item.js */ \"./app/modules/Item.js\");\n\nvar item = new _Item.Item(1, 'bike', '60', 'red');\nvar item2 = new _Item.Item(2, 'bike', '20', 'blue');\n\n_Cart.Cart.addItem(item);\n_Cart.Cart.addItem(item2);\n\n_Cart.Cart.deleteItem(item2);\nconsole.log(_Cart.Cart.isInCart(item));\nconsole.log(_Cart.Cart.isInCart(item2));\n\nconsole.log(_Cart.products);\n\n//# sourceURL=webpack:///./app/index.js?");
 
 /***/ }),
 
