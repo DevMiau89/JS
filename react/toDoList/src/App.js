@@ -6,19 +6,22 @@ import './App.css';
 class ToDoList extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {cheese: {name: 'Camembert', smell: 'mild', price: '3.50'}}
-
+        this.state = {todos: ['wash up', 'eat some cheese', 'take a nap']}
     }
-    
-    
+        
     render() {
         return (
             <div className="main">
                 <main>
-                    <h1>To Do List</h1>
-                    <p>The cheese name is {this.state.cheese.name}</p>
-                    <p>The cheese smell is {this.state.cheese.smell}</p>
-                    <p>The cheese price is {this.state.cheese.price}</p>
+                    <div className="todo-list">
+                        <h1>To Do List</h1>
+                        <br />
+                        <ul style={{width: 500 + "px", margin: 'auto'}}>
+                        {this.state.todos.map(function(listValue){
+                            return <li>{listValue}</li>; 
+                        })}
+                        </ul>
+                        </div>    
                 </main>
             </div>
         )    
