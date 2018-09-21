@@ -2,6 +2,18 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
+function ToDoComponent(){
+        return (
+            <div className="main">
+                <main>
+                    <h1>To Do List</h1>
+                </main>
+            </div>
+        )
+}
+
+
 class App extends Component {
   render() {
     return (
@@ -13,7 +25,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-      </div>
+        <ToDoComponent />    
+      </div>      
     );
   }
 }
