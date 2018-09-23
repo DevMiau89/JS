@@ -8,7 +8,7 @@ class ToDoList extends React.Component {
         this.state = {todos: ['wash up', 'eat some cheese', 'take a nap']}
         this.onDelete = this.onDelete.bind(this);
     }
-    
+
     tick() {
         var ager = setTimeout(function(){
             this.setState({
@@ -26,7 +26,7 @@ class ToDoList extends React.Component {
        this.setState({
            todos: updatedTodos
        })    
-    }
+    };
     
     render() {
         
@@ -38,9 +38,9 @@ class ToDoList extends React.Component {
 
                         <br />
                         <ul style={{width: 500 + "px", margin: 'auto'}}>
-                        {this.state.todos.map(function(item, index){
-                            return <ToDoItem item={item} key={index} handleDelete={this.onDelete}/>; 
-                        })}
+                        {this.state.todos.map((item, index) => (
+                            <ToDoItem item={item} key={index} onDelete={this.onDelete}/>
+                        ))}
                         </ul>
                         </div>    
                 </main>
