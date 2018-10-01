@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ToDoItem from './ToDoList/ToDoItem.js'
 import AddItem from './ToDoList/AddItem.js'
-
+import { Link } from 'react-router-dom';
 
 class ToDoList extends React.Component {
     constructor(props) {
@@ -46,6 +46,7 @@ class ToDoList extends React.Component {
                 <main>
                     <div className="todo-list">
                         <h1>To Do List</h1>
+                        <Link to={'/about'}>About</Link>
                         <br />
                         <ul style={{width: 500 + "px", margin: 'auto'}}>                       
                         {this.state.todos.map((item, index) => (

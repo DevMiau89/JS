@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'react-bootstrap';
 
 class ToDoItem extends React.Component {
     constructor(props) {
@@ -16,7 +17,7 @@ class ToDoItem extends React.Component {
                 <div className="todo-item">
                     <span className="item-name">{this.props.item}</span>  
                     <span className="item-delete" ></span>
-                    <button onClick={this.handleDelete}>Delete Task</button>
+                    <Button bsStyle="danger" onClick={this.handleDelete}>Delete Task</Button>
                 </div>
             </li>    
         )
